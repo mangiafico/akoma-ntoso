@@ -1,0 +1,118 @@
+/* html */
+
+p, br, ul, ol { display: block }
+li { display: list-item }
+i { font-style: italic }
+b { font-weight: bold }
+a { color: blue }
+table { display: table }
+table > caption { display: table-caption }
+tr { display: table-row }
+td, th { display: table-cell }
+
+
+/* Akoma Ntoso */
+
+hcontainer, division, title, subtitle, part, subpart, chapter, section, subsection { display: block; margin-top: 14pt; margin-bottom: 14pt }
+
+paragraph, subparagraph, clause, subclause { display: block }
+
+block, tocItem { display: block }
+
+
+/* front matter */
+
+akomaNtoso { padding: 14pt 40pt 40pt 40pt; font-family: Times; font-size: 14pt }
+
+meta { display: none }
+
+coverPage p, preface p { margin-top: 14pt; margin-bottom: 14pt }
+
+math { display: block; text-align: center }
+
+/* style */
+
+p[class~='center'] { text-align: center }
+
+*[style='display:none'] { display: none }
+p[style='display:inline'] { display: inline }
+*[style='text-align:center'] { text-align: center }
+p[style='text-align:right'] { text-align: right }
+*[style='text-decoration:line-through'] { text-decoration: line-through }
+*[style='font-style:italic'] { font-style: italic }
+*[style='font-variant:small-caps'] { font-variant: small-caps }
+*[style='text-transform:uppercase'] { text-transform: uppercase }
+
+/* */
+
+shortTitle { font-size: 24pt; font-weight: bold }
+block[name='Horizontal Rule'][class~='double'] { height: 5px; border-top: thin solid black; border-bottom: medium solid black; margin-bottom: 96pt }
+block[name='Horizontal Rule'][class~='short'] { width: 20%; border-top: thin solid black; margin: 14pt auto 14pt auto }
+docType { text-transform: uppercase; font-size: 36pt; font-weight: bold; letter-spacing: 3px }
+formula > p:first-child:first-letter { font-size: 36pt }
+
+p[class~='contents'] { margin-top: 96pt; text-transform: uppercase; font-size: 18pt }
+
+part > num, part > heading { display: block }
+body > part > heading { text-align: center; font-style: italic }
+
+
+chapter > num, chapter > heading { display: block; margin: 14pt 0; text-align: center; font-variant: small-caps }
+subchapter > heading { display: block; margin: 14pt 0; text-align: center; font-style: italic }
+
+hcontainer[name='section-group'] > heading { display: block; text-align: center; font-style: italic }
+hcontainer[name='schedules'] > heading { display: block; text-align: center; font-size: 16pt; letter-spacing: +3px }
+hcontainer[name='schedule'] > num { display: block; text-align: center }
+hcontainer[name='schedule'] > heading { display: block; text-align: center; font-variant: small-caps }
+
+hcontainer[name='schedule'] > part > heading { font-style: italic }
+
+section > num, section > heading { display: inline-block; font-weight: bold }
+hcontainer[name='schedule'] section > num { font-weight: normal }
+section > num { width: 2em }
+section > heading + intro, section > heading + content, section > intro + content, section > wrap { display: block; margin-left: 3em; margin-top: 14pt; margin-bottom: 14pt }
+section > num + intro > p:first-child, section > num + content > p:first-child { display: inline }
+
+subsection { margin-left: 1em }
+subsection > num { position: absolute; display: inline-block }
+subsection > num:before { content: '(' }
+subsection > num:after { content: ')' }
+subsection > intro, subsection > content, subsection > wrap { position: relative; left: 2em }
+subsection > num + content > p:first-child { display: inline }
+
+paragraph { margin-left: 3em }
+heading + intro ~ paragraph { margin-left: 5em }
+paragraph > num { position: absolute; display: inline-block }
+paragraph > num + * { text-indent: 2em }
+paragraph > num:before { content: '(' }
+paragraph > num:after { content: ')' }
+
+subparagraph { margin-left: 3em }
+heading + intro ~ subparagraph { margin-left: 5em }
+subparagraph > num { position: absolute; display: inline-block }
+subparagraph > num + * { text-indent: 2em }
+subparagraph > num:before { content: '(' }
+subparagraph > num:after { content: ')' }
+
+ul, ol { margin-left: 3em }
+ul > li { list-style: none }
+ol > li { list-style: lower-alpha outside }
+
+quotedStructure:not([startQuote='']):before, quotedText:not([startQuote='']):before, extractText:not([startQuote='']):before { content: attr(startQuote) }
+quotedStructure:not([endQuote='']):after, quotedText:not([endQuote='']):after, extractText:not([endQuote='']):after { content: attr(endQuote) }
+quotedStructure:not([startQuote='']) > *:first-child { display: inline; margin-left: 0 }
+quotedStructure:not([startQuote='']) > *:first-child > *:first-child { display: inline; margin-left: 0 }
+quotedStructure:not([startQuote='']) > *:first-child > *:first-child > *:first-child { display: inline; margin-left: 0 }
+quotedStructure:not([startQuote='']) > *:first-child > *:first-child > *:first-child > *:first-child { display: inline; margin-left: 0 }
+quotedStructure:not([endQuote='']) > *:last-child > *:last-child > *:last-child > *:last-child { display: inline; margin-left: 0 }
+quotedStructure:not([endQuote='']) > *:last-child > *:last-child > *:last-child { display: inline; margin-left: 0 }
+quotedStructure:not([endQuote='']) > *:last-child > *:last-child { display: inline; margin-left: 0 }
+quotedStructure:not([endQuote='']) > *:last-child { display: inline; margin-left: 0 }
+
+tocItem[class~='heading'] { text-align: center; font-style: italic }
+tocItem[class~='section'] > span[class~='num'] { display: inline-block; width: 3em; text-align: right; margin-right: 0.5em }
+tocItem[class~='schedule'] { margin-left: 4em }
+
+table { margin: 14pt auto; border: thin black solid }
+table > caption { text-align: center }
+th, td { border: thin gray solid; padding: 7pt }

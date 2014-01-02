@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06 http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd">
+  <bill name="Wild Animals in Circuses">
+    <meta>
+      <identification source="#mangiafico">
+        <FRBRWork>
+          <FRBRthis value="/uk/bill/2013-01-17/36/main"/>
+          <FRBRuri value="/uk/bill/2013-01-17/36"/>
+          <FRBRdate date="2013-01-17" name="generation"/>
+          <FRBRauthor href="#commons" as="#author"/>
+          <FRBRcountry value="UK"/>
+          <FRBRnumber value="36"/>
+          <FRBRprescriptive value="false"/>
+          <FRBRauthoritative value="true"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/uk/bill/2013-01-17/36/eng@/main"/>
+          <FRBRuri value="/uk/bill/2013-01-17/36/eng@"/>
+          <FRBRdate date="2013-01-17" name="generation"/>
+          <FRBRauthor href="#commons" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/uk/bill/2013-01-17/36/eng@/main.xml"/>
+          <FRBRuri value="/uk/bill/2013-01-17/36/eng@.akn"/>
+          <FRBRdate date="2013-12-31" name="generation"/>
+          <FRBRauthor href="#mangiafico"/>
+          <FRBRformat value="xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#mangiafico">
+        <TLCOrganization currentId="commons" href="/ontology/organization/uk/uk.HouseOfCommons" showAs="Commons of the United Kingdom in Parliament"/>
+        <TLCRole currentId="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCPerson currentId="mangiafico" href="/ontology/persons/us.Mangiafico" showAs="Jim Mangiafico"/>
+      </references>
+      <proprietary xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ukm="http://www.tso.co.uk/assets/namespace/metadata" source="#mangiafico">
+        <dc:title>Wild Animals in Circuses Bill</dc:title>
+        <dc:identifier>ISBN TO GO HERE</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:creator>Parliamentary Counsel</dc:creator>
+        <dc:date>17/1/2013</dc:date>
+        <ukm:DocumentCategory Value="Bill"/>
+        <ukm:DocumentMainType Value="PublicBill"/>
+        <ukm:DocumentStatus Value="final"/>
+        <ukm:Number Value="Bill 36"/>
+        <ukm:Parliament Value="55"/>
+        <ukm:Session Value="2"/>
+        <ukm:House Value="House of Commons"/>
+      </proprietary>
+    </meta>
+    <coverPage>
+      <p class="center">
+        <shortTitle>Wild Animals in Circuses Bill</shortTitle>
+      </p>
+      <block name="Horizontal Rule" class="double"/>
+      <p class="center contents">Contents</p>
+      <toc currentId="idp8864" class="body">
+        <tocItem href="#p00005" level="0" class="section">
+          <inline name="tocNum">1</inline>
+          <inline name="tocHeading">Interpretation</inline>
+        </tocItem>
+        <tocItem href="#p00006" level="0" class="section">
+          <inline name="tocNum">2</inline>
+          <inline name="tocHeading">Offences relating to the use of wild animals in travelling circuses</inline>
+        </tocItem>
+        <tocItem href="#p00007" level="0" class="section">
+          <inline name="tocNum">3</inline>
+          <inline name="tocHeading">Powers of entry and enforcement</inline>
+        </tocItem>
+        <tocItem href="#p00008" level="0" class="section">
+          <inline name="tocNum">4</inline>
+          <inline name="tocHeading">Short title, commencement and extent</inline>
+        </tocItem>
+      </toc>
+    </coverPage>
+    <preface>
+      <p class="center" style="text-transform:uppercase">A</p>
+      <p class="center">
+        <docType>Bill</docType>
+      </p>
+      <p class="center" style="text-transform:uppercase">To</p>
+      <p class="center" style="text-transform:uppercase"/>
+      <longTitle currentId="idp17824">
+        <p>Prohibit the use of wild animals in circuses; and for connected purposes.</p>
+      </longTitle>
+    </preface>
+    <preamble>
+      <formula name="EnactingText" currentId="idp20144">
+        <p>B<span style="font-variant:small-caps">e it enacted</span> by the Queen’s most Excellent Majesty, by and with the advice and <eol/>consent of the Lords Spiritual and Temporal, and Commons, in this present <eol/>Parliament assembled, and by the authority of the same, as follows:—</p>
+      </formula>
+    </preamble>
+    <body>
+      <section currentId="sec1">
+        <num>1</num>
+        <heading currentId="sec1-heading">Interpretation</heading>
+        <content currentId="sec1-content">
+          <p>In this Act—</p>
+          <ul currentId="idp26048">
+            <li>
+              <p>“travelling circus” means a circus which travels from place to place for the <eol/>purpose of giving performances, displays or exhibitions,</p>
+            </li>
+            <li>
+              <p>“wild animal” means an animal that is a member of a species not normally <eol/>domesticated in Great Britain.</p>
+            </li>
+          </ul>
+        </content>
+      </section>
+      <section currentId="sec2">
+        <num>2</num>
+        <heading currentId="sec2-heading">Offences relating to the use of wild animals in travelling circuses</heading>
+        <subsection currentId="sec2.1">
+          <num>1</num>
+          <content currentId="sec2.1-content">
+            <p>A person is guilty of an offence if he keeps or introduces wild animals, whether <eol/>for the purpose of performance, display or otherwise, as part of a travelling <eol/>circus.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec2.2">
+          <num>2</num>
+          <content currentId="sec2.2-content">
+            <p>A person is guilty of an offence if he knowingly causes or permits another <eol/>person to keep or introduce wild animals whether for the purpose of <eol/>performance, display or otherwise, as part of a travelling circus.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec2.3">
+          <num>3</num>
+          <content currentId="sec2.3-content">
+            <p>A person who is guilty of an offence under subsection (1) or (2) is liable on <eol/>summary conviction to a fine not exceeding level 5 on the standard scale or to <eol/>imprisonment for a term not exceeding six months or both.</p>
+          </content>
+        </subsection>
+      </section>
+      <section currentId="sec3">
+        <num>3</num>
+        <heading currentId="sec3-heading">Powers of entry and enforcement</heading>
+        <subsection currentId="sec3.1">
+          <num>1</num>
+          <content currentId="sec3.1-content">
+            <p>A person authorised in writing by a local authority (whether generally or in a <eol/>particular case) may at any reasonable time enter any premises within the area <eol/>of that local authority on which he has reasonable grounds for suspecting that <eol/>an offence under section 2 has been or is being committed and may inspect the <eol/>premises and any animals or things found there.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec3.2">
+          <num>2</num>
+          <content currentId="sec3.2-content">
+            <p>A person seeking to enter any premises in the exercise of his powers under <eol/>subsection (1) shall, if required by or on behalf of the owner or occupier or <eol/>person in charge of the premises, produce evidence of his identity, and of his <eol/>authority or (as the case may be) appointment, before entering.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec3.3">
+          <num>3</num>
+          <content currentId="sec3.3-content">
+            <p>A person who has entered any premises in the exercise of his powers under <eol/>subsection (1) shall, if required as mentioned in subsection (2), state in writing <eol/>his reasons for entering.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec3.4">
+          <num>4</num>
+          <content currentId="sec3.4-content">
+            <p>A person is guilty of an offence if he intentionally obstructs or delays any <eol/>person in the exercise of his powers under subsection (1).</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec3.5">
+          <num>5</num>
+          <content currentId="sec3.5-content">
+            <p>A person who is guilty of an offence under subsection (4) is liable on summary <eol/>conviction to a fine not exceeding level 4 on the standard scale.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec3.6">
+          <num>6</num>
+          <content currentId="sec3.6-content">
+            <p>In this section—</p>
+            <ul currentId="idp54672">
+              <li>
+                <p>“premises” includes any place but not any private dwelling, and</p>
+              </li>
+              <li>
+                <p>“private dwelling” means any premises for the time being used as a <eol/>private dwelling excluding any garage, outhouse or other structure <eol/>(whether or not forming part of the same building as the premises) <eol/>which belongs to or is usually enjoyed with the premises.</p>
+              </li>
+            </ul>
+          </content>
+        </subsection>
+      </section>
+      <section currentId="sec4">
+        <num>4</num>
+        <heading currentId="sec4-heading">Short title, commencement and extent</heading>
+        <subsection currentId="sec4.1">
+          <num>1</num>
+          <content currentId="sec4.1-content">
+            <p>This Act may be cited as the Wild Animals in Circuses Act 2013.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec4.2">
+          <num>2</num>
+          <content currentId="sec4.2-content">
+            <p>This Act shall come into force on the expiration of two months beginning on <eol/>the day on which it is passed.</p>
+          </content>
+        </subsection>
+        <subsection currentId="sec4.3">
+          <num>3</num>
+          <content currentId="sec4.3-content">
+            <p>This Act extends to England only.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </bill>
+</akomaNtoso>

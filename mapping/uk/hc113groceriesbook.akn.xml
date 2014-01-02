@@ -1,0 +1,2113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06 http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd">
+  <bill name="Groceries Code Adjudicator">
+    <meta>
+      <identification source="#mangiafico">
+        <FRBRWork>
+          <FRBRthis value="/uk/bill/2012-12-19/113/main"/>
+          <FRBRuri value="/uk/bill/2012-12-19/113"/>
+          <FRBRdate date="2012-12-19" name="generation"/>
+          <FRBRauthor href="#commons" as="#author"/>
+          <FRBRcountry value="UK"/>
+          <FRBRnumber value="113"/>
+          <FRBRprescriptive value="false"/>
+          <FRBRauthoritative value="true"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/uk/bill/2012-12-19/113/eng@/main"/>
+          <FRBRuri value="/uk/bill/2012-12-19/113/eng@"/>
+          <FRBRdate date="2012-12-19" name="generation"/>
+          <FRBRauthor href="#commons" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/uk/bill/2012-12-19/113/eng@/main.xml"/>
+          <FRBRuri value="/uk/bill/2012-12-19/113/eng@.akn"/>
+          <FRBRdate date="2013-12-31" name="generation"/>
+          <FRBRauthor href="#mangiafico"/>
+          <FRBRformat value="xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#mangiafico">
+        <TLCOrganization currentId="commons" href="/ontology/organization/uk/uk.HouseOfCommons" showAs="Commons of the United Kingdom in Parliament"/>
+        <TLCRole currentId="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCPerson currentId="mangiafico" href="/ontology/persons/us.Mangiafico" showAs="Jim Mangiafico"/>
+      </references>
+      <proprietary xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ukm="http://www.tso.co.uk/assets/namespace/metadata" source="#mangiafico">
+        <dc:title>Groceries Code Adjudicator Bill</dc:title>
+        <dc:identifier>ISBN TO GO HERE</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:creator>Parliamentary Counsel</dc:creator>
+        <dc:date>19/12/2012</dc:date>
+        <ukm:DocumentCategory Value="Bill"/>
+        <ukm:DocumentMainType Value="PublicBill"/>
+        <ukm:DocumentStatus Value="final"/>
+        <ukm:Number Value="Bill 113"/>
+        <ukm:Parliament Value="55"/>
+        <ukm:Session Value="2"/>
+        <ukm:House Value="House of Commons"/>
+      </proprietary>
+    </meta>
+    <coverPage>
+      <p class="center">
+        <shortTitle>Groceries Code Adjudicator Bill</shortTitle>
+      </p>
+      <block name="Horizontal Rule" class="double"/>
+      <p class="center">[AS AMENDED IN PUBLIC BILL COMMITTEE]</p>
+      <p class="center contents">Contents</p>
+      <toc currentId="idp8864" class="body">
+        <tocItem href="#" level="0" class="heading">Introduction</tocItem>
+        <tocItem href="#p00029" level="1" class="section">
+          <inline name="tocNum">1</inline>
+          <inline name="tocHeading">The Adjudicator</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">How does the Adjudicator arbitrate disputes?</tocItem>
+        <tocItem href="#p00030" level="1" class="section">
+          <inline name="tocNum">2</inline>
+          <inline name="tocHeading">Arbitration</inline>
+        </tocItem>
+        <tocItem href="#p00031" level="1" class="section">
+          <inline name="tocNum">3</inline>
+          <inline name="tocHeading">Information about arbitration</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">How does the Adjudicator carry out investigations and enforce their findings?</tocItem>
+        <tocItem href="#p00033" level="1" class="section">
+          <inline name="tocNum">4</inline>
+          <inline name="tocHeading">Investigations</inline>
+        </tocItem>
+        <tocItem href="#p00034" level="1" class="section">
+          <inline name="tocNum">5</inline>
+          <inline name="tocHeading">Investigation reports</inline>
+        </tocItem>
+        <tocItem href="#p00035" level="1" class="section">
+          <inline name="tocNum">6</inline>
+          <inline name="tocHeading">Investigations: forms of enforcement</inline>
+        </tocItem>
+        <tocItem href="#p00036" level="1" class="section">
+          <inline name="tocNum">7</inline>
+          <inline name="tocHeading">Investigations: enforcement using recommendations</inline>
+        </tocItem>
+        <tocItem href="#p00038" level="1" class="section">
+          <inline name="tocNum">8</inline>
+          <inline name="tocHeading">Investigations: enforcement using requirements to publish information</inline>
+        </tocItem>
+        <tocItem href="#p00041" level="1" class="section">
+          <inline name="tocNum">9</inline>
+          <inline name="tocHeading">Investigations: enforcement using financial penalties</inline>
+        </tocItem>
+        <tocItem href="#p00045" level="1" class="section">
+          <inline name="tocNum">10</inline>
+          <inline name="tocHeading">Recovery of investigation costs</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">What advice, guidance and recommendations does the Adjudicator give?</tocItem>
+        <tocItem href="#p00047" level="1" class="section">
+          <inline name="tocNum">11</inline>
+          <inline name="tocHeading">Advice</inline>
+        </tocItem>
+        <tocItem href="#p00048" level="1" class="section">
+          <inline name="tocNum">12</inline>
+          <inline name="tocHeading">Guidance</inline>
+        </tocItem>
+        <tocItem href="#p00055" level="1" class="section">
+          <inline name="tocNum">13</inline>
+          <inline name="tocHeading">Recommendations to Office of Fair Trading</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">What are the Adjudicator’s reporting requirements?</tocItem>
+        <tocItem href="#p00056" level="1" class="section">
+          <inline name="tocNum">14</inline>
+          <inline name="tocHeading">Annual report</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">How is the Adjudicator supervised?</tocItem>
+        <tocItem href="#p00057" level="1" class="section">
+          <inline name="tocNum">15</inline>
+          <inline name="tocHeading">Review of Adjudicator and guidance from Secretary of State</inline>
+        </tocItem>
+        <tocItem href="#p00060" level="1" class="section">
+          <inline name="tocNum">16</inline>
+          <inline name="tocHeading">Transfer of Adjudicator functions and abolition etc</inline>
+        </tocItem>
+        <tocItem href="#p00067" level="1" class="section">
+          <inline name="tocNum">17</inline>
+          <inline name="tocHeading">Information to Secretary of State</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">How does the Adjudicator handle information?</tocItem>
+        <tocItem href="#p00068" level="1" class="section">
+          <inline name="tocNum">18</inline>
+          <inline name="tocHeading">Confidentiality</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">How may the Adjudicator be funded?</tocItem>
+        <tocItem href="#p00073" level="1" class="section">
+          <inline name="tocNum">19</inline>
+          <inline name="tocHeading">Levy funding</inline>
+        </tocItem>
+        <tocItem href="#p00075" level="1" class="section">
+          <inline name="tocNum">20</inline>
+          <inline name="tocHeading">Payments by Secretary of State</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">Amendments and transition</tocItem>
+        <tocItem href="#p00076" level="1" class="section">
+          <inline name="tocNum">21</inline>
+          <inline name="tocHeading">Amendments and transition</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">Definitions and final provisions</tocItem>
+        <tocItem href="#p00077" level="1" class="section">
+          <inline name="tocNum">22</inline>
+          <inline name="tocHeading">Definitions</inline>
+        </tocItem>
+        <tocItem href="#p00078" level="1" class="section">
+          <inline name="tocNum">23</inline>
+          <inline name="tocHeading">Orders</inline>
+        </tocItem>
+        <tocItem href="#p00081" level="1" class="section">
+          <inline name="tocNum">24</inline>
+          <inline name="tocHeading">Extent</inline>
+        </tocItem>
+        <tocItem href="#p00082" level="1" class="section">
+          <inline name="tocNum">25</inline>
+          <inline name="tocHeading">Commencement</inline>
+        </tocItem>
+        <tocItem href="#p00083" level="1" class="section">
+          <inline name="tocNum">26</inline>
+          <inline name="tocHeading">Short title</inline>
+        </tocItem>
+      </toc>
+      <block name="Horizontal Rule" class="short"/>
+      <toc currentId="idp55808" class="schedules">
+        <tocItem href="#sch1" level="0" class="schedule">Schedule 1 — The Adjudicator</tocItem>
+        <tocItem href="#sch2" level="0" class="schedule">Schedule 2 — Information powers</tocItem>
+      </toc>
+    </coverPage>
+    <preface>
+      <p class="center" style="text-transform:uppercase">A</p>
+      <p class="center">
+        <docType>Bill</docType>
+      </p>
+      <p class="center" style="text-transform:uppercase">[AS AMENDED IN PUBLIC BILL COMMITTEE]</p>
+      <p class="center" style="text-transform:uppercase">To</p>
+      <longTitle currentId="idp61328">
+        <p>Set up a Groceries Code Adjudicator with the role of enforcing the Groceries <eol/>Code and encouraging compliance with it.</p>
+      </longTitle>
+    </preface>
+    <preamble>
+      <formula name="EnactingText" currentId="idp63184">
+        <p>B<span style="font-variant:small-caps">e it enacted</span> by the Queen’s most Excellent Majesty, by and with the advice and <eol/>consent of the Lords Spiritual and Temporal, and Commons, in this present <eol/>Parliament assembled, and by the authority of the same, as follows:—</p>
+      </formula>
+    </preamble>
+    <body>
+      <part currentId="part1">
+        <heading currentId="part1-heading">Introduction</heading>
+        <section currentId="sec1">
+          <num>1</num>
+          <heading currentId="sec1-heading">The Adjudicator</heading>
+          <content currentId="sec1-content">
+            <p>A Groceries Code Adjudicator is established (see Schedule 1).</p>
+          </content>
+        </section>
+      </part>
+      <part currentId="part2">
+        <heading currentId="part2-heading">How does the Adjudicator arbitrate disputes?</heading>
+        <section currentId="sec2">
+          <num>2</num>
+          <heading currentId="sec2-heading">Arbitration</heading>
+          <subsection currentId="sec2.1">
+            <num>1</num>
+            <intro currentId="sec2.1-intro">
+              <p>If a supplier refers a dispute to arbitration under the Groceries Supply Order, <eol/>the Adjudicator must either—</p>
+            </intro>
+            <paragraph currentId="sec2.1.a">
+              <num>a</num>
+              <content currentId="sec2.1.a-content">
+                <p>arbitrate the dispute; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec2.1.b">
+              <num>b</num>
+              <content currentId="sec2.1.b-content">
+                <p>appoint another person to arbitrate.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec2.2">
+            <num>2</num>
+            <content currentId="sec2.2-content">
+              <p>If a large retailer refers a dispute to arbitration under a supply agreement, the <eol/>Adjudicator may accept appointment as the arbitrator.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec3">
+          <num>3</num>
+          <heading currentId="sec3-heading">Information about arbitration</heading>
+          <subsection currentId="sec3.1">
+            <num>1</num>
+            <content currentId="sec3.1-content">
+              <p>If the Adjudicator appoints another person as arbitrator under section 2(1)(b), <eol/>the Adjudicator may require the arbitrator, or a party to the dispute, to provide <eol/>information to assist the Adjudicator in carrying out functions under this Act.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec3.2">
+            <num>2</num>
+            <intro currentId="sec3.2-intro">
+              <p>The Adjudicator may enforce the requirement to provide information by <eol/>bringing civil proceedings to obtain—</p>
+            </intro>
+            <paragraph currentId="sec3.2.a">
+              <num>a</num>
+              <content currentId="sec3.2.a-content">
+                <p>in England and Wales or Northern Ireland, an injunction; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec3.2.b">
+              <num>b</num>
+              <content currentId="sec3.2.b-content">
+                <p>in Scotland, an order for specific performance under section 45 of the <eol/>Court of Session Act 1988.</p>
+              </content>
+            </paragraph>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part3">
+        <heading currentId="part3-heading">How does the Adjudicator carry out investigations and enforce their findings?</heading>
+        <section currentId="sec4">
+          <num>4</num>
+          <heading currentId="sec4-heading">Investigations</heading>
+          <subsection currentId="sec4.1">
+            <num>1</num>
+            <intro currentId="sec4.1-intro">
+              <p>The Adjudicator may investigate whether a large retailer has broken the <eol/>Groceries Code if the Adjudicator has reasonable grounds to suspect that—</p>
+            </intro>
+            <paragraph currentId="sec4.1.a">
+              <num>a</num>
+              <content currentId="sec4.1.a-content">
+                <p>the retailer has broken the Code; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec4.1.b">
+              <num>b</num>
+              <content currentId="sec4.1.b-content">
+                <p>the retailer has failed to follow a recommendation made under <eol/>section 7.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec4.2">
+            <num>2</num>
+            <content currentId="sec4.2-content">
+              <p>For powers to require a person to provide information, see Schedule 2.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec4.3">
+            <num>3</num>
+            <content currentId="sec4.3-content">
+              <p>The Adjudicator may not carry out an investigation until the guidance <eol/>required by section 12(1) has been published.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec5">
+          <num>5</num>
+          <heading currentId="sec5-heading">Investigation reports</heading>
+          <subsection currentId="sec5.1">
+            <num>1</num>
+            <intro currentId="sec5.1-intro">
+              <p>Following an investigation the Adjudicator must—</p>
+            </intro>
+            <paragraph currentId="sec5.1.a">
+              <num>a</num>
+              <content currentId="sec5.1.a-content">
+                <p>publish a report on the outcome of the investigation; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec5.1.b">
+              <num>b</num>
+              <content currentId="sec5.1.b-content">
+                <p>consider whether to use any of the enforcement powers mentioned in <eol/>section 6.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec5.2">
+            <num>2</num>
+            <intro currentId="sec5.2-intro">
+              <p>An investigation report must, in particular, specify—</p>
+            </intro>
+            <paragraph currentId="sec5.2.a">
+              <num>a</num>
+              <content currentId="sec5.2.a-content">
+                <p>any findings that the Adjudicator has made;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec5.2.b">
+              <num>b</num>
+              <content currentId="sec5.2.b-content">
+                <p>any action that the Adjudicator has taken or proposes to take; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec5.2.c">
+              <num>c</num>
+              <content currentId="sec5.2.c-content">
+                <p>the reasons for the findings and any action taken or proposed.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec5.3">
+            <num>3</num>
+            <content currentId="sec5.3-content">
+              <p>It is not necessary for an investigation report to identify the retailer concerned.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec5.4">
+            <num>4</num>
+            <content currentId="sec5.4-content">
+              <p>If a retailer is identified in a report, the retailer must have been given a <eol/>reasonable opportunity to comment on a draft of the report before publication.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec6">
+          <num>6</num>
+          <heading currentId="sec6-heading">Investigations: forms of enforcement</heading>
+          <intro currentId="sec6-intro">
+            <p>If, as a result of an investigation, the Adjudicator is satisfied that a large retailer <eol/>has broken the Groceries Code, the Adjudicator may take one or more of the <eol/>following enforcement measures—</p>
+          </intro>
+          <paragraph currentId="sec6.a">
+            <num>a</num>
+            <content currentId="sec6.a-content">
+              <p>make recommendations;</p>
+            </content>
+          </paragraph>
+          <paragraph currentId="sec6.b">
+            <num>b</num>
+            <content currentId="sec6.b-content">
+              <p>require information to be published;</p>
+            </content>
+          </paragraph>
+          <paragraph currentId="sec6.c">
+            <num>c</num>
+            <content currentId="sec6.c-content">
+              <p>impose financial penalties.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section currentId="sec7">
+          <num>7</num>
+          <heading currentId="sec7-heading">Investigations: enforcement using recommendations</heading>
+          <subsection currentId="sec7.1">
+            <num>1</num>
+            <content currentId="sec7.1-content">
+              <p>If the Adjudicator chooses to enforce through making recommendations, that <eol/>means recommending what the large retailer should do in order to comply <eol/>with the Groceries Code.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec7.2">
+            <num>2</num>
+            <content currentId="sec7.2-content">
+              <p>The Adjudicator must monitor whether a recommendation has been followed.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec7.3">
+            <num>3</num>
+            <content currentId="sec7.3-content">
+              <p>For powers to require a person to provide information, see Schedule 2.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec8">
+          <num>8</num>
+          <heading currentId="sec8-heading">Investigations: enforcement using requirements to publish information</heading>
+          <subsection currentId="sec8.1">
+            <num>1</num>
+            <content currentId="sec8.1-content">
+              <p>If the Adjudicator chooses to enforce through requiring information to be <eol/>published, that means requiring the large retailer to publish information <eol/>relating to the investigation.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec8.2">
+            <num>2</num>
+            <intro currentId="sec8.2-intro">
+              <p>The publication requirement is imposed by giving written notice to the large <eol/>retailer specifying—</p>
+            </intro>
+            <paragraph currentId="sec8.2.a">
+              <num>a</num>
+              <content currentId="sec8.2.a-content">
+                <p>what information is to be published;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec8.2.b">
+              <num>b</num>
+              <content currentId="sec8.2.b-content">
+                <p>how it must be published; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec8.2.c">
+              <num>c</num>
+              <content currentId="sec8.2.c-content">
+                <p>the time by which it must be published.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec8.3">
+            <num>3</num>
+            <intro currentId="sec8.3-intro">
+              <p>The Adjudicator may enforce the requirement to publish information by <eol/>bringing civil proceedings to obtain—</p>
+            </intro>
+            <paragraph currentId="sec8.3.a">
+              <num>a</num>
+              <content currentId="sec8.3.a-content">
+                <p>in England and Wales or Northern Ireland, an injunction or any other <eol/>appropriate remedy or relief; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec8.3.b">
+              <num>b</num>
+              <content currentId="sec8.3.b-content">
+                <p>in Scotland, an order for specific performance under section 45 of the <eol/>Court of Session Act 1988 or any other appropriate remedy or relief.</p>
+              </content>
+            </paragraph>
+          </subsection>
+        </section>
+        <section currentId="sec9">
+          <num>9</num>
+          <heading currentId="sec9-heading">Investigations: enforcement using financial penalties</heading>
+          <subsection currentId="sec9.1">
+            <num>1</num>
+            <content currentId="sec9.1-content">
+              <p>If the Adjudicator chooses to enforce through imposing financial penalties, that <eol/>means imposing a penalty on the large retailer of an amount not exceeding the <eol/>amount of the permitted maximum (see subsection (6)).</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec9.2">
+            <num>2</num>
+            <intro currentId="sec9.2-intro">
+              <p>The financial penalty is imposed by giving the large retailer written notice <eol/>specifying—</p>
+            </intro>
+            <paragraph currentId="sec9.2.a">
+              <num>a</num>
+              <content currentId="sec9.2.a-content">
+                <p>the grounds for imposing the penalty;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec9.2.b">
+              <num>b</num>
+              <content currentId="sec9.2.b-content">
+                <p>the amount of the penalty;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec9.2.c">
+              <num>c</num>
+              <content currentId="sec9.2.c-content">
+                <p>the period within which it must be paid; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec9.2.d">
+              <num>d</num>
+              <content currentId="sec9.2.d-content">
+                <p>how it must be paid.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec9.3">
+            <num>3</num>
+            <intro currentId="sec9.3-intro">
+              <p>The large retailer may appeal against the imposition of a financial penalty or <eol/>its amount—</p>
+            </intro>
+            <paragraph currentId="sec9.3.a">
+              <num>a</num>
+              <content currentId="sec9.3.a-content">
+                <p>to the High Court, in England and Wales or Northern Ireland; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec9.3.b">
+              <num>b</num>
+              <content currentId="sec9.3.b-content">
+                <p>to the Court of Session, in Scotland.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec9.4">
+            <num>4</num>
+            <content currentId="sec9.4-content">
+              <p>Financial penalties under this section are recoverable by the Adjudicator as a <eol/>debt.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec9.5">
+            <num>5</num>
+            <content currentId="sec9.5-content">
+              <p>Financial penalties received by the Adjudicator must be paid into the <eol/>Consolidated Fund.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec9.6">
+            <num>6</num>
+            <intro currentId="sec9.6-intro">
+              <p>The Secretary of State must make an order—</p>
+            </intro>
+            <paragraph currentId="sec9.6.a">
+              <num>a</num>
+              <content currentId="sec9.6.a-content">
+                <p>specifying the amount of the permitted maximum, or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec9.6.b">
+              <num>b</num>
+              <content currentId="sec9.6.b-content">
+                <p>specifying how that amount is to be determined.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec9.7">
+            <num>7</num>
+            <content currentId="sec9.7-content">
+              <p>The Adjudicator must, within 6 months beginning with the day on which <eol/>section 1 comes into force, make a recommendation as to the amount that <eol/>should be specified in the first order under subsection (6) or the method for <eol/>determining the amount.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec9.8">
+            <num>8</num>
+            <content currentId="sec9.8-content">
+              <p>Before making a recommendation the Adjudicator must consult any person he <eol/>or she thinks appropriate.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec9.9">
+            <num>9</num>
+            <intro currentId="sec9.9-intro">
+              <p>The Secretary of State—</p>
+            </intro>
+            <paragraph currentId="sec9.9.a">
+              <num>a</num>
+              <content currentId="sec9.9.a-content">
+                <p>must have regard to the Adjudicator’s recommendation when making <eol/>the first order under subsection (6);</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec9.9.b">
+              <num>b</num>
+              <content currentId="sec9.9.b-content">
+                <p>may amend or replace an order under subsection (6) only if the <eol/>Secretary of State has considered whether to do so as part of a review <eol/>under section 15.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec9.10">
+            <num>10</num>
+            <content currentId="sec9.10-content">
+              <p>The Adjudicator may not impose a financial penalty in respect of a breach of <eol/>the Groceries Code that occurs before the first order under subsection (6) <eol/>comes into force.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec10">
+          <num>10</num>
+          <heading currentId="sec10-heading">Recovery of investigation costs</heading>
+          <subsection currentId="sec10.1">
+            <num>1</num>
+            <content currentId="sec10.1-content">
+              <p>The Adjudicator may require a large retailer to pay some or all of the costs of <eol/>an investigation (including any costs incurred in exercising the enforcement <eol/>powers) if satisfied that the retailer has broken the Groceries Code.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec10.2">
+            <num>2</num>
+            <content currentId="sec10.2-content">
+              <p>The Adjudicator may require a person to pay some or all of the costs of an <eol/>investigation if the Adjudicator carried out the investigation as a result of a <eol/>complaint by the person which, the Adjudicator is satisfied, was vexatious or <eol/>wholly without merit.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec10.3">
+            <num>3</num>
+            <intro currentId="sec10.3-intro">
+              <p>A requirement to pay costs is imposed by giving written notice specifying—</p>
+            </intro>
+            <paragraph currentId="sec10.3.a">
+              <num>a</num>
+              <content currentId="sec10.3.a-content">
+                <p>the grounds for imposing the requirement to pay costs;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec10.3.b">
+              <num>b</num>
+              <content currentId="sec10.3.b-content">
+                <p>how much is to be paid; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec10.3.c">
+              <num>c</num>
+              <content currentId="sec10.3.c-content">
+                <p>by when the costs are to be paid.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec10.4">
+            <num>4</num>
+            <intro currentId="sec10.4-intro">
+              <p>A person required to pay costs under this section may appeal against the <eol/>imposition of the requirement or the amount to which it relates—</p>
+            </intro>
+            <paragraph currentId="sec10.4.a">
+              <num>a</num>
+              <content currentId="sec10.4.a-content">
+                <p>to the High Court, in England and Wales or Northern Ireland; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec10.4.b">
+              <num>b</num>
+              <content currentId="sec10.4.b-content">
+                <p>to the Court of Session, in Scotland.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec10.5">
+            <num>5</num>
+            <content currentId="sec10.5-content">
+              <p>Costs required to be paid under this section are recoverable by the Adjudicator <eol/>as a debt.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part4">
+        <heading currentId="part4-heading">What advice, guidance and recommendations does the Adjudicator give?</heading>
+        <section currentId="sec11">
+          <num>11</num>
+          <heading currentId="sec11-heading">Advice</heading>
+          <content currentId="sec11-content">
+            <p>The Adjudicator may give advice on any matter relating to the Groceries Code <eol/>to suppliers or large retailers.</p>
+          </content>
+        </section>
+        <section currentId="sec12">
+          <num>12</num>
+          <heading currentId="sec12-heading">Guidance</heading>
+          <subsection currentId="sec12.1">
+            <num>1</num>
+            <intro currentId="sec12.1-intro">
+              <p>The Adjudicator must publish guidance about—</p>
+            </intro>
+            <paragraph currentId="sec12.1.a">
+              <num>a</num>
+              <content currentId="sec12.1.a-content">
+                <p>the criteria that the Adjudicator intends to adopt in deciding whether <eol/>to carry out investigations;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec12.1.b">
+              <num>b</num>
+              <content currentId="sec12.1.b-content">
+                <p>the practices and procedures that the Adjudicator intends to adopt in <eol/>carrying out investigations;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec12.1.c">
+              <num>c</num>
+              <content currentId="sec12.1.c-content">
+                <p>the criteria that the Adjudicator intends to adopt in choosing whether <eol/>to use the enforcement powers and which ones; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec12.1.d">
+              <num>d</num>
+              <content currentId="sec12.1.d-content">
+                <p>the criteria that the Adjudicator intends to adopt in deciding the <eol/>amount of any financial penalty under section 9.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec12.2">
+            <num>2</num>
+            <content currentId="sec12.2-content">
+              <p>In addition, the Adjudicator may publish guidance about the practices and <eol/>procedures that the Adjudicator intends to adopt in carrying out other <eol/>functions.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec12.3">
+            <num>3</num>
+            <intro currentId="sec12.3-intro">
+              <p>The Adjudicator may publish guidance about—</p>
+            </intro>
+            <paragraph currentId="sec12.3.a">
+              <num>a</num>
+              <content currentId="sec12.3.a-content">
+                <p>the application of any provision of the Groceries Code;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec12.3.b">
+              <num>b</num>
+              <content currentId="sec12.3.b-content">
+                <p>steps that large retailers need to take in order to comply with the <eol/>Groceries Code;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec12.3.c">
+              <num>c</num>
+              <content currentId="sec12.3.c-content">
+                <p>any other matter relating to the Groceries Code.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec12.4">
+            <num>4</num>
+            <content currentId="sec12.4-content">
+              <p>Before publishing guidance under this section the Adjudicator must consult <eol/>any persons he or she thinks appropriate.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec12.5">
+            <num>5</num>
+            <content currentId="sec12.5-content">
+              <p>The Adjudicator must publish the first guidance under subsection <ref class="internal" href="#sec12.1.a" currentId="idp247936">(1)(a)</ref>, <ref class="internal" href="#sec12.1.b" currentId="idp248816">(b)</ref>, <ref class="internal" href="#sec12.1.c" currentId="idp249680">(c)</ref>  <eol/>and (d) within 6 months beginning with the day on which section 1 comes into <eol/>force.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec12.6">
+            <num>6</num>
+            <content currentId="sec12.6-content">
+              <p>Where there is any guidance in force under this section, the Adjudicator must <eol/>take account of it in carrying out functions.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec13">
+          <num>13</num>
+          <heading currentId="sec13-heading">Recommendations to Office of Fair Trading</heading>
+          <content currentId="sec13-content">
+            <p>If the Adjudicator considers it appropriate for any changes to be made to the <eol/>Groceries Code, he or she must recommend them to the Office of Fair Trading.</p>
+          </content>
+        </section>
+      </part>
+      <part currentId="part5">
+        <heading currentId="part5-heading">What are the Adjudicator’s reporting requirements?</heading>
+        <section currentId="sec14">
+          <num>14</num>
+          <heading currentId="sec14-heading">Annual report</heading>
+          <subsection currentId="sec14.1">
+            <num>1</num>
+            <content currentId="sec14.1-content">
+              <p>After the end of each reporting period the Adjudicator must prepare and <eol/>publish a report describing what the Adjudicator has done during the period.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec14.2">
+            <num>2</num>
+            <intro currentId="sec14.2-intro">
+              <p>The report must include a summary of—</p>
+            </intro>
+            <paragraph currentId="sec14.2.a">
+              <num>a</num>
+              <content currentId="sec14.2.a-content">
+                <p>disputes referred to arbitration under the Groceries Supply Order;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec14.2.b">
+              <num>b</num>
+              <content currentId="sec14.2.b-content">
+                <p>investigations carried out by the Adjudicator; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec14.2.c">
+              <num>c</num>
+              <content currentId="sec14.2.c-content">
+                <p>cases in which the Adjudicator has used the enforcement measures <eol/>mentioned in section 6.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec14.3">
+            <num>3</num>
+            <content currentId="sec14.3-content">
+              <p>If the Adjudicator has made recommendations under section 7, the report must <eol/>include an assessment of whether they have been followed.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec14.4">
+            <num>4</num>
+            <content currentId="sec14.4-content">
+              <p>The report must set out any recommendations that the Adjudicator has made <eol/>to the Office of Fair Trading for changes to the Groceries Code.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec14.5">
+            <num>5</num>
+            <intro currentId="sec14.5-intro">
+              <p>As well as publishing the report, the Adjudicator must send a copy to—</p>
+            </intro>
+            <paragraph currentId="sec14.5.a">
+              <num>a</num>
+              <content currentId="sec14.5.a-content">
+                <p>the Secretary of State; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec14.5.b">
+              <num>b</num>
+              <content currentId="sec14.5.b-content">
+                <p>the Office of Fair Trading.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec14.6">
+            <num>6</num>
+            <content currentId="sec14.6-content">
+              <p>The Secretary of State must lay a copy of the report before Parliament.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec14.7">
+            <num>7</num>
+            <intro currentId="sec14.7-intro">
+              <p>In this section “reporting period” means—</p>
+            </intro>
+            <paragraph currentId="sec14.7.a">
+              <num>a</num>
+              <content currentId="sec14.7.a-content">
+                <p>the period beginning with the day on which section 1 comes into force <eol/>and ending with the following 31 March; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec14.7.b">
+              <num>b</num>
+              <content currentId="sec14.7.b-content">
+                <p>each successive period of 12 months.</p>
+              </content>
+            </paragraph>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part6">
+        <heading currentId="part6-heading">How is the Adjudicator supervised?</heading>
+        <section currentId="sec15">
+          <num>15</num>
+          <heading currentId="sec15-heading">Review of Adjudicator and guidance from Secretary of State</heading>
+          <subsection currentId="sec15.1">
+            <num>1</num>
+            <content currentId="sec15.1-content">
+              <p>The Secretary of State must review the Adjudicator’s performance for each <eol/>review period.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.2">
+            <num>2</num>
+            <content currentId="sec15.2-content">
+              <p>The first review period is the period ending on the first 31 March that is at <eol/>least 2 years after section 1 comes into force.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.3">
+            <num>3</num>
+            <content currentId="sec15.3-content">
+              <p>Subsequent review periods are each successive period of 3 years after the first <eol/>review period.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.4">
+            <num>4</num>
+            <intro currentId="sec15.4-intro">
+              <p>A review must, in particular—</p>
+            </intro>
+            <paragraph currentId="sec15.4.a">
+              <num>a</num>
+              <content currentId="sec15.4.a-content">
+                <p>consider how much the Adjudicator’s powers have been exercised; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.4.b">
+              <num>b</num>
+              <content currentId="sec15.4.b-content">
+                <p>assess how effective the Adjudicator has been in enforcing the <eol/>Groceries Code.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec15.5">
+            <num>5</num>
+            <content currentId="sec15.5-content">
+              <p>If an order has not yet been made under subsection <ref class="internal" href="#sec15.11" currentId="idp301040">(11)</ref>, the review must also <eol/>consider whether it would be desirable to make an order under that subsection.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.6">
+            <num>6</num>
+            <content currentId="sec15.6-content">
+              <p>A review may consider whether it would be desirable to amend or replace the <eol/>order for the time being in force under section 9(6).</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.7">
+            <num>7</num>
+            <intro currentId="sec15.7-intro">
+              <p>As soon as practicable after a review period, the Secretary of State must—</p>
+            </intro>
+            <paragraph currentId="sec15.7.a">
+              <num>a</num>
+              <content currentId="sec15.7.a-content">
+                <p>publish a report of the findings of the review for that period; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.7.b">
+              <num>b</num>
+              <content currentId="sec15.7.b-content">
+                <p>lay a copy of the report before Parliament.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec15.8">
+            <num>8</num>
+            <intro currentId="sec15.8-intro">
+              <p>In carrying out a review, the Secretary of State must consult—</p>
+            </intro>
+            <paragraph currentId="sec15.8.a">
+              <num>a</num>
+              <content currentId="sec15.8.a-content">
+                <p>the Adjudicator;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.8.b">
+              <num>b</num>
+              <content currentId="sec15.8.b-content">
+                <p>the Competition Commission;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.8.c">
+              <num>c</num>
+              <content currentId="sec15.8.c-content">
+                <p>the Office of Fair Trading;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.8.d">
+              <num>d</num>
+              <content currentId="sec15.8.d-content">
+                <p>the retailers mentioned in Article 4(1)(a) and (b) of the Groceries <eol/>Supply Order;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.8.e">
+              <num>e</num>
+              <content currentId="sec15.8.e-content">
+                <p>one or more persons appearing to the Secretary of State to represent the <eol/>interests of suppliers;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.8.f">
+              <num>f</num>
+              <content currentId="sec15.8.f-content">
+                <p>one or more persons appearing to the Secretary of State to represent the <eol/>interests of consumers; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec15.8.g">
+              <num>g</num>
+              <content currentId="sec15.8.g-content">
+                <p>any other person the Secretary of State thinks appropriate.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec15.9">
+            <num>9</num>
+            <content currentId="sec15.9-content">
+              <p>As a result of the findings of a review, the Secretary of State may give guidance <eol/>to the Adjudicator about any matter relating to the Adjudicator’s functions.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.10">
+            <num>10</num>
+            <content currentId="sec15.10-content">
+              <p>The Adjudicator is to take account of the guidance in carrying out functions.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.11">
+            <num>11</num>
+            <content currentId="sec15.11-content">
+              <p>The Secretary of State may by order provide that the following section is to be <eol/>inserted after section 4 if, as a result of the findings of a review, the Secretary <eol/>of State thinks that it would be desirable to do so—</p>
+              <p>
+                <mod currentId="idp330640-mod">
+                  <quotedStructure currentId="idp330640" startQuote="“" endQuote="”">
+                    <section currentId="idp332896">
+                      <num>4A</num>
+                      <heading currentId="idp332896-heading">Information that may be considered when deciding whether to <eol/>investigate</heading>
+                      <subsection currentId="idp333664">
+                        <num>1</num>
+                        <intro currentId="idp333664-intro">
+                          <p>In deciding whether to carry out an investigation the Adjudicator may <eol/>consider only—</p>
+                        </intro>
+                        <paragraph currentId="idp335472">
+                          <num>a</num>
+                          <content currentId="idp335472-content">
+                            <p>information provided by a supplier;</p>
+                          </content>
+                        </paragraph>
+                        <paragraph currentId="idp337184">
+                          <num>b</num>
+                          <content currentId="idp337184-content">
+                            <p>information that is publicly available;</p>
+                          </content>
+                        </paragraph>
+                        <paragraph currentId="idp339024">
+                          <num>c</num>
+                          <content currentId="idp339024-content">
+                            <p>information provided by a person who obtained the <eol/>information at a time when the person was a worker employed <eol/>by the retailer in question or a company in the same group;</p>
+                          </content>
+                        </paragraph>
+                        <paragraph currentId="idp341392">
+                          <num>d</num>
+                          <content currentId="idp341392-content">
+                            <p>information provided by the retailer in question about whether <eol/>it has complied with a recommendation made under section 7.</p>
+                          </content>
+                        </paragraph>
+                      </subsection>
+                      <subsection currentId="idp343568">
+                        <num>2</num>
+                        <content currentId="idp343568-content">
+                          <p>When carrying out an investigation the Adjudicator may consider any <eol/>information that it seems appropriate to consider and is not limited to <eol/>considering the information mentioned in subsection (1).</p>
+                        </content>
+                      </subsection>
+                      <subsection currentId="idp345840">
+                        <num>3</num>
+                        <content currentId="idp345840-content">
+                          <p>In this section—</p>
+                          <ul currentId="idp347328">
+                            <li>
+                              <p>“group” has the same meaning as in Part 15 of the Companies Act <eol/>2006 (see section 474(1) of that Act);</p>
+                            </li>
+                            <li>
+                              <p>“worker” and “employed” have the same meaning as in Part 4A of <eol/>the Employment Rights Act 1996 (see sections 43K and 230 of <eol/>that Act).</p>
+                            </li>
+                          </ul>
+                        </content>
+                      </subsection>
+                    </section>
+                  </quotedStructure>
+                </mod>
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec16">
+          <num>16</num>
+          <heading currentId="sec16-heading">Transfer of Adjudicator functions and abolition etc</heading>
+          <subsection currentId="sec16.1">
+            <num>1</num>
+            <intro currentId="sec16.1-intro">
+              <p>The Secretary of State may by order transfer some or all of the Adjudicator’s <eol/>functions to a public body and in deciding whether to do so must take account <eol/>of the desirability of—</p>
+            </intro>
+            <paragraph currentId="sec16.1.a">
+              <num>a</num>
+              <content currentId="sec16.1.a-content">
+                <p>increasing efficiency, effectiveness and economy in the exercise of <eol/>public functions; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec16.1.b">
+              <num>b</num>
+              <content currentId="sec16.1.b-content">
+                <p>ensuring appropriate accountability to Ministers in the exercise of <eol/>public functions.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec16.2">
+            <num>2</num>
+            <intro currentId="sec16.2-intro">
+              <p>The Secretary of State may by order abolish the Adjudicator—</p>
+            </intro>
+            <paragraph currentId="sec16.2.a">
+              <num>a</num>
+              <content currentId="sec16.2.a-content">
+                <p>if, as a result of the findings of a review, the Secretary of State is <eol/>satisfied that the Adjudicator has not been sufficiently effective in <eol/>enforcing the Groceries Code to justify the continued existence of an <eol/>Adjudicator;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec16.2.b">
+              <num>b</num>
+              <content currentId="sec16.2.b-content">
+                <p>if, as a result of the findings of a review, the Secretary of State is <eol/>satisfied that it is no longer necessary for there to be an Adjudicator to <eol/>enforce the Groceries Code;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec16.2.c">
+              <num>c</num>
+              <content currentId="sec16.2.c-content">
+                <p>if the Secretary of State transfers all of the Adjudicator’s functions <eol/>under subsection <ref class="internal" href="#sec16.1" currentId="idp370320">(1)</ref>; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec16.2.d">
+              <num>d</num>
+              <content currentId="sec16.2.d-content">
+                <p>if the Groceries Supply Order is revoked and not replaced.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec16.3">
+            <num>3</num>
+            <content currentId="sec16.3-content">
+              <p>An order under subsection <ref class="internal" href="#sec16.2" currentId="idp374928">(2)</ref> may include provision transferring the <eol/>Adjudicator’s property, rights and liabilities.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec16.4">
+            <num>4</num>
+            <content currentId="sec16.4-content">
+              <p>The Secretary of State may by order amend this Act in consequence of any <eol/>order amending or replacing the Groceries Supply Order.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec16.5">
+            <num>5</num>
+            <content currentId="sec16.5-content">
+              <p>For the purpose of giving effect to a transfer of functions or to the abolition of <eol/>the Adjudicator an order under this section may amend or repeal this Act or <eol/>any other enactment.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec17">
+          <num>17</num>
+          <heading currentId="sec17-heading">Information to Secretary of State</heading>
+          <subsection currentId="sec17.1">
+            <num>1</num>
+            <content currentId="sec17.1-content">
+              <p>The Secretary of State may require the Adjudicator to provide information to <eol/>assist the Secretary of State in carrying out functions under this Act.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec17.2">
+            <num>2</num>
+            <content currentId="sec17.2-content">
+              <p>The requirement to provide information to the Secretary of State does not <eol/>override section 18.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part7">
+        <heading currentId="part7-heading">How does the Adjudicator handle information?</heading>
+        <section currentId="sec18">
+          <num>18</num>
+          <heading currentId="sec18-heading">Confidentiality</heading>
+          <subsection currentId="sec18.1">
+            <num>1</num>
+            <intro currentId="sec18.1-intro">
+              <p>The Adjudicator may not make an unauthorised disclosure of information <eol/>relating to an arbitration under the Groceries Supply Order or under a supply <eol/>agreement if—</p>
+            </intro>
+            <paragraph currentId="sec18.1.a">
+              <num>a</num>
+              <content currentId="sec18.1.a-content">
+                <p>the information identifies a party to the arbitration; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec18.1.b">
+              <num>b</num>
+              <content currentId="sec18.1.b-content">
+                <p>the Adjudicator thinks that the identity of a party to the arbitration <eol/>could be deduced from it.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec18.2">
+            <num>2</num>
+            <content currentId="sec18.2-content">
+              <p>The Adjudicator may not make an unauthorised disclosure of information that <eol/>the Adjudicator thinks might cause someone to think that a particular person <eol/>has complained about a large retailer failing to comply with the Groceries <eol/>Code.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec18.3">
+            <num>3</num>
+            <intro currentId="sec18.3-intro">
+              <p>For the purposes of this section a disclosure of information is unauthorised <eol/>unless—</p>
+            </intro>
+            <paragraph currentId="sec18.3.a">
+              <num>a</num>
+              <content currentId="sec18.3.a-content">
+                <p>the Adjudicator has obtained the required consent;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec18.3.b">
+              <num>b</num>
+              <content currentId="sec18.3.b-content">
+                <p>the disclosure is required for the purpose of an EU obligation; or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec18.3.c">
+              <num>c</num>
+              <content currentId="sec18.3.c-content">
+                <p>the disclosure is required, under rules of court or a court order, for the <eol/>purposes of legal proceedings of any description.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec18.4">
+            <num>4</num>
+            <intro currentId="sec18.4-intro">
+              <p>The required consent is—</p>
+            </intro>
+            <paragraph currentId="sec18.4.a">
+              <num>a</num>
+              <content currentId="sec18.4.a-content">
+                <p>in the case of information to which subsection (1) applies, the consent <eol/>of the parties to the arbitration;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec18.4.b">
+              <num>b</num>
+              <content currentId="sec18.4.b-content">
+                <p>in the case of information to which subsection (2) applies, the consent <eol/>of the person.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec18.5">
+            <num>5</num>
+            <content currentId="sec18.5-content">
+              <p>The prohibitions contained in this section are in addition to any that apply by <eol/>virtue of Part 9 of the Enterprise Act 2002.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part8">
+        <heading currentId="part8-heading">How may the Adjudicator be funded?</heading>
+        <section currentId="sec19">
+          <num>19</num>
+          <heading currentId="sec19-heading">Levy funding</heading>
+          <subsection currentId="sec19.1">
+            <num>1</num>
+            <content currentId="sec19.1-content">
+              <p>The Adjudicator may require the specified retailers to pay a levy towards the <eol/>Adjudicator’s expenses.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.2">
+            <num>2</num>
+            <content currentId="sec19.2-content">
+              <p>Before imposing a levy the Adjudicator must obtain the Secretary of State’s <eol/>consent.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.3">
+            <num>3</num>
+            <content currentId="sec19.3-content">
+              <p>In deciding the amount of a levy the Adjudicator must take into account any <eol/>sums received or expected to be received from other sources.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.4">
+            <num>4</num>
+            <content currentId="sec19.4-content">
+              <p>The Adjudicator may take into account estimated as well as actual expenses.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.5">
+            <num>5</num>
+            <content currentId="sec19.5-content">
+              <p>The Adjudicator may require different specified retailers to pay different <eol/>amounts of levy but any differences must be based on criteria broadly intended <eol/>to reflect the expense and time that the Adjudicator expects (in the light of <eol/>previous experience) to spend in dealing with matters relating to different <eol/>specified retailers and any subsidiaries.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.6">
+            <num>6</num>
+            <intro currentId="sec19.6-intro">
+              <p>The Adjudicator must inform each specified retailer of —</p>
+            </intro>
+            <paragraph currentId="sec19.6.a">
+              <num>a</num>
+              <content currentId="sec19.6.a-content">
+                <p>the amount of any levy payable by the retailer; and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec19.6.b">
+              <num>b</num>
+              <content currentId="sec19.6.b-content">
+                <p>when payments are due.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec19.7">
+            <num>7</num>
+            <content currentId="sec19.7-content">
+              <p>A levy required to be paid under this section is recoverable by the Adjudicator <eol/>as a debt.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.8">
+            <num>8</num>
+            <content currentId="sec19.8-content">
+              <p>The Adjudicator must publish details of levies and an explanation of how the <eol/>amounts have been decided (including any criteria under subsection <ref class="internal" href="#sec19.5" currentId="idp436800">(5)</ref>).</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.9">
+            <num>9</num>
+            <content currentId="sec19.9-content">
+              <p>If the Adjudicator has a surplus, the Adjudicator may repay some or all of it to <eol/>the specified retailers.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.10">
+            <num>10</num>
+            <content currentId="sec19.10-content">
+              <p>In this section—</p>
+              <ul currentId="idp441344">
+                <li>
+                  <p>“specified retailer” means a retailer mentioned in Article 4(1)(a) or (b) of <eol/>the Groceries Supply Order;</p>
+                </li>
+                <li>
+                  <p>“surplus” means money held by the Adjudicator at the end of a financial <eol/>year less—</p>
+                  <ol currentId="idp445136">
+                    <li>
+                      <p>liabilities shown in the Adjudicator’s statement of accounts for <eol/>that financial year; and</p>
+                    </li>
+                    <li>
+                      <p>the total amount of any grants made by the Secretary of State <eol/>under section 20 during that financial year or earlier ones.</p>
+                    </li>
+                  </ol>
+                </li>
+              </ul>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec20">
+          <num>20</num>
+          <heading currentId="sec20-heading">Payments by Secretary of State</heading>
+          <subsection currentId="sec20.1">
+            <num>1</num>
+            <content currentId="sec20.1-content">
+              <p>The Secretary of State may make grants or loans to the Adjudicator.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec20.2">
+            <num>2</num>
+            <content currentId="sec20.2-content">
+              <p>The grants or loans may be subject to conditions (including conditions as to <eol/>repayment with or without interest).</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part9">
+        <heading currentId="part9-heading">Amendments and transition</heading>
+        <section currentId="sec21">
+          <num>21</num>
+          <heading currentId="sec21-heading">Amendments and transition</heading>
+          <subsection currentId="sec21.1">
+            <num>1</num>
+            <content currentId="sec21.1-content">
+              <p><i>Parliamentary Commissioner Act <ref href="/uk/bill/1967/13/main" currentId="idp460192">1967 (c. 13)</ref></i><eol/>In Schedule 2 to the Parliamentary Commissioner Act 1967 (departments etc <eol/>subject to investigation) at the appropriate place insert—</p>
+              <p>
+                <mod currentId="idp462352-mod">
+                  <quotedStructure currentId="idp462352" startQuote="“" endQuote="”">
+                    <ul currentId="idp463568">
+                      <li>
+                        <p>Groceries Code Adjudicator.</p>
+                      </li>
+                    </ul>
+                  </quotedStructure>
+                </mod>
+              </p>
+            </content>
+          </subsection>
+          <subsection currentId="sec21.2">
+            <num>2</num>
+            <content currentId="sec21.2-content">
+              <p><i>House of Commons Disqualification Act <ref href="/uk/bill/1975/24/main" currentId="idp483760">1975 (c. 24)</ref></i><eol/>In Part 3 of Schedule 1 to the House of Commons Disqualification Act 1975 <eol/>(other disqualifying offices) at the appropriate place insert—</p>
+              <p>
+                <mod currentId="idp485824-mod">
+                  <quotedStructure currentId="idp485824" startQuote="“" endQuote="”">
+                    <ul currentId="idp487040">
+                      <li>
+                        <p>Groceries Code Adjudicator or Deputy Groceries Code <eol/>Adjudicator.</p>
+                      </li>
+                    </ul>
+                  </quotedStructure>
+                </mod>
+              </p>
+            </content>
+          </subsection>
+          <subsection currentId="sec21.3">
+            <num>3</num>
+            <content currentId="sec21.3-content">
+              <p><i>Freedom of Information Act <ref href="/uk/bill/2000/36/main" currentId="idp491152">2000 (c. 36)</ref></i><eol/>In Part 6 of Schedule 1 to the Freedom of Information Act 2000 (public <eol/>authorities) at the appropriate place insert—</p>
+              <p>
+                <mod currentId="idp493264-mod">
+                  <quotedStructure currentId="idp493264" startQuote="“" endQuote="”">
+                    <ul currentId="idp494480">
+                      <li>
+                        <p>Groceries Code Adjudicator.</p>
+                      </li>
+                    </ul>
+                  </quotedStructure>
+                </mod>
+              </p>
+            </content>
+          </subsection>
+          <subsection currentId="sec21.4">
+            <num>4</num>
+            <content currentId="sec21.4-content">
+              <p><i><ref href="/uk/bill/2002/40/main" currentId="idp498192">Enterprise Act 2002 (c. 40)</ref></i><eol/>In each of Schedules 14 and 15 to the Enterprise Act 2002 (provisions about <eol/>disclosure of information) at the appropriate place insert—</p>
+              <p>
+                <mod currentId="idp500368-mod">
+                  <quotedStructure currentId="idp500368" startQuote="“" endQuote="”">
+                    <p>Groceries Code Adjudicator Act 2012.</p>
+                  </quotedStructure>
+                </mod>
+              </p>
+            </content>
+          </subsection>
+          <subsection currentId="sec21.5">
+            <num>5</num>
+            <content currentId="sec21.5-content">
+              <p><eol/>Section 161(5) of the Enterprise Act 2002 (limitation on variation or revocation <eol/>of orders) does not apply to a variation of the Groceries Supply Order made in <eol/>consequence of the Arbitration (Scotland) Act 2010 or this Act.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec21.6">
+            <num>6</num>
+            <content currentId="sec21.6-content">
+              <p>
+                <i>Arbitration (Scotland) Act <ref href="/uk/scotland/bill/2010/1/main" currentId="idp506400">2010 (asp 1)</ref></i>
+              </p>
+              <p>Until the Arbitration (Scotland) Act 2010 is in force in relation to any <eol/>arbitrations carried out by the Adjudicator, or a person appointed by the <eol/>Adjudicator, that Act applies as if it were in force in relation to those <eol/>arbitrations.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part10">
+        <heading currentId="part10-heading">Definitions and final provisions</heading>
+        <section currentId="sec22">
+          <num>22</num>
+          <heading currentId="sec22-heading">Definitions</heading>
+          <content currentId="sec22-content">
+            <p>In this Act—</p>
+            <ul currentId="idp513232">
+              <li>
+                <p>“the Adjudicator” means the Groceries Code Adjudicator;</p>
+              </li>
+              <li>
+                <p>“direct supplier” means a person who is a supplier within the meaning <eol/>given by Article 2 of the Groceries Supply Order;</p>
+              </li>
+              <li>
+                <p>“dispute” has the meaning given by Article 2 of the Groceries Supply <eol/>Order;</p>
+              </li>
+              <li>
+                <p> “financial year” means—</p>
+                <ol currentId="idp519712">
+                  <li>
+                    <p>the period beginning with the day on which section 1 comes <eol/>into force and ending with the following 31 March; and</p>
+                  </li>
+                  <li>
+                    <p>each successive period of 12 months;</p>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <p>“Groceries Code” means the code of practice set out in Schedule 1 to the <eol/>Groceries Supply Order;</p>
+              </li>
+              <li>
+                <p>“Groceries Supply Order” means the Groceries (Supply Chain Practices) <eol/>Market Investigation Order 2009, made by the Competition <eol/>Commission under section 161 of the Enterprise Act 2002;</p>
+              </li>
+              <li>
+                <p>“indirect supplier” means a person who would be a supplier within the <eol/>meaning given by Article 2 of the Groceries Supply Order but for the <eol/>reference to direct supply;</p>
+              </li>
+              <li>
+                <p>“large retailer” means a designated retailer as defined by Article 2 of the <eol/>Groceries Supply Order or a subsidiary of a designated retailer;</p>
+              </li>
+              <li>
+                <p>“supplier” means—</p>
+                <ol currentId="idp532208">
+                  <li>
+                    <p>a direct supplier; or</p>
+                  </li>
+                  <li>
+                    <p>an indirect supplier;</p>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <p>“supply agreement” has the meaning given by Article 2 of the Groceries <eol/>Supply Order.</p>
+              </li>
+            </ul>
+          </content>
+        </section>
+        <section currentId="sec23">
+          <num>23</num>
+          <heading currentId="sec23-heading">Orders</heading>
+          <subsection currentId="sec23.1">
+            <num>1</num>
+            <content currentId="sec23.1-content">
+              <p>Orders under this Act are to be made by statutory instrument.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec23.2">
+            <num>2</num>
+            <content currentId="sec23.2-content">
+              <p>A statutory instrument containing an order under section 16(1) or (2)(a) or (b) <eol/>may not be made unless a draft of the instrument has been laid before and <eol/>approved by a resolution of each House of Parliament.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec23.3">
+            <num>3</num>
+            <content currentId="sec23.3-content">
+              <p>Any other statutory instrument under this Act, other than one that contains <eol/>only an order under section 25, is subject to annulment as an instrument to <eol/>which section 5(1) of the Statutory Instruments Act 1946 applies.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec23.4">
+            <num>4</num>
+            <content currentId="sec23.4-content">
+              <p>Orders under this Act may include measures that are consequential, <eol/>supplementary, incidental, transitional or transitory.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec24">
+          <num>24</num>
+          <heading currentId="sec24-heading">Extent</heading>
+          <intro currentId="sec24-intro">
+            <p>This Act extends to—</p>
+          </intro>
+          <paragraph currentId="sec24.a">
+            <num>a</num>
+            <content currentId="sec24.a-content">
+              <p>England and Wales;</p>
+            </content>
+          </paragraph>
+          <paragraph currentId="sec24.b">
+            <num>b</num>
+            <content currentId="sec24.b-content">
+              <p>Scotland; and</p>
+            </content>
+          </paragraph>
+          <paragraph currentId="sec24.c">
+            <num>c</num>
+            <content currentId="sec24.c-content">
+              <p>Northern Ireland.</p>
+            </content>
+          </paragraph>
+        </section>
+        <section currentId="sec25">
+          <num>25</num>
+          <heading currentId="sec25-heading">Commencement</heading>
+          <subsection currentId="sec25.1">
+            <num>1</num>
+            <content currentId="sec25.1-content">
+              <p>Sections 1 to 21 and the Schedules come into force on whatever day the <eol/>Secretary of State by order appoints.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec25.2">
+            <num>2</num>
+            <content currentId="sec25.2-content">
+              <p>The other provisions of this Act come into force on the day on which this Act <eol/>is passed.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec25.3">
+            <num>3</num>
+            <content currentId="sec25.3-content">
+              <p>An order under subsection (1) may make different provision for different <eol/>purposes.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec26">
+          <num>26</num>
+          <heading currentId="sec26-heading">Short title</heading>
+          <content currentId="sec26-content">
+            <p>This Act may be cited as the Groceries Code Adjudicator Act 2012.</p>
+          </content>
+        </section>
+      </part>
+      <hcontainer name="schedules" currentId="idp568208">
+        <heading currentId="idp568208-heading">SCHEDULES</heading>
+        <hcontainer name="schedule" currentId="sch1">
+          <num>SCHEDULE 1</num>
+          <heading currentId="sch1-heading">The Adjudicator</heading>
+          <part currentId="idp571888">
+            <heading currentId="idp571888-heading">Status</heading>
+            <section currentId="sch1-sec1">
+              <num>1</num>
+              <content currentId="sch1-sec1-content">
+                <p>The Adjudicator is a corporation sole.</p>
+              </content>
+            </section>
+            <section currentId="sch1-sec2">
+              <num>2</num>
+              <content currentId="sch1-sec2-content">
+                <p>The Adjudicator carries out functions on behalf of the Crown.</p>
+              </content>
+            </section>
+          </part>
+          <part currentId="idp576240">
+            <heading currentId="idp576240-heading">Appointment</heading>
+            <section currentId="sch1-sec3">
+              <num>3</num>
+              <content currentId="sch1-sec3-content">
+                <p>The Adjudicator is to be appointed by the Secretary of State.</p>
+              </content>
+            </section>
+          </part>
+          <part currentId="idp578880">
+            <heading currentId="idp578880-heading">Deputy Adjudicator</heading>
+            <section currentId="sch1-sec4">
+              <num>4</num>
+              <content currentId="sch1-sec4-content">
+                <p>The Secretary of State may appoint a Deputy Adjudicator.</p>
+              </content>
+            </section>
+            <section currentId="sch1-sec5">
+              <num>5</num>
+              <content currentId="sch1-sec5-content">
+                <p>The Deputy Adjudicator may carry out any of the Adjudicator’s functions.</p>
+              </content>
+            </section>
+          </part>
+          <part currentId="idp583424">
+            <heading currentId="idp583424-heading">Term of office etc</heading>
+            <section currentId="sch1-sec6">
+              <num>6</num>
+              <intro currentId="sch1-sec6-intro">
+                <p>A person holds and vacates office as the Adjudicator or Deputy Adjudicator <eol/>in accordance with the terms of his or her appointment, but—</p>
+              </intro>
+              <paragraph currentId="sch1-sec6.a">
+                <num>a</num>
+                <content currentId="sch1-sec6.a-content">
+                  <p>a person’s initial term of office may not be more than four years;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec6.b">
+                <num>b</num>
+                <content currentId="sch1-sec6.b-content">
+                  <p>a person may be appointed for one or two further terms of office;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec6.c">
+                <num>c</num>
+                <content currentId="sch1-sec6.c-content">
+                  <p>a further term may not be more than three years;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec6.d">
+                <num>d</num>
+                <content currentId="sch1-sec6.d-content">
+                  <p>a person may resign by giving written notice to the Secretary of State; <eol/>and</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec6.e">
+                <num>e</num>
+                <content currentId="sch1-sec6.e-content">
+                  <p>the Secretary of State may dismiss the person if satisfied that the <eol/>person is unable, unwilling or unfit to perform his or her functions.</p>
+                </content>
+              </paragraph>
+            </section>
+            <section currentId="sch1-sec7">
+              <num>7</num>
+              <content currentId="sch1-sec7-content">
+                <p>Service as the Adjudicator, or as the Deputy Adjudicator, is not service in the <eol/>civil service of the state.</p>
+              </content>
+            </section>
+          </part>
+          <part currentId="idp597904">
+            <heading currentId="idp597904-heading">Remuneration</heading>
+            <section currentId="sch1-sec8">
+              <num>8</num>
+              <subsection currentId="sch1-sec8.1">
+                <num>1</num>
+                <intro currentId="sch1-sec8.1-intro">
+                  <p>The Adjudicator may pay to or in respect of the person holding office as the <eol/>Adjudicator or the Deputy Adjudicator—</p>
+                </intro>
+                <paragraph currentId="sch1-sec8.1.a">
+                  <num>a</num>
+                  <content currentId="sch1-sec8.1.a-content">
+                    <p>remuneration;</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec8.1.b">
+                  <num>b</num>
+                  <content currentId="sch1-sec8.1.b-content">
+                    <p>allowances;</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec8.1.c">
+                  <num>c</num>
+                  <content currentId="sch1-sec8.1.c-content">
+                    <p>sums by way of or in respect of pensions.</p>
+                  </content>
+                </paragraph>
+              </subsection>
+              <subsection currentId="sch1-sec8.2">
+                <num>2</num>
+                <content currentId="sch1-sec8.2-content">
+                  <p>The Secretary of State must determine rates and eligibility criteria for the <eol/>payments.</p>
+                </content>
+              </subsection>
+            </section>
+          </part>
+          <part currentId="idp609232">
+            <heading currentId="idp609232-heading">Staff</heading>
+            <section currentId="sch1-sec9">
+              <num>9</num>
+              <subsection currentId="sch1-sec9.1">
+                <num>1</num>
+                <content currentId="sch1-sec9.1-content">
+                  <p>The Adjudicator may make arrangements with the Secretary of State or any <eol/>other public authority for staff to be seconded to the Adjudicator.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec9.2">
+                <num>2</num>
+                <content currentId="sch1-sec9.2-content">
+                  <p>The arrangements may include provision for payments by the Adjudicator.</p>
+                </content>
+              </subsection>
+            </section>
+          </part>
+          <part currentId="idp614736">
+            <heading currentId="idp614736-heading">Conflicts of interest</heading>
+            <section currentId="sch1-sec10">
+              <num>10</num>
+              <subsection currentId="sch1-sec10.1">
+                <num>1</num>
+                <intro currentId="sch1-sec10.1-intro">
+                  <p>The Adjudicator must make procedural arrangements for dealing with any <eol/>conflict of interest affecting—</p>
+                </intro>
+                <paragraph currentId="sch1-sec10.1.a">
+                  <num>a</num>
+                  <content currentId="sch1-sec10.1.a-content">
+                    <p>the Adjudicator;</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec10.1.b">
+                  <num>b</num>
+                  <content currentId="sch1-sec10.1.b-content">
+                    <p>the Deputy Adjudicator; or</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec10.1.c">
+                  <num>c</num>
+                  <content currentId="sch1-sec10.1.c-content">
+                    <p>staff working for the Adjudicator.</p>
+                  </content>
+                </paragraph>
+              </subsection>
+              <subsection currentId="sch1-sec10.2">
+                <num>2</num>
+                <content currentId="sch1-sec10.2-content">
+                  <p>The Adjudicator must consult the Secretary of State before making or <eol/>revising the arrangements.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec10.3">
+                <num>3</num>
+                <content currentId="sch1-sec10.3-content">
+                  <p>The Adjudicator must publish a summary of the arrangements.</p>
+                </content>
+              </subsection>
+            </section>
+            <section currentId="sch1-sec11">
+              <num>11</num>
+              <subsection currentId="sch1-sec11.1">
+                <num>1</num>
+                <content currentId="sch1-sec11.1-content">
+                  <p>This paragraph applies if both the Adjudicator and the Deputy Adjudicator <eol/>are unable to act in relation to a matter because of conflicts of interest.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec11.2">
+                <num>2</num>
+                <content currentId="sch1-sec11.2-content">
+                  <p>The Secretary of State must appoint a person to act as a Deputy Adjudicator <eol/>if asked to do so by the Adjudicator.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec11.3">
+                <num>3</num>
+                <content currentId="sch1-sec11.3-content">
+                  <p>An acting Deputy Adjudicator may carry out any of the Adjudicator’s <eol/>functions for the purpose of dealing with the matter in respect of which he <eol/>or she is appointed.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec11.4">
+                <num>4</num>
+                <content currentId="sch1-sec11.4-content">
+                  <p>A person holds and vacates office as an acting Deputy Adjudicator in <eol/>accordance with the terms of his or her appointment (subject to sub-<eol/>paragraph (5)).</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec11.5">
+                <num>5</num>
+                <content currentId="sch1-sec11.5-content">
+                  <p>Paragraphs 6(d) and <ref class="internal" href="#sch1-sec6.e" currentId="idp637696">(e)</ref><ref class="internal" href="#sch1-sec8.1" currentId="idp638432"/> and <ref class="internal" href="#sch1-sec7" currentId="idp639184">7</ref> and <ref class="internal" href="#sch1-sec8" currentId="idp640064">8</ref> apply to an acting Deputy Adjudicator <eol/>as they apply to the Deputy Adjudicator.</p>
+                </content>
+              </subsection>
+            </section>
+          </part>
+          <part currentId="idp641920">
+            <heading currentId="idp641920-heading">Validity of acts</heading>
+            <section currentId="sch1-sec12">
+              <num>12</num>
+              <intro currentId="sch1-sec12-intro">
+                <p>A defect in appointment does not affect the validity of things done by—</p>
+              </intro>
+              <paragraph currentId="sch1-sec12.a">
+                <num>a</num>
+                <content currentId="sch1-sec12.a-content">
+                  <p>the Adjudicator;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec12.b">
+                <num>b</num>
+                <content currentId="sch1-sec12.b-content">
+                  <p>the Deputy Adjudicator; or</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec12.c">
+                <num>c</num>
+                <content currentId="sch1-sec12.c-content">
+                  <p>an acting Deputy Adjudicator.</p>
+                </content>
+              </paragraph>
+            </section>
+          </part>
+          <part currentId="idp649456">
+            <heading currentId="idp649456-heading">Application of seal and proof of documents</heading>
+            <section currentId="sch1-sec13">
+              <num>13</num>
+              <intro currentId="sch1-sec13-intro">
+                <p>The application of the Adjudicator’s seal must be authenticated by the <eol/>signature of—</p>
+              </intro>
+              <paragraph currentId="sch1-sec13.a">
+                <num>a</num>
+                <content currentId="sch1-sec13.a-content">
+                  <p>the Adjudicator; or</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec13.b">
+                <num>b</num>
+                <content currentId="sch1-sec13.b-content">
+                  <p>some other person who has been authorised by the Adjudicator for <eol/>that purpose (whether generally or specially).</p>
+                </content>
+              </paragraph>
+            </section>
+            <section currentId="sch1-sec14">
+              <num>14</num>
+              <intro currentId="sch1-sec14-intro">
+                <p>A document purporting to be duly executed under the seal—</p>
+              </intro>
+              <paragraph currentId="sch1-sec14.a">
+                <num>a</num>
+                <content currentId="sch1-sec14.a-content">
+                  <p>is to be received in evidence; and</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec14.b">
+                <num>b</num>
+                <content currentId="sch1-sec14.b-content">
+                  <p>is to be treated as duly executed unless the contrary is shown.</p>
+                </content>
+              </paragraph>
+            </section>
+          </part>
+          <part currentId="idp661040">
+            <heading currentId="idp661040-heading">Accounts</heading>
+            <section currentId="sch1-sec15">
+              <num>15</num>
+              <subsection currentId="sch1-sec15.1">
+                <num>1</num>
+                <content currentId="sch1-sec15.1-content">
+                  <p>The Adjudicator must keep proper accounts and proper records in relation <eol/>to the accounts.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec15.2">
+                <num>2</num>
+                <content currentId="sch1-sec15.2-content">
+                  <p>For each financial year the Adjudicator must prepare a statement of accounts <eol/>in respect of that financial year.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec15.3">
+                <num>3</num>
+                <content currentId="sch1-sec15.3-content">
+                  <p>The statement must be in whatever form the Secretary of State directs.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch1-sec15.4">
+                <num>4</num>
+                <intro currentId="sch1-sec15.4-intro">
+                  <p>The Adjudicator must send a copy of the statement, within a period <eol/>specified by the Secretary of State, to—</p>
+                </intro>
+                <paragraph currentId="sch1-sec15.4.a">
+                  <num>a</num>
+                  <content currentId="sch1-sec15.4.a-content">
+                    <p>the Secretary of State; and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec15.4.b">
+                  <num>b</num>
+                  <content currentId="sch1-sec15.4.b-content">
+                    <p>the Comptroller and Auditor General.</p>
+                  </content>
+                </paragraph>
+              </subsection>
+              <subsection currentId="sch1-sec15.5">
+                <num>5</num>
+                <intro currentId="sch1-sec15.5-intro">
+                  <p>After the Adjudicator has sent a copy of a statement of accounts to the <eol/>Comptroller and Auditor General, the Comptroller and Auditor General <eol/>must—</p>
+                </intro>
+                <paragraph currentId="sch1-sec15.5.a">
+                  <num>a</num>
+                  <content currentId="sch1-sec15.5.a-content">
+                    <p>examine, certify and report on the statement; and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec15.5.b">
+                  <num>b</num>
+                  <content currentId="sch1-sec15.5.b-content">
+                    <p>send a copy of the certified statement and the report to the Secretary <eol/>of State as soon as possible.</p>
+                  </content>
+                </paragraph>
+              </subsection>
+              <subsection currentId="sch1-sec15.6">
+                <num>6</num>
+                <content currentId="sch1-sec15.6-content">
+                  <p>The Secretary of State must lay before Parliament a copy of the certified <eol/>statement and of the report.</p>
+                </content>
+              </subsection>
+            </section>
+          </part>
+          <part currentId="idp681152">
+            <heading currentId="idp681152-heading">Incidental powers</heading>
+            <section currentId="sch1-sec16">
+              <num>16</num>
+              <content currentId="sch1-sec16-content">
+                <p>The Adjudicator may do anything that is calculated to facilitate the carrying <eol/>out of the Adjudicator’s functions or is conducive or incidental to the <eol/>carrying out of those functions.</p>
+              </content>
+            </section>
+          </part>
+          <part currentId="idp684576">
+            <heading currentId="idp684576-heading">Assistance from Office of Fair Trading</heading>
+            <section currentId="sch1-sec17">
+              <num>17</num>
+              <content currentId="sch1-sec17-content">
+                <p>The Office of Fair Trading may provide staff, premises, facilities or other <eol/>assistance to the Adjudicator (with or without charge).</p>
+              </content>
+            </section>
+          </part>
+          <part currentId="idp687584">
+            <heading currentId="idp687584-heading">Exemption from liability for damages</heading>
+            <section currentId="sch1-sec18">
+              <num>18</num>
+              <subsection currentId="sch1-sec18.1">
+                <num>1</num>
+                <intro currentId="sch1-sec18.1-intro">
+                  <p>The following are exempt from liability in damages for anything done or <eol/>omitted in the exercise or purported exercise of their functions—</p>
+                </intro>
+                <paragraph currentId="sch1-sec18.1.a">
+                  <num>a</num>
+                  <content currentId="sch1-sec18.1.a-content">
+                    <p>the Adjudicator;</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec18.1.b">
+                  <num>b</num>
+                  <content currentId="sch1-sec18.1.b-content">
+                    <p>the Deputy Adjudicator;</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec18.1.c">
+                  <num>c</num>
+                  <content currentId="sch1-sec18.1.c-content">
+                    <p>acting Deputy Adjudicators;</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec18.1.d">
+                  <num>d</num>
+                  <content currentId="sch1-sec18.1.d-content">
+                    <p>staff working for the Adjudicator.</p>
+                  </content>
+                </paragraph>
+              </subsection>
+              <subsection currentId="sch1-sec18.2">
+                <num>2</num>
+                <intro currentId="sch1-sec18.2-intro">
+                  <p>But sub-paragraph <ref class="internal" href="#sch1-sec18.1" currentId="idp699072">(1)</ref> does not apply—</p>
+                </intro>
+                <paragraph currentId="sch1-sec18.2.a">
+                  <num>a</num>
+                  <content currentId="sch1-sec18.2.a-content">
+                    <p>if the act or omission is shown to have been in bad faith; or</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch1-sec18.2.b">
+                  <num>b</num>
+                  <content currentId="sch1-sec18.2.b-content">
+                    <p>so as to prevent an award of damages made in respect of an act or <eol/>omission on the ground that the act or omission was unlawful as a <eol/>result of section 6(1) of the Human Rights Act 1998.</p>
+                  </content>
+                </paragraph>
+              </subsection>
+            </section>
+          </part>
+        </hcontainer>
+        <hcontainer name="schedule" currentId="sch2">
+          <num>SCHEDULE 2</num>
+          <heading currentId="sch2-heading">Information powers</heading>
+          <section currentId="sch2-sec1">
+            <num>1</num>
+            <subsection currentId="sch2-sec1.1">
+              <num>1</num>
+              <intro currentId="sch2-sec1.1-intro">
+                <p>The Adjudicator may, for the purposes of an investigation, require a <eol/>person—</p>
+              </intro>
+              <paragraph currentId="sch2-sec1.1.a">
+                <num>a</num>
+                <content currentId="sch2-sec1.1.a-content">
+                  <p>to provide documents in the person’s possession or control;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec1.1.b">
+                <num>b</num>
+                <content currentId="sch2-sec1.1.b-content">
+                  <p>to provide other information in the person’s possession or control.</p>
+                </content>
+              </paragraph>
+            </subsection>
+            <subsection currentId="sch2-sec1.2">
+              <num>2</num>
+              <intro currentId="sch2-sec1.2-intro">
+                <p>The Adjudicator may, for the purposes of monitoring whether a large <eol/>retailer has followed a recommendation made under section 7, require the <eol/>retailer—</p>
+              </intro>
+              <paragraph currentId="sch2-sec1.2.a">
+                <num>a</num>
+                <content currentId="sch2-sec1.2.a-content">
+                  <p>to provide documents in the retailer’s possession or control;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec1.2.b">
+                <num>b</num>
+                <content currentId="sch2-sec1.2.b-content">
+                  <p>to provide other information in the retailer’s possession or control.</p>
+                </content>
+              </paragraph>
+            </subsection>
+            <subsection currentId="sch2-sec1.3">
+              <num>3</num>
+              <content currentId="sch2-sec1.3-content">
+                <p>A requirement imposed under this paragraph may include a requirement <eol/>for information to be provided orally.</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch2-sec1.4">
+              <num>4</num>
+              <intro currentId="sch2-sec1.4-intro">
+                <p>A requirement is imposed by giving a written notice specifying—</p>
+              </intro>
+              <paragraph currentId="sch2-sec1.4.a">
+                <num>a</num>
+                <content currentId="sch2-sec1.4.a-content">
+                  <p>to whom the information is to be provided;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec1.4.b">
+                <num>b</num>
+                <content currentId="sch2-sec1.4.b-content">
+                  <p>where it is to be provided;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec1.4.c">
+                <num>c</num>
+                <content currentId="sch2-sec1.4.c-content">
+                  <p>when, or the time by which, it is to be provided;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec1.4.d">
+                <num>d</num>
+                <content currentId="sch2-sec1.4.d-content">
+                  <p>the form and manner in which it is to be provided.</p>
+                </content>
+              </paragraph>
+            </subsection>
+            <subsection currentId="sch2-sec1.5">
+              <num>5</num>
+              <content currentId="sch2-sec1.5-content">
+                <p>A notice must also explain the possible consequences of failing to comply.</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch2-sec1.6">
+              <num>6</num>
+              <content currentId="sch2-sec1.6-content">
+                <p>If a notice requires an individual to attend at a particular place the <eol/>Adjudicator must offer to pay necessary travelling expenses.</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch2-sec1.7">
+              <num>7</num>
+              <intro currentId="sch2-sec1.7-intro">
+                <p>A person may not be required under this paragraph to do anything that the <eol/>person could not be compelled to do in civil proceedings before—</p>
+              </intro>
+              <paragraph currentId="sch2-sec1.7.a">
+                <num>a</num>
+                <content currentId="sch2-sec1.7.a-content">
+                  <p>the High Court in England and Wales or Northern Ireland; or</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec1.7.b">
+                <num>b</num>
+                <content currentId="sch2-sec1.7.b-content">
+                  <p>the Court of Session in Scotland.</p>
+                </content>
+              </paragraph>
+            </subsection>
+          </section>
+          <section currentId="sch2-sec2">
+            <num>2</num>
+            <subsection currentId="sch2-sec2.1">
+              <num>1</num>
+              <content currentId="sch2-sec2.1-content">
+                <p>It is an offence for a person intentionally to fail to comply with a requirement <eol/>under this Schedule.</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch2-sec2.2">
+              <num>2</num>
+              <content currentId="sch2-sec2.2-content">
+                <p>It is a defence for a person charged with that offence to prove that there was <eol/>a reasonable excuse for the person’s failure.</p>
+              </content>
+            </subsection>
+          </section>
+          <section currentId="sch2-sec3">
+            <num>3</num>
+            <content currentId="sch2-sec3-content">
+              <p>It is an offence for a person knowingly to provide false information in <eol/>response to a requirement under this Schedule.</p>
+            </content>
+          </section>
+          <section currentId="sch2-sec4">
+            <num>4</num>
+            <intro currentId="sch2-sec4-intro">
+              <p>A person guilty of an offence under this Schedule is liable—</p>
+            </intro>
+            <paragraph currentId="sch2-sec4.a">
+              <num>a</num>
+              <content currentId="sch2-sec4.a-content">
+                <p>on summary conviction, to a fine not exceeding the statutory <eol/>maximum;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sch2-sec4.b">
+              <num>b</num>
+              <content currentId="sch2-sec4.b-content">
+                <p>on conviction on indictment, to a fine.</p>
+              </content>
+            </paragraph>
+          </section>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </bill>
+</akomaNtoso>

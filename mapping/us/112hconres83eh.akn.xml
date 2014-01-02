@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06 http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd">
+  <bill name="concurrent resolution">
+    <meta>
+      <identification source="#mangiafico">
+        <FRBRWork>
+          <FRBRthis value="/us/resolution/concurrent/house/2011-10-03/83/main"/>
+          <FRBRuri value="/us/resolution/concurrent/house/2011-10-03/83"/>
+          <FRBRdate date="2011-10-03" name="generation"/>
+          <FRBRauthor href="#house" as="#author"/>
+          <FRBRcountry value="US"/>
+          <FRBRnumber value="83"/>
+          <FRBRprescriptive value="false"/>
+          <FRBRauthoritative value="true"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us/resolution/concurrent/house/2011-10-03/83/eng@/main"/>
+          <FRBRuri value="/us/resolution/concurrent/house/2011-10-03/83/eng@"/>
+          <FRBRdate date="2011-10-03" name="generation"/>
+          <FRBRauthor href="#house" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us/resolution/concurrent/house/2011-10-03/83/eng@/main.xml"/>
+          <FRBRuri value="/us/resolution/concurrent/house/2011-10-03/83/eng@.akn"/>
+          <FRBRdate date="2013-12-31" name="generation"/>
+          <FRBRauthor href="#mangiafico"/>
+          <FRBRformat value="xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-03" name="H. CON. RES." number="83" showAs="H. CON. RES. 83"/>
+      <lifecycle source="#mangiafico">
+        <eventRef currentId="refidp13328" date="2011-10-03" type="generation" source="#mangiafico"/>
+      </lifecycle>
+      <references source="#mangiafico">
+        <TLCOrganization currentId="house" href="/ontology/organization/us/us.House" showAs="United States House of Representatives"/>
+        <TLCOrganization currentId="senate" href="/ontology/organization/us/us.Senate" showAs="United States Senate"/>
+        <TLCPerson currentId="refidp14224" href="ontology/persons/us.KarenLMiller," showAs="Karen L. Miller,"/>
+        <TLCPerson currentId="mangiafico" href="/ontology/persons/us.Mangiafico" showAs="Jim Mangiafico"/>
+        <TLCRole currentId="attestor" href="/ontology/role/us.attestor" showAs="Attestor"/>
+        <TLCRole currentId="refidp14704" href="ontology/role/us.Clerk" showAs="Clerk."/>
+        <TLCRole currentId="author" href="/ontology/role/author" showAs="Author"/>
+      </references>
+    </meta>
+    <coverPage>
+      <p style="display:none">
+        <docStage>Engrossed-in-House</docStage>
+      </p>
+      <p class="congress">
+        <legislature>112th CONGRESS</legislature>
+        <br/>
+        <session>1st Session</session>
+      </p>
+      <p>
+        <docNumber>H. CON. RES. 83</docNumber>
+      </p>
+      <p style="display:none">
+        <inline name="chamber">IN THE HOUSE OF REPRESENTATIVES</inline>
+      </p>
+      <block name="Horizontal Rule"/>
+    </coverPage>
+    <preface>
+      <p>
+        <docType>CONCURRENT RESOLUTION</docType>
+      </p>
+      <p style="display:none">
+        <docTitle>Directing the Clerk of the House of Representatives to make a further correction in the enrollment of H.R. 2608.</docTitle>
+      </p>
+      <p style="display:none">
+        <docDate date="2011-10-03"/>
+      </p>
+      <formula name="resolution" currentId="HEE2EC467779048FABA45C7189ECE8053">
+        <p><i>Resolved by the House of Representatives (the Senate concurring), </i>That, in the enrollment of the bill (H.R. 2608) making continuing appropriations for fiscal year 2012, and for other purposes, the Clerk of the House of Representatives shall make the following further correction:</p>
+      </formula>
+    </preface>
+    <body>
+      <section currentId="H9B19802EF0754A859E5D1C17E376B9ED">
+        <content currentId="H9B19802EF0754A859E5D1C17E376B9ED-content">
+          <p>Amend section 124 to read as follows:</p>
+          <p>
+            <mod currentId="H35F82FE37F5C46F4AD248DA7AC5451F0-mod">
+              <quotedStructure currentId="H35F82FE37F5C46F4AD248DA7AC5451F0" startQuote="“" endQuote="”">
+                <section currentId="HCF4B628E62414DD0917B15FA009F57C6">
+                  <num>Sec. 124.</num>
+                  <content currentId="HCF4B628E62414DD0917B15FA009F57C6-content">
+                    <p>Section 8909a(d)(3)(A)(v) of title 5, United States Code, shall be applied by substituting the date specified in section 106(3) of this Act for the date specified in such section 8909a(d)(3)(A)(v).</p>
+                  </content>
+                </section>
+              </quotedStructure>
+            </mod>
+            <span class="after">.</span>
+          </p>
+        </content>
+      </section>
+    </body>
+    <conclusions>
+      <p>
+        <date date="2011-10-03">Passed the House of Representatives October 3, 2011.</date>
+      </p>
+      <p>Attest:</p>
+      <p class="signature">
+        <signature>
+          <person currentId="idp14224" refersTo="#refidp14224" as="#refidp14704" style="display:none">Karen L. Miller,</person>
+          <role currentId="idp14704" refersTo="#refidp14704">Clerk.</role>
+        </signature>
+      </p>
+    </conclusions>
+  </bill>
+</akomaNtoso>

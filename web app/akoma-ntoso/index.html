@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style> li { cursor: pointer } </style>
+</head>
+<body>
+	<h1>Akoma Ntoso Converter</h1>
+	<h2>converts US & UK legislative documents to Akoma Ntoso format</h2>
+	<form method=GET>
+		<label>
+			<span>Source URL:</span>
+			<input type=text id=box name=source style="width:75em">
+		</label>
+		<label>
+			<input type=checkbox name=indent value=true checked>
+			<span>indent source</span>
+		</label>
+		<br>
+		<input type=submit value=Convert>
+		<label>
+			<input type=checkbox name=style value=true>
+			<span>include stylesheet</span>
+		</label>
+	</form>
+	<p>Below are some example source documents. Click to add URL above:</p>
+	<ul>
+		<li>http://www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/xml/BILLS-112hconres83eh.xml</li>
+		<li>http://www.gpo.gov/fdsys/pkg/BILLS-112hr4310enr/xml/BILLS-112hr4310enr.xml</li>
+		<li>http://www.gpo.gov/fdsys/pkg/BILLS-112hr1eas/xml/BILLS-112hr1eas.xml</li>
+		<li>http://www.gpo.gov/fdsys/pkg/BILLS-113hr1120rh/xml/BILLS-113hr1120rh.xml</li>
+		<li>http://data.parliament.uk/resources/UK_Parliament_Bill_Data/Finance_Bill/hc049financebook.mif.xml</li>
+		<li>http://data.parliament.uk/resources/UK_Parliament_Bill_Data/Groceries_Code_Adjudicator_Bill/hc113groceriesbook.mif.xml</li>
+		<li>http://data.parliament.uk/resources/UK_Parliament_Bill_Data/HGV_Road_User_Levy_Bill/hgv077book.mif.xml</li>
+		<li>http://data.parliament.uk/resources/UK_Parliament_Bill_Data/Wild_Animals_Bill/hc036wildanimalsbook.mif.xml</li>
+	</ul>
+	<script>
+		var box = document.getElementById('box');
+		Array.prototype.forEach.call(document.getElementsByTagName('li'), function(li) {
+			li.addEventListener('click', function() { box.value = li.innerText; }, false);
+		});
+	</script>
+	</body>
+</html>

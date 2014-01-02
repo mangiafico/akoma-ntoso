@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Jim Mangiafico">
+<title>Akoma Ntoso Converter</title>
+</head>
+
+<body style="padding:0 3em 3em 3em; font-family:sans-serif">
+
+<h1 style="margin-bottom:0.33em; text-align:center">Akoma Ntoso Converter</h1>
+<div style="text-align:center">Jim Mangiafico</div>
+
+<h2>Summary</h2>
+
+<p>Akoma Ntoso Converter is a set of simple tools for converting US and UK legislative documents to the Akoma Ntoso document format. The conversions are defined as XSL transforms and may be performed by any of the many widely available XSLT processors. XSLT is a mature technology upon which it is easy to build both server-side and client-side applications. I have included a couple such applications by way of example.</p>
+
+<h3>Web app</h3>
+
+<p>The included web application, an instance of which is running at <a href="http://akoma-ntoso.appspot.com">akoma-ntoso.appspot.com</a>, converts documents to Akoma Ntoso in response to common HTTP requests. Visit the app with a web browser, enter the URL of the source XML into the form, and the app responds with an Akoma Ntoso representation of the source document. Requests can even be made without a browser by passing the source document's URL directly as the "source" parameter, e.g.,</p>
+
+<ul>
+	<li><a href="http://akoma-ntoso.appspot.com/?source=www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/xml/BILLS-112hconres83eh.xml">http://akoma-ntoso.appspot.com/?source=www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/xml/BILLS-112hconres83eh.xml</a></li>
+	<li><a href="http://akoma-ntoso.appspot.com/?source=data.parliament.uk/resources/UK_Parliament_Bill_Data/Wild_Animals_Bill/hc036wildanimalsbook.mif.xml">http://akoma-ntoso.appspot.com/?source=data.parliament.uk/resources/UK_Parliament_Bill_Data/Wild_Animals_Bill/hc036wildanimalsbook.mif.xml</a></li>
+</ul>
+
+<p>Including an "indent" parameter with the value of "true" (by appending <code>&amp;indent=true</code> to the URL) indents or "pretty prints" the output. Appending <code>&amp;style=true</code> produces a document with a stylesheet instruction, allowing the Akoma Ntoso document to approximate the appearance of its original when viewed with a modern web browser.</p>
+
+<h3>Chrome extension</h3>
+
+<p>Also included is an extension for Google's Chrome browser, which converts documents to Akoma Ntoso directly within the browser. The extension can be installed from the included source files by following the instructions at <a href="http://developer.chrome.com/extensions/getstarted.html#unpacked">http://developer.chrome.com/extensions/getstarted.html#unpacked</a> or downloaded from the Chrome Web Store at <a href="https://chrome.google.com/webstore/detail/enobdkimiadjdaphjbjegihkganhkimj">https://chrome.google.com/webstore/detail/enobdkimiadjdaphjbjegihkganhkimj</a>.</p>
+
+<p>With the extension installed:</p>
+
+<ol>
+	<li>Navigate to the source page of any US document on the GPO's <a href="http://www.gpo.gov/fdsys/search/home.action">Federal Digital System website</a> or any UK document on data.parliament.uk, e.g., <a href="http://www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/xml/BILLS-112hconres83eh.xml">http://www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/xml/BILLS-112hconres83eh.xml</a>, or <a href="http://data.parliament.uk/resources/UK_Parliament_Bill_Data/Wild_Animals_Bill/hc036wildanimalsbook.mif.xml">http://data.parliament.uk/resources/UK_Parliament_Bill_Data/Wild_Animals_Bill/hc036wildanimalsbook.mif.xml</a>.</li>
+	<li>A button with the Akoma Ntoso logo will appear at the right of the address bar.</li>
+	<li>Click the button, and the converted document appears in the window.</li>
+</ol>
+
+<p>In addition, the extension adds links to Akoma Ntoso formatted documents within document overview pages on the GPO's website, e.g., <a href="http://www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/content-detail.html">http://www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/content-detail.html</a>.</p>
+
+<p>Once the Akoma Ntoso document appears, you may save it to your computer and use it as you wish. To view a styled version of the document, right click anywhere in the browser window and choose "Show style" from the context menu.</p>
+
+<h3>Other XSLT processors</h3>
+
+<p>Converting document to Akoma Ntoso with the included XSL transforms can be done by any XSLT processor and does not require a custom application like the above.</p>
+
+<p>Each conversion requires two passes: the first to correct errors and irregularities in the source file and the second to effect the conversion to Akoma Ntoso. The first step is necessary because the source documents are in formats considerably more permissive than Akoma Ntoso. (See the discussion below of errors and other irregularities in the source documents.) Although a single XSLT file could be written to perform both steps together, I chose to separate the concerns for the sake of code clarity and maintainability.</p>
+
+<p>Included are four XSLT files: usfix.xsl, us2an.xsl, ukfix.xsl &amp; uk2an.xsl. Converting a US document requires first transforming it with usfix.xsl and then transforming the result with us2an.xsl. Similarly, UK documents should be processed first with ukfix.xsl and then with uk2an.xsl.</p>
+
+<h2>Documentation</h2>
+
+<h3>XML mapping</h3>
+
+<p>Akoma Ntoso mappings of the four US and four UK documents are included in the 'mapping' directory. They were created with the included XSLT files and the <a href="http://xmlsoft.org/XSLT/xsltproc2.html">xsltproc</a> processor. Each conforms to the <a href="http://www.akomantoso.org/release-notes/akoma-ntoso-3.0-schema/schema-for-AKOMA-NTOSO-3.0">Akoma Ntoso 3.0 Schema</a>. As of the time of this submission, the latest version of the schema available at <a href="http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd">http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd</a> was CSD06; however, the included documents also conform to draft CSD07, dated 20 December 2013 and posted to the <a href="https://groups.google.com/forum/?fromgroups#!topic/akomantoso-xml/UfjGmw9RbOQ">akomantoso-xml Google group</a>.</p>
+
+<h3>XSLT</h3>
+
+<p>The XSL Transform files are included in the 'xslt' directory. They conform to the <a href="http://www.w3.org/TR/xslt">XSLT 1.0 specification</a> for maximum compatibility.</p>
+
+</p>To convert documents with a command-line processor, such as xsltproc, perform the following commands (replacing the paths and source filename as appropriate):</p>
+
+<pre><code>	xsltproc -o temp.xml path/to/usfix.xsl path/to/source.xml
+	xsltproc path/to/us2an.xsl temp.xml</code></pre>
+
+<p>So, for example, to convert the first US document from the directory containing the .xsl files, type the following two lines:</p>
+
+<pre><code>	xsltproc -o temp.xml usfix.xsl http://www.gpo.gov/fdsys/pkg/BILLS-112hconres83eh/xml/BILLS-112hconres83eh.xml
+	xsltproc us2an.xsl temp.xml</code></pre>
+
+<h3>Web app</h3>
+
+<p>The web application is written in <a href="http://www.python.org/">Python</a>. It adheres to the <a href="http://wsgi.readthedocs.org/en/latest/">Web Server Gateway Interface</a> and can be run on any WSGI-capable server (such as the <a href="http://httpd.apache.org/">Apache server</a> with the <a href="https://code.google.com/p/modwsgi/">mod_wsgi</a> module). The app uses Google's lightweight <a href="https://code.google.com/p/webapp-improved/">webapp2</a> framework and requires the <a href="http://lxml.de/">lxml</a> Python module (a <a href="http://xmlsoft.org/">libxml2</a> and <a href="http://xmlsoft.org/XSLT/">libxslt</a> wrapper) to perform the XSL transforms. The instance available at akoma-ntoso.appspot.com is hosted on <a href="https://developers.google.com/appengine/">Google App Engine</a>.</p>
+
+<h3>Chrome extension</h3>
+
+<p>The Chrome extension has no dependencies. It is written in JavaScript and performs XSL transforms using Chrome's native <a href="http://www.webkit.org/projects/xslt/">Webkit XSLTProcessor</a>.</p>
+
+<h3>Toolkit maintenance</h3>
+
+<p>The XSLT code is written to be generally applicable to documents conforming to the <a href="http://xml.house.gov/#dtd">US legislative document schemas</a> and the <a href="http://www.legislation.gov.uk/schema/legislation.xsd">UK's Crown Legislation Markup Language schema</a>. However, the code would need to be augmented to convert accurately any documents containing elements and errors not encountered in the example documents.</p>
+
+<p>Minimal effort would be required to maintain the web app or the Chrome extension, and other browser extensions could easily be written following this model.</p>
+
+<h2>Document formats</h2>
+
+<p>The principal limitation of the Akoma Ntoso documents converted from US and UK XML formats derives from the paucity of metadata in the source documents. Particularly helpful would be additional metadata relating to the lifecycle of the documents and their relationships to other documents.</p>
+
+<p>For suggested additions to the Akoma Ntoso schema, see my <a href="http://akoma-ntoso-markup.challengepost.com/submissions/18344-four-us-legislative-documents-in-akoma-ntoso">recommendations submitted in the last challenge</a>.</p>
+
+<p>Finally, errors and other irregularities in the source documents present considerable difficulties to the documents' conversion to Akoma Ntoso. Below are some of the problems that I encountered and that are corrected during the first pass of each conversion (by the usfix.xsl and ukfix.xsl transforms):</p>
+
+<h4>BILLS-112hr4310enr.xml</h4>
+<ul>
+	<li>This document contains no date that is easily readable by a computer. The date must be parsed from the verbose English text within the <code>&lt;enrolled-dateline&gt;</code> element.</li>
+	<li>Section 832 has two subsections numbered "b", and section 2844 has two subsections numbered "c". (This is an error with the content of the document not with its XML representation.) This is problematic because Akoma Ntoso favors element IDs that meaningfully represent their content. Because IDs must be unique, there cannot be two <code>&lt;subsection&gt;</code> elements with an currentId attribute of "sec832.b".</li>
+</ul>
+
+<h4>BILLS-112hr1eas.xml</h4>
+<ul>
+	<li>The "date" attribute of the <code>&lt;action-date&gt;</code> element is incorrect. The correct date must be parsed from the element's content.</li>
+	<li>The components are not properly nested; rather, all levels of the hierarchy appear as siblings. An element's proper place in the hierarchy must be inferred from its name and relative position.</li>
+</ul>
+
+<h4>hc049financebook.mif.xml</h4>
+<ul>
+	<li>Some <code>&lt;P1para&gt;</code> elements have both <code>&lt;P2&gt;</code> elements and <code>&lt;P2para&gt;</code> elements as children. See, e.g., lines 58342-431. The <code>&lt;P2para&gt;</code> children should instead be children of their preceding <code>&lt;P2&gt;</code>.</li>
+	<li>Some <code>&lt;P1para&gt;</code> elements have only <code>&lt;P2para&gt;</code> elements as children. See, e.g., lines 60716-77. These <code>&lt;P2para&gt;</code> children should instead be <code>&lt;P1para&gt;</code> elements, the first replacing their parent and the others siblings.</li>
+	<li>Some <code>&lt;P1para&gt;</code> elements have both <code>&lt;P2&gt;</code> and <code>&lt;P3&gt;</code> elements as children. See, e.g., lines 33543-659. The <code>&lt;P3&gt;</code>s should be children of their preceding <code>&lt;P2&gt;</code>.</li>
+	<li>Some <code>&lt;P1para&gt;</code> elements have <code>&lt;P2&gt;</code> elements as children as well as other children that don't belong. See, e.g., lines 33666-726. Those that don't belong should be children of a new <code>&lt;P2para&gt;</code> element, a child of their preceding <code>&lt;P2&gt;</code>.</li>
+	<li><code>&lt;BlockAmendment&gt;</code> elements occurring between <code>&lt;P3&gt;</code> elements, see lines 22506 and 22533, should be children of a new <code>&lt;P3para&gt;</code> element, a child of their preceding <code>&lt;P3&gt;</code>.</li>
+	<li><code>&lt;BlockAmendment&gt;</code> elements occurring between <code>&lt;P4&gt;</code> elements, see line 77651, should be children of a new <code>&lt;P4para&gt;</code> element, a child of their preceding <code>&lt;P4&gt;</code>.</li>
+	<li><code>&lt;ERROR_XrefPart&gt;</code>, <code>&lt;ERROR_XrefChapter&gt;</code> &amp; <code>&lt;ERROR_Undefined_CenteredHeading&gt;</code> elements</li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06 http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd">
+  <bill name="HGV Road User Levy">
+    <meta>
+      <identification source="#mangiafico">
+        <FRBRWork>
+          <FRBRthis value="/uk/bill/2012-10-23/77/main"/>
+          <FRBRuri value="/uk/bill/2012-10-23/77"/>
+          <FRBRdate date="2012-10-23" name="generation"/>
+          <FRBRauthor href="#commons" as="#author"/>
+          <FRBRcountry value="UK"/>
+          <FRBRnumber value="77"/>
+          <FRBRprescriptive value="false"/>
+          <FRBRauthoritative value="true"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/uk/bill/2012-10-23/77/eng@/main"/>
+          <FRBRuri value="/uk/bill/2012-10-23/77/eng@"/>
+          <FRBRdate date="2012-10-23" name="generation"/>
+          <FRBRauthor href="#commons" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/uk/bill/2012-10-23/77/eng@/main.xml"/>
+          <FRBRuri value="/uk/bill/2012-10-23/77/eng@.akn"/>
+          <FRBRdate date="2013-12-31" name="generation"/>
+          <FRBRauthor href="#mangiafico"/>
+          <FRBRformat value="xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#mangiafico">
+        <TLCOrganization currentId="commons" href="/ontology/organization/uk/uk.HouseOfCommons" showAs="Commons of the United Kingdom in Parliament"/>
+        <TLCRole currentId="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCPerson currentId="mangiafico" href="/ontology/persons/us.Mangiafico" showAs="Jim Mangiafico"/>
+      </references>
+      <proprietary xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ukm="http://www.tso.co.uk/assets/namespace/metadata" source="#mangiafico">
+        <dc:title>HGV Road User Levy Bill</dc:title>
+        <dc:identifier>ISBN TO GO HERE</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:creator>Parliamentary Counsel</dc:creator>
+        <dc:date>23/10/2012</dc:date>
+        <ukm:DocumentCategory Value="Bill"/>
+        <ukm:DocumentMainType Value="PublicBill"/>
+        <ukm:DocumentStatus Value="final"/>
+        <ukm:Number Value="Bill 77"/>
+        <ukm:Parliament Value="55"/>
+        <ukm:Session Value="2"/>
+        <ukm:House Value="House of Commons"/>
+      </proprietary>
+    </meta>
+    <coverPage>
+      <p class="center">
+        <shortTitle>HGV Road User Levy Bill</shortTitle>
+      </p>
+      <block name="Horizontal Rule" class="double"/>
+      <p class="center title">EXPLANATORY NOTES</p>
+      <p>Explanatory notes to the Bill, prepared by the Department for Transport, are <eol/>published separately as Bill 77—EN.</p>
+      <p class="center title">EUROPEAN CONVENTION ON HUMAN RIGHTS</p>
+      <p>Secretary Patrick McLoughlin has made the following statement under section <eol/>19(1)(a) of the Human Rights Act 1998:</p>
+      <p>In my view the provisions of the HGV Road User Levy Bill are compatible with the <eol/>Convention rights.</p>
+      <p class="center contents">Contents</p>
+      <toc currentId="idp13632" class="body">
+        <tocItem href="#" level="0" class="heading">Charging provisions</tocItem>
+        <tocItem href="#p00025" level="1" class="section">
+          <inline name="tocNum">1</inline>
+          <inline name="tocHeading">Charge to HGV road user levy</inline>
+        </tocItem>
+        <tocItem href="#p00026" level="1" class="section">
+          <inline name="tocNum">2</inline>
+          <inline name="tocHeading">Meaning of “heavy goods vehicle”</inline>
+        </tocItem>
+        <tocItem href="#p00030" level="1" class="section">
+          <inline name="tocNum">3</inline>
+          <inline name="tocHeading">Roads to which this Act applies</inline>
+        </tocItem>
+        <tocItem href="#p00032" level="1" class="section">
+          <inline name="tocNum">4</inline>
+          <inline name="tocHeading">Liability for levy</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">Payment, rebates, exemptions and reductions</tocItem>
+        <tocItem href="#p00036" level="1" class="section">
+          <inline name="tocNum">5</inline>
+          <inline name="tocHeading">Payment of levy for UK heavy goods vehicles</inline>
+        </tocItem>
+        <tocItem href="#p00038" level="1" class="section">
+          <inline name="tocNum">6</inline>
+          <inline name="tocHeading">Payment of levy for non-UK heavy goods vehicles</inline>
+        </tocItem>
+        <tocItem href="#p00042" level="1" class="section">
+          <inline name="tocNum">7</inline>
+          <inline name="tocHeading">Rebate of levy</inline>
+        </tocItem>
+        <tocItem href="#p00047" level="1" class="section">
+          <inline name="tocNum">8</inline>
+          <inline name="tocHeading">Exemptions and reductions</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">Collection and enforcement</tocItem>
+        <tocItem href="#p00048" level="1" class="section">
+          <inline name="tocNum">9</inline>
+          <inline name="tocHeading">Collection of levy</inline>
+        </tocItem>
+        <tocItem href="#p00052" level="1" class="section">
+          <inline name="tocNum">10</inline>
+          <inline name="tocHeading">Power to stop</inline>
+        </tocItem>
+        <tocItem href="#p00053" level="1" class="section">
+          <inline name="tocNum">11</inline>
+          <inline name="tocHeading">Offence of using or keeping heavy goods vehicle if levy not paid</inline>
+        </tocItem>
+        <tocItem href="#p00055" level="1" class="section">
+          <inline name="tocNum">12</inline>
+          <inline name="tocHeading">Legal proceedings</inline>
+        </tocItem>
+        <tocItem href="#p00056" level="1" class="section">
+          <inline name="tocNum">13</inline>
+          <inline name="tocHeading">Fixed penalties</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">Miscellaneous</tocItem>
+        <tocItem href="#p00057" level="1" class="section">
+          <inline name="tocNum">14</inline>
+          <inline name="tocHeading">Register of levy paid or due to be paid</inline>
+        </tocItem>
+        <tocItem href="#p00059" level="1" class="section">
+          <inline name="tocNum">15</inline>
+          <inline name="tocHeading">HGV road user levy and vehicle licences</inline>
+        </tocItem>
+        <tocItem href="#p00060" level="1" class="section">
+          <inline name="tocNum">16</inline>
+          <inline name="tocHeading">Power to install equipment for detection of offences under section 11</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">Regulations and orders</tocItem>
+        <tocItem href="#p00061" level="1" class="section">
+          <inline name="tocNum">17</inline>
+          <inline name="tocHeading">Regulations</inline>
+        </tocItem>
+        <tocItem href="#p00065" level="1" class="section">
+          <inline name="tocNum">18</inline>
+          <inline name="tocHeading">Orders</inline>
+        </tocItem>
+        <tocItem href="#" level="0" class="heading">General</tocItem>
+        <tocItem href="#p00067" level="1" class="section">
+          <inline name="tocNum">19</inline>
+          <inline name="tocHeading">Interpretation</inline>
+        </tocItem>
+        <tocItem href="#p00068" level="1" class="section">
+          <inline name="tocNum">20</inline>
+          <inline name="tocHeading">Extent</inline>
+        </tocItem>
+        <tocItem href="#p00069" level="1" class="section">
+          <inline name="tocNum">21</inline>
+          <inline name="tocHeading">Commencement</inline>
+        </tocItem>
+        <tocItem href="#p00071" level="1" class="section">
+          <inline name="tocNum">22</inline>
+          <inline name="tocHeading">Short title</inline>
+        </tocItem>
+      </toc>
+      <block name="Horizontal Rule" class="short"/>
+      <toc currentId="idp51504" class="schedules">
+        <tocItem href="#sch1" level="0" class="schedule">Schedule 1 — Rates of HGV road user levy</tocItem>
+        <tocItem href="#sch2" level="0" class="schedule">Schedule 2 — Legal proceedings</tocItem>
+      </toc>
+    </coverPage>
+    <preface>
+      <p class="center" style="text-transform:uppercase">A</p>
+      <p class="center">
+        <docType>Bill</docType>
+      </p>
+      <p class="center" style="text-transform:uppercase">To</p>
+      <p class="center" style="text-transform:uppercase"/>
+      <longTitle currentId="idp56672">
+        <p>Make provision charging a levy in respect of the use or keeping of heavy <eol/>goods vehicles on public roads in the United Kingdom, and for connected <eol/>purposes.</p>
+      </longTitle>
+    </preface>
+    <preamble>
+      <p>Most Gracious Sovereign</p>
+      <formula name="EnactingText" currentId="idp60688">
+        <p>W<span style="font-variant:small-caps">E, </span> Your Majesty’s most dutiful and loyal subjects, the Commons of the <eol/>United Kingdom in Parliament assembled, towards raising the necessary <eol/>supplies to defray Your Majesty’s public expenses, and making an addition to the <eol/>public revenue, have freely and voluntarily resolved to make the provision <eol/>hereinafter mentioned; and do therefore most humbly beseech Your Majesty that it <eol/>may be enacted, and be it enacted by the Queen’s most Excellent Majesty, by and <eol/>with the advice and consent of the Lords Spiritual and Temporal, and Commons, in <eol/>this present Parliament assembled, and by the authority of the same, as follows:— </p>
+      </formula>
+    </preamble>
+    <body>
+      <part currentId="part1">
+        <heading currentId="part1-heading">Charging provisions</heading>
+        <section currentId="sec1">
+          <num>1</num>
+          <heading currentId="sec1-heading">Charge to HGV road user levy</heading>
+          <subsection currentId="sec1.1">
+            <num>1</num>
+            <content currentId="sec1.1-content">
+              <p>A duty of excise, called HGV road user levy, is charged in respect of any heavy <eol/>goods vehicle that is used or kept on a road to which this Act applies.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec1.2">
+            <num>2</num>
+            <content currentId="sec1.2-content">
+              <p>HGV road user levy is to be levied by the Secretary of State.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec2">
+          <num>2</num>
+          <heading currentId="sec2-heading">Meaning of “heavy goods vehicle”</heading>
+          <subsection currentId="sec2.1">
+            <num>1</num>
+            <intro currentId="sec2.1-intro">
+              <p>In this Act “heavy goods vehicle” means a mechanically propelled vehicle with <eol/>a revenue weight of 12,000 kilograms or more, or a heavy motor car within the <eol/>meaning given by section 185 of the Road Traffic Act 1988, in respect of which <eol/>vehicle excise duty—</p>
+            </intro>
+            <paragraph currentId="sec2.1.a">
+              <num>a</num>
+              <content currentId="sec2.1.a-content">
+                <p>is charged at the rate applicable to the vehicle in accordance with Part <eol/>6 (vehicles used for exceptional loads) or Part 8 (goods vehicles) of <eol/>Schedule 1 to the Vehicle Excise and Registration Act 1994 (“the 1994 <eol/>Act”), or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec2.1.b">
+              <num>b</num>
+              <content currentId="sec2.1.b-content">
+                <p>would be so charged but for an exemption granted on the basis that the <eol/>vehicle is only temporarily in the United Kingdom.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec2.2">
+            <num>2</num>
+            <content currentId="sec2.2-content">
+              <p>In this Act—</p>
+              <ul currentId="idp83584">
+                <li>
+                  <p>“UK heavy goods vehicle” means a heavy goods vehicle within subsection <eol/><ref class="internal" href="#sec2.1.a" currentId="idp85392">(1)(a)</ref>;</p>
+                </li>
+                <li>
+                  <p>“non-UK heavy goods vehicle” means a heavy goods vehicle within <eol/>subsection <ref class="internal" href="#sec2.1.b" currentId="idp87840">(1)(b)</ref>.</p>
+                </li>
+              </ul>
+            </content>
+          </subsection>
+          <subsection currentId="sec2.3">
+            <num>3</num>
+            <content currentId="sec2.3-content">
+              <p>The Secretary of State may by order amend subsection (1) by substituting a <eol/>different number of kilograms for the number for the time being specified <eol/>there.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec2.4">
+            <num>4</num>
+            <content currentId="sec2.4-content">
+              <p>An order under subsection <ref class="internal" href="#sec2.3" currentId="idp93024">(3)</ref> may make consequential amendments to <eol/>Schedule 1.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec2.5">
+            <num>5</num>
+            <content currentId="sec2.5-content">
+              <p>An order under subsection <ref class="internal" href="#sec2.3" currentId="idp95696">(3)</ref> may not be made unless a draft of the statutory <eol/>instrument containing it has been laid before the House of Commons and <eol/>approved by a resolution of that House.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec3">
+          <num>3</num>
+          <heading currentId="sec3-heading">Roads to which this Act applies</heading>
+          <subsection currentId="sec3.1">
+            <num>1</num>
+            <content currentId="sec3.1-content">
+              <p>This Act applies to public roads in the United Kingdom.</p>
+              <p>Subject to subsection <ref class="internal" href="#sec3.2" currentId="idp101488">(2)</ref>, it applies to all such roads.</p>
+              <p>Subject to subsection <ref class="internal" href="#sec3.2" currentId="idp102960">(2)</ref>, it applies to all such roads.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec3.2">
+            <num>2</num>
+            <intro currentId="sec3.2-intro">
+              <p>The Secretary of State may by order provide—</p>
+            </intro>
+            <paragraph currentId="sec3.2.a">
+              <num>a</num>
+              <content currentId="sec3.2.a-content">
+                <p>that this Act does not apply to specified roads, or roads of a specified <eol/>description, or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec3.2.b">
+              <num>b</num>
+              <content currentId="sec3.2.b-content">
+                <p>that this Act applies only to specified roads, or roads of a specified <eol/>description.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec3.3">
+            <num>3</num>
+            <content currentId="sec3.3-content">
+              <p>An order under subsection <ref class="internal" href="#sec3.2" currentId="idp111280">(2)</ref> may not be made unless a draft of the statutory <eol/>instrument containing it has been laid before the House of Commons and <eol/>approved by a resolution of that House.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec3.4">
+            <num>4</num>
+            <intro currentId="sec3.4-intro">
+              <p>In this section “public road”—</p>
+            </intro>
+            <paragraph currentId="sec3.4.a">
+              <num>a</num>
+              <content currentId="sec3.4.a-content">
+                <p>in England and Wales and Northern Ireland, means a road that is <eol/>repairable at public expense;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec3.4.b">
+              <num>b</num>
+              <content currentId="sec3.4.b-content">
+                <p>in Scotland, has the same meaning as in the Roads (Scotland) Act 1984 <eol/>(see section 151 of that Act).</p>
+              </content>
+            </paragraph>
+          </subsection>
+        </section>
+        <section currentId="sec4">
+          <num>4</num>
+          <heading currentId="sec4-heading">Liability for levy</heading>
+          <subsection currentId="sec4.1">
+            <num>1</num>
+            <intro currentId="sec4.1-intro">
+              <p>In the case of a UK heavy goods vehicle—</p>
+            </intro>
+            <paragraph currentId="sec4.1.a">
+              <num>a</num>
+              <content currentId="sec4.1.a-content">
+                <p>each person in whose name the vehicle is registered under the 1994 Act <eol/>is liable for any HGV road user levy in respect of the vehicle, and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec4.1.b">
+              <num>b</num>
+              <content currentId="sec4.1.b-content">
+                <p>any person (not within paragraph (a)) by whom the vehicle is kept is <eol/>also liable.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec4.2">
+            <num>2</num>
+            <intro currentId="sec4.2-intro">
+              <p>In the case of a non-UK heavy goods vehicle—</p>
+            </intro>
+            <paragraph currentId="sec4.2.a">
+              <num>a</num>
+              <content currentId="sec4.2.a-content">
+                <p>each person who is the holder of a Community licence in respect of the <eol/>vehicle is liable for any HGV road user levy in respect of it, and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec4.2.b">
+              <num>b</num>
+              <content currentId="sec4.2.b-content">
+                <p>any person (not within paragraph (a)) by whom the vehicle is kept is <eol/>also liable.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec4.3">
+            <num>3</num>
+            <content currentId="sec4.3-content">
+              <p>Where two or more persons are liable for levy in respect of the same vehicle at <eol/>the same time, their liability is joint and several.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec4.4">
+            <num>4</num>
+            <intro currentId="sec4.4-intro">
+              <p>Where a vehicle is stolen from a person liable for levy in respect of it—</p>
+            </intro>
+            <paragraph currentId="sec4.4.a">
+              <num>a</num>
+              <content currentId="sec4.4.a-content">
+                <p>the person is exempt from liability after the day of the theft, but</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec4.4.b">
+              <num>b</num>
+              <content currentId="sec4.4.b-content">
+                <p>if the person recovers the vehicle, the exemption ceases at the start of <eol/>the day of the recovery.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec4.5">
+            <num>5</num>
+            <content currentId="sec4.5-content">
+              <p>Where the person who is liable for levy in respect of a vehicle by reason of <eol/>subsection (1)(a) sells or disposes of it, the vehicle is treated for the purposes of <eol/>this section as ceasing to be registered in the person’s name at the end of the <eol/>day of the sale or disposal.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec4.6">
+            <num>6</num>
+            <content currentId="sec4.6-content">
+              <p>Where the person who is liable for levy in respect of a vehicle by reason of <eol/>subsection (2)(a) sells or disposes of it, the person is treated for the purposes of <eol/>this section as ceasing to be the holder of a Community licence in respect of the <eol/>vehicle at the end of the day of the sale or disposal.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec4.7">
+            <num>7</num>
+            <intro currentId="sec4.7-intro">
+              <p>Subsections <ref class="internal" href="#sec4.4" currentId="idp147152">(4)</ref> to <ref class="internal" href="#sec4.6" currentId="idp148032">(6)</ref> do not affect liability for any levy—</p>
+            </intro>
+            <paragraph currentId="sec4.7.a">
+              <num>a</num>
+              <content currentId="sec4.7.a-content">
+                <p>paid on or before the day of the theft, sale or disposal, or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec4.7.b">
+              <num>b</num>
+              <content currentId="sec4.7.b-content">
+                <p>due to be paid under section 5 for a period beginning on or before that <eol/>day.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec4.8">
+            <num>8</num>
+            <content currentId="sec4.8-content">
+              <p>In this section “Community licence” means a licence issued under Regulation <eol/><ref href="/eu/bill/2009/1072/main" currentId="idp154688">(EC) No. 1072/2009</ref> of the European Parliament and of the Council dated 21 <eol/>October 2009 on common rules for access to the international road haulage <eol/>market.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part2">
+        <heading currentId="part2-heading">Payment, rebates, exemptions and reductions</heading>
+        <section currentId="sec5">
+          <num>5</num>
+          <heading currentId="sec5-heading">Payment of levy for UK heavy goods vehicles</heading>
+          <subsection currentId="sec5.1">
+            <num>1</num>
+            <content currentId="sec5.1-content">
+              <p>This section applies to a UK heavy goods vehicle.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec5.2">
+            <num>2</num>
+            <content currentId="sec5.2-content">
+              <p>HGV road user levy must be paid for all periods for which the vehicle is <eol/>charged to vehicle excise duty.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec5.3">
+            <num>3</num>
+            <content currentId="sec5.3-content">
+              <p>Where vehicle excise duty is paid for a year, the levy must be paid for the same <eol/>year.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec5.4">
+            <num>4</num>
+            <content currentId="sec5.4-content">
+              <p>Where vehicle excise duty is paid for 6 months, the levy must be paid for the <eol/>same 6 months.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec5.5">
+            <num>5</num>
+            <content currentId="sec5.5-content">
+              <p>Levy for a year is charged at the appropriate rate shown in the column headed <eol/>“Yearly rate” in Table 1 in Schedule 1.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec5.6">
+            <num>6</num>
+            <content currentId="sec5.6-content">
+              <p>Levy for 6 months is charged at the appropriate rate shown in the column <eol/>headed “Half-yearly rate” in that Table.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec5.7">
+            <num>7</num>
+            <content currentId="sec5.7-content">
+              <p>The appropriate rate depends on what Band the vehicle is in, and this is given <eol/>by paragraphs <ref class="internal" href="#sec2" currentId="idp173136">2</ref> to <ref class="internal" href="#sec4" currentId="idp174016">4</ref> of that Schedule and Tables 2 to 5.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec6">
+          <num>6</num>
+          <heading currentId="sec6-heading">Payment of levy for non-UK heavy goods vehicles</heading>
+          <subsection currentId="sec6.1">
+            <num>1</num>
+            <content currentId="sec6.1-content">
+              <p>This section applies to a non-UK heavy goods vehicle.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec6.2">
+            <num>2</num>
+            <content currentId="sec6.2-content">
+              <p>HGV road user levy must be paid in respect of each day on which the vehicle <eol/>is used or kept on a road to which this Act applies.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec6.3">
+            <num>3</num>
+            <content currentId="sec6.3-content">
+              <p>It may be paid for a period of one year, or any shorter period, chosen by the <eol/>person paying the levy.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec6.4">
+            <num>4</num>
+            <content currentId="sec6.4-content">
+              <p>Levy for a year is charged at the appropriate rate shown in the column headed <eol/>“Yearly rate” in Table 1 in Schedule 1.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec6.5">
+            <num>5</num>
+            <intro currentId="sec6.5-intro">
+              <p>Levy for—</p>
+            </intro>
+            <paragraph currentId="sec6.5.a">
+              <num>a</num>
+              <content currentId="sec6.5.a-content">
+                <p>a period of 6 months, or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec6.5.b">
+              <num>b</num>
+              <content currentId="sec6.5.b-content">
+                <p>6 months out of a longer period,</p>
+              </content>
+            </paragraph>
+            <wrap currentId="sec6.5-wrap">
+              <p>is charged at the appropriate rate shown in the column headed “Half-yearly <eol/>rate” in that Table.</p>
+            </wrap>
+          </subsection>
+          <subsection currentId="sec6.6">
+            <num>6</num>
+            <intro currentId="sec6.6-intro">
+              <p>Levy for—</p>
+            </intro>
+            <paragraph currentId="sec6.6.a">
+              <num>a</num>
+              <content currentId="sec6.6.a-content">
+                <p>one or more whole months (fewer than 6), or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec6.6.b">
+              <num>b</num>
+              <content currentId="sec6.6.b-content">
+                <p>so much of a period (not taken into account under subsection <ref class="internal" href="#sec6.5" currentId="idp195712">(5)</ref>) as <eol/>comprises one or more whole months,</p>
+              </content>
+            </paragraph>
+            <wrap currentId="sec6.6-wrap">
+              <p>is charged at the appropriate rate shown in the column headed “Monthly rate” <eol/>in that Table.</p>
+            </wrap>
+          </subsection>
+          <subsection currentId="sec6.7">
+            <num>7</num>
+            <intro currentId="sec6.7-intro">
+              <p>Levy for—</p>
+            </intro>
+            <paragraph currentId="sec6.7.a">
+              <num>a</num>
+              <content currentId="sec6.7.a-content">
+                <p>a period (less than a month) of one or more whole weeks, or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec6.7.b">
+              <num>b</num>
+              <content currentId="sec6.7.b-content">
+                <p>so much of a period (not taken into account under subsection <ref class="internal" href="#sec6.5" currentId="idp203104">(5)</ref> or <ref class="internal" href="#sec6.6" currentId="idp203968">(6)</ref>) <eol/>as comprises one or more whole weeks,</p>
+              </content>
+            </paragraph>
+            <wrap currentId="sec6.7-wrap">
+              <p>is charged at the appropriate rate shown in the column headed “Weekly rate” <eol/>in that Table.</p>
+            </wrap>
+          </subsection>
+          <subsection currentId="sec6.8">
+            <num>8</num>
+            <intro currentId="sec6.8-intro">
+              <p>Levy for—</p>
+            </intro>
+            <paragraph currentId="sec6.8.a">
+              <num>a</num>
+              <content currentId="sec6.8.a-content">
+                <p>a period (less than a week) of one or more days, or</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec6.8.b">
+              <num>b</num>
+              <content currentId="sec6.8.b-content">
+                <p>so much of a period as is not taken into account under subsection <ref class="internal" href="#sec6.5" currentId="idp211152">(5)</ref>, <eol/><ref class="internal" href="#sec6.6" currentId="idp212128">(6)</ref> or <ref class="internal" href="#sec6.7" currentId="idp213008">(7)</ref>,</p>
+              </content>
+            </paragraph>
+            <wrap currentId="sec6.8-wrap">
+              <p>is charged at the appropriate rate shown in the column headed “Daily rate” in <eol/>that Table.</p>
+            </wrap>
+          </subsection>
+          <subsection currentId="sec6.9">
+            <num>9</num>
+            <content currentId="sec6.9-content">
+              <p>The appropriate rate depends on what Band the vehicle is in, and this is given <eol/>by paragraphs <ref class="internal" href="#sec2" currentId="idp217040">2</ref> to <ref class="internal" href="#sec4" currentId="idp217920">4</ref> of that Schedule and Tables 2 to 5.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec7">
+          <num>7</num>
+          <heading currentId="sec7-heading">Rebate of levy</heading>
+          <subsection currentId="sec7.1">
+            <num>1</num>
+            <intro currentId="sec7.1-intro">
+              <p>Where—</p>
+            </intro>
+            <paragraph currentId="sec7.1.a">
+              <num>a</num>
+              <content currentId="sec7.1.a-content">
+                <p>HGV road user levy has been paid in respect of a vehicle for a period of <eol/>more than one month (“the levy period”), and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec7.1.b">
+              <num>b</num>
+              <content currentId="sec7.1.b-content">
+                <p>a rebate entitlement arises more than one month before the end of the <eol/>levy period,</p>
+              </content>
+            </paragraph>
+            <wrap currentId="sec7.1-wrap">
+              <p>the person who paid the levy is entitled to the appropriate rebate of levy on <eol/>making an application to the Secretary of State.</p>
+            </wrap>
+          </subsection>
+          <subsection currentId="sec7.2">
+            <num>2</num>
+            <intro currentId="sec7.2-intro">
+              <p>A rebate entitlement arises in the following cases—</p>
+            </intro>
+            <paragraph currentId="sec7.2.a">
+              <num>a</num>
+              <content currentId="sec7.2.a-content">
+                <p>the vehicle is stolen;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec7.2.b">
+              <num>b</num>
+              <content currentId="sec7.2.b-content">
+                <p>the vehicle is destroyed and the person who paid the levy notifies the <eol/>Secretary of State of that fact;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec7.2.c">
+              <num>c</num>
+              <content currentId="sec7.2.c-content">
+                <p>the person who paid the levy notifies the Secretary of State that the <eol/>vehicle is not intended to be used or kept on a road to which this Act <eol/>applies at any time during the rest of the levy period;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec7.2.d">
+              <num>d</num>
+              <content currentId="sec7.2.d-content">
+                <p>the vehicle has been sold or disposed of and the person who paid the <eol/>levy provides the Secretary of State with prescribed information, in the <eol/>prescribed manner, in relation to the sale or disposal.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec7.3">
+            <num>3</num>
+            <content currentId="sec7.3-content">
+              <p>The appropriate rebate where the levy was paid for a whole year is—</p>
+              <foreign>
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                  <mrow>
+                    <mi>A</mi>
+                  </mrow>
+                  <mo>×</mo>
+                  <mrow>
+                    <mo>(</mo>
+                    <mrow>
+                      <mn>10</mn>
+                      <mo>−</mo>
+                      <mi>B</mi>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                </math>
+              </foreign>
+              <p>where—</p>
+              <ul currentId="idp245088">
+                <li>
+                  <p>A is one-tenth of the amount paid;</p>
+                </li>
+                <li>
+                  <p>B is the number of months in the period beginning with the start of the <eol/>levy period and ending with the date of the application, rounded up (if <eol/>not an exact number of months) to the next whole number.</p>
+                </li>
+              </ul>
+            </content>
+          </subsection>
+          <subsection currentId="sec7.4">
+            <num>4</num>
+            <content currentId="sec7.4-content">
+              <p>The appropriate rebate in any other case is—</p>
+              <foreign>
+                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                  <mrow>
+                    <mi>C</mi>
+                  </mrow>
+                  <mo>×</mo>
+                  <mrow>
+                    <mi>D</mi>
+                  </mrow>
+                </math>
+              </foreign>
+              <p>where—</p>
+              <ul currentId="idp255104">
+                <li>
+                  <p>C is one-tenth of the amount that was the yearly rate of levy for the vehicle <eol/>at the start of the levy period;</p>
+                </li>
+                <li>
+                  <p>D is the number of whole months in the period beginning with the day <eol/>after the date of the application and ending with the end of the levy <eol/>period.</p>
+                </li>
+              </ul>
+            </content>
+          </subsection>
+          <subsection currentId="sec7.5">
+            <num>5</num>
+            <content currentId="sec7.5-content">
+              <p>The Secretary of State may specify conditions with which a person must <eol/>comply before making an application for a rebate.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec7.6">
+            <num>6</num>
+            <intro currentId="sec7.6-intro">
+              <p>The conditions that may be specified include (in particular)—</p>
+            </intro>
+            <paragraph currentId="sec7.6.a">
+              <num>a</num>
+              <content currentId="sec7.6.a-content">
+                <p>a condition requiring that information which has to be provided to the <eol/>Secretary of State is transmitted by specified electronic means;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec7.6.b">
+              <num>b</num>
+              <content currentId="sec7.6.b-content">
+                <p>in a case within subsection <ref class="internal" href="#sec7.2.a" currentId="idp266896">(2)(a)</ref>, conditions relating to the reporting to <eol/>the police that the vehicle has been stolen.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec7.7">
+            <num>7</num>
+            <content currentId="sec7.7-content">
+              <p>The Secretary of State may specify an administration fee for an application for <eol/>a rebate of HGV road user levy, to be deducted from the rebate.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec7.8">
+            <num>8</num>
+            <intro currentId="sec7.8-intro">
+              <p>No rebate is due—</p>
+            </intro>
+            <paragraph currentId="sec7.8.a">
+              <num>a</num>
+              <content currentId="sec7.8.a-content">
+                <p>where a fee is specified under subsection <ref class="internal" href="#sec7.7" currentId="idp273584">(7)</ref> and the amount given by <eol/>subsection <ref class="internal" href="#sec7.3" currentId="idp274720">(3)</ref> or <ref class="internal" href="#sec7.4" currentId="idp275600">(4)</ref> is less than the amount of the fee;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec7.8.b">
+              <num>b</num>
+              <content currentId="sec7.8.b-content">
+                <p>where subsection <ref class="internal" href="#sec7.3" currentId="idp278208">(3)</ref> applies and the amount given by that subsection <eol/>is nil or a negative amount.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec7.9">
+            <num>9</num>
+            <content currentId="sec7.9-content">
+              <p>Matters specified under this section must be published in whatever way the <eol/>Secretary of State thinks appropriate.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec7.10">
+            <num>10</num>
+            <content currentId="sec7.10-content">
+              <p>The Secretary of State may by regulations provide for rebates of HGV road user <eol/>levy in circumstances other than those set out in this section.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec8">
+          <num>8</num>
+          <heading currentId="sec8-heading">Exemptions and reductions</heading>
+          <subsection currentId="sec8.1">
+            <num>1</num>
+            <content currentId="sec8.1-content">
+              <p>HGV road user levy is not charged in respect of vehicles within paragraph 9(2) <eol/>of Schedule 1 to the 1994 Act (certain rigid goods vehicles charged to vehicle <eol/>excise duty at the basic goods vehicle rate).</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec8.2">
+            <num>2</num>
+            <content currentId="sec8.2-content">
+              <p>HGV road user levy is not charged in respect of a vehicle for a period during <eol/>which the vehicle is licensed by a licence under section 11 of the 1994 Act (trade <eol/>licences).</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec8.3">
+            <num>3</num>
+            <content currentId="sec8.3-content">
+              <p>Regulations may provide for HGV road user levy not to be charged, or to be <eol/>charged at a reduced rate, in respect of prescribed categories of heavy goods <eol/>vehicle.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part3">
+        <heading currentId="part3-heading">Collection and enforcement</heading>
+        <section currentId="sec9">
+          <num>9</num>
+          <heading currentId="sec9-heading">Collection of levy</heading>
+          <subsection currentId="sec9.1">
+            <num>1</num>
+            <intro currentId="sec9.1-intro">
+              <p>For the purpose of levying HGV road user levy the Secretary of State and his <eol/>or her officers (including any individual or body authorised by the Secretary of <eol/>State to act as his or her agent for the purposes of this Act) have the same <eol/>powers, duties and liabilities as the Commissioners for Her Majesty’s Revenue <eol/>and Customs and their officers have with respect to—</p>
+            </intro>
+            <paragraph currentId="sec9.1.a">
+              <num>a</num>
+              <content currentId="sec9.1.a-content">
+                <p>duties of excise (other than duties on imported goods), and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec9.1.b">
+              <num>b</num>
+              <content currentId="sec9.1.b-content">
+                <p>other matters (except matters relating only to duties on imported <eol/>goods),</p>
+              </content>
+            </paragraph>
+            <wrap currentId="sec9.1-wrap">
+              <p>under the enactments relating to duties of excise.</p>
+            </wrap>
+          </subsection>
+          <subsection currentId="sec9.2">
+            <num>2</num>
+            <content currentId="sec9.2-content">
+              <p>The enactments relating to duties of excise or punishment and penalties in <eol/>connection with those duties (other than enactments relating only to duties on <eol/>imported goods) apply accordingly.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec9.3">
+            <num>3</num>
+            <content currentId="sec9.3-content">
+              <p>Subsections <ref class="internal" href="#sec9.1" currentId="idp307280">(1)</ref> and <ref class="internal" href="#sec9.2" currentId="idp308160">(2)</ref> have effect subject to the provisions of this Act <eol/>(including in particular, in the case of subsection <ref class="internal" href="#sec9.2" currentId="idp309408">(2)</ref>, subsection <ref class="internal" href="#sec9.4" currentId="idp310288">(4)</ref> of this <eol/>section, section 11<ref class="internal" href="#sec11.3" currentId="idp311456">(3)</ref> and paragraphs <ref class="internal" href="#sec1" currentId="idp312352">1</ref> and <ref class="internal" href="#sec2" currentId="idp313232">2</ref> of Schedule 2).</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec9.4">
+            <num>4</num>
+            <content currentId="sec9.4-content">
+              <p>HGV road user levy is to be paid into the Consolidated Fund.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec10">
+          <num>10</num>
+          <heading currentId="sec10-heading">Power to stop</heading>
+          <subsection currentId="sec10.1">
+            <num>1</num>
+            <content currentId="sec10.1-content">
+              <p>A stopping officer may direct the driver of a mechanically propelled vehicle in <eol/>Great Britain to stop the vehicle if it appears to the officer that the vehicle might <eol/>be a heavy goods vehicle.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec10.2">
+            <num>2</num>
+            <content currentId="sec10.2-content">
+              <p>The power conferred by subsection (1) is exercisable for the purpose of <eol/>enabling checks to be carried out to establish whether any HGV road user levy <eol/>is unpaid in respect of the vehicle.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec10.3">
+            <num>3</num>
+            <content currentId="sec10.3-content">
+              <p>In this section “stopping officer” means an officer appointed under section 66B <eol/>of the Road Traffic Act 1988.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec11">
+          <num>11</num>
+          <heading currentId="sec11-heading">Offence of using or keeping heavy goods vehicle if levy not paid</heading>
+          <subsection currentId="sec11.1">
+            <num>1</num>
+            <intro currentId="sec11.1-intro">
+              <p>If a person uses a heavy goods vehicle on a road to which this Act applies, or <eol/>keeps a heavy goods vehicle on any such road, on a day in respect of which the <eol/>HGV road user levy charged in respect of the vehicle has not been paid—</p>
+            </intro>
+            <paragraph currentId="sec11.1.a">
+              <num>a</num>
+              <content currentId="sec11.1.a-content">
+                <p>that person commits an offence, and</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec11.1.b">
+              <num>b</num>
+              <content currentId="sec11.1.b-content">
+                <p>each person (not within paragraph (a)) who is liable for the levy also <eol/>commits an offence.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec11.2">
+            <num>2</num>
+            <content currentId="sec11.2-content">
+              <p>A person guilty of an offence under this section is liable on summary <eol/>conviction to a fine not exceeding level 5 on the standard scale.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec11.3">
+            <num>3</num>
+            <content currentId="sec11.3-content">
+              <p>A fine imposed under this section that would not otherwise be paid into the <eol/>Consolidated Fund is to be paid into the Consolidated Fund.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec12">
+          <num>12</num>
+          <heading currentId="sec12-heading">Legal proceedings</heading>
+          <content currentId="sec12-content">
+            <p>Schedule 2 (legal proceedings) has effect.</p>
+          </content>
+        </section>
+        <section currentId="sec13">
+          <num>13</num>
+          <heading currentId="sec13-heading">Fixed penalties</heading>
+          <content currentId="sec13-content">
+            <p>In Schedule 3 to the Road Traffic Offenders Act 1988 (fixed penalty offences), <eol/>at the end there is inserted—</p>
+            <p>
+              <mod currentId="idp343664-mod">
+                <quotedStructure currentId="idp343664" startQuote="“" endQuote="”">
+                  <table currentId="idp344752">
+                    <caption/>
+                    <tr>
+                      <th colspan="2">
+                        <p>Offence under the HGV Road User Levy Act <ref href="/uk/bill/2012/2012/main" currentId="idp348992">2012 (c. 00)</ref></p>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Section 11 of the HGV Road User Levy Act 2012</p>
+                      </td>
+                      <td>
+                        <p>Using or keeping heavy goods <eol/>vehicle if HGV road user levy <eol/>not paid.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </quotedStructure>
+              </mod>
+            </p>
+          </content>
+        </section>
+      </part>
+      <part currentId="part4">
+        <heading currentId="part4-heading">Miscellaneous</heading>
+        <section currentId="sec14">
+          <num>14</num>
+          <heading currentId="sec14-heading">Register of levy paid or due to be paid</heading>
+          <subsection currentId="sec14.1">
+            <num>1</num>
+            <content currentId="sec14.1-content">
+              <p>The Secretary of State must set up and keep a register of the heavy goods <eol/>vehicles in respect of which HGV road user levy has been paid.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec14.2">
+            <num>2</num>
+            <intro currentId="sec14.2-intro">
+              <p>In relation to each vehicle the register must show—</p>
+            </intro>
+            <paragraph currentId="sec14.2.a">
+              <num>a</num>
+              <content currentId="sec14.2.a-content">
+                <p>the registration number;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec14.2.b">
+              <num>b</num>
+              <content currentId="sec14.2.b-content">
+                <p>the country or territory under the law of which the vehicle is registered;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec14.2.c">
+              <num>c</num>
+              <content currentId="sec14.2.c-content">
+                <p>the period in respect of which levy has been paid or, in the case of UK <eol/>heavy goods vehicles, the date from which levy is next due to be paid.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec14.3">
+            <num>3</num>
+            <content currentId="sec14.3-content">
+              <p>The information referred to in subsection <ref class="internal" href="#sec14.2" currentId="idp370352">(2)</ref> must be shown on a website that <eol/>is, and indicates that it is, kept by or on behalf of the Secretary of State.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec14.4">
+            <num>4</num>
+            <content currentId="sec14.4-content">
+              <p>The website must be free to view.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec14.5">
+            <num>5</num>
+            <content currentId="sec14.5-content">
+              <p>Neither the register nor the website need include entries for vehicles in respect <eol/>of which levy has been paid only for periods that have expired.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec15">
+          <num>15</num>
+          <heading currentId="sec15-heading">HGV road user levy and vehicle licences</heading>
+          <subsection currentId="sec15.1">
+            <num>1</num>
+            <content currentId="sec15.1-content">
+              <p>In section 7 of the 1994 Act (issue of vehicle licences), after subsection (5) there <eol/>is inserted—</p>
+              <p>
+                <mod currentId="idp379344-mod">
+                  <quotedStructure currentId="idp379344" startQuote="“" endQuote="”">
+                    <subsection currentId="idp380544">
+                      <num>5A</num>
+                      <content currentId="idp380544-content">
+                        <p>The Secretary of State is not required to issue a vehicle licence for a <eol/>heavy goods vehicle if not satisfied that the appropriate HGV road user <eol/>levy has been paid.</p>
+                      </content>
+                    </subsection>
+                  </quotedStructure>
+                </mod>
+              </p>
+            </content>
+          </subsection>
+          <subsection currentId="sec15.2">
+            <num>2</num>
+            <content currentId="sec15.2-content">
+              <p>In subsection (8) of that section, for “section “special vehicle”” there is <eol/>substituted “section—</p>
+              <p>
+                <mod currentId="idp385136-mod">
+                  <quotedStructure currentId="idp385136" startQuote="“" endQuote="”">
+                    <ul currentId="idp386288">
+                      <li>
+                        <p>the appropriate HGV road user levy”, in relation to a vehicle <eol/>licence, means the HGV road user levy charged for the period <eol/>for which the licence would have effect;</p>
+                      </li>
+                      <li>
+                        <p>“heavy goods vehicle” has the same meaning as in the HGV Road <eol/>User Levy Act 2012;</p>
+                      </li>
+                      <li>
+                        <p>“special vehicle”</p>
+                      </li>
+                    </ul>
+                  </quotedStructure>
+                </mod>
+                <span class="append">.</span>
+              </p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec16">
+          <num>16</num>
+          <heading currentId="sec16-heading">Power to install equipment for detection of offences under section 11</heading>
+          <subsection currentId="sec16.1">
+            <num>1</num>
+            <intro currentId="sec16.1-intro">
+              <p>In section 95A of the Highways Act 1980 (power of highway authority to install <eol/>equipment for detection of traffic offences)—</p>
+            </intro>
+            <paragraph currentId="sec16.1.a">
+              <num>a</num>
+              <content currentId="sec16.1.a-content">
+                <p>in the sidenote, after “traffic offences” there is inserted “etc”;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec16.1.b">
+              <num>b</num>
+              <content currentId="sec16.1.b-content">
+                <p>in the body of the section, after “traffic offences” there is inserted “or <eol/>offences under section 11 of the HGV Road User Levy Act 2012 (using <eol/>or keeping heavy goods vehicle if HGV road user levy not paid)”.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec16.2">
+            <num>2</num>
+            <intro currentId="sec16.2-intro">
+              <p>In section 49A of the Roads (Scotland) Act 1984 (power of roads authority to <eol/>install equipment for detection of traffic offences)—</p>
+            </intro>
+            <paragraph currentId="sec16.2.a">
+              <num>a</num>
+              <content currentId="sec16.2.a-content">
+                <p>in the sidenote and in the preceding cross-heading, after “traffic <eol/>offences” there is inserted “etc”;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec16.2.b">
+              <num>b</num>
+              <content currentId="sec16.2.b-content">
+                <p>in the body of the section, after “traffic offences” there is inserted “or <eol/>offences under section 11 of the HGV Road User Levy Act 2012 (using <eol/>or keeping heavy goods vehicle if HGV road user levy not paid)”.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec16.3">
+            <num>3</num>
+            <intro currentId="sec16.3-intro">
+              <p>In Article 65A of the Roads (Northern Ireland) Order 1993 (<ref href="/uk/bill/1993/3160/main" currentId="idp409680">S.I. 1993/3160</ref>  <eol/>(N.I. 15)) (power of Department to install equipment for detection of traffic <eol/>offences)—</p>
+            </intro>
+            <paragraph currentId="sec16.3.a">
+              <num>a</num>
+              <content currentId="sec16.3.a-content">
+                <p>in the heading, after “traffic offences” there is inserted “etc”;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec16.3.b">
+              <num>b</num>
+              <content currentId="sec16.3.b-content">
+                <p>in the body of the Article, after “traffic offences” there is inserted “or <eol/>offences under section 11 of the HGV Road User Levy Act 2012 (using <eol/>or keeping heavy goods vehicle if HGV road user levy not paid)”.</p>
+              </content>
+            </paragraph>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part5">
+        <heading currentId="part5-heading">Regulations and orders</heading>
+        <section currentId="sec17">
+          <num>17</num>
+          <heading currentId="sec17-heading">Regulations</heading>
+          <subsection currentId="sec17.1">
+            <num>1</num>
+            <content currentId="sec17.1-content">
+              <p>The Secretary of State may make regulations generally for the purpose of <eol/>carrying into effect the provisions of this Act.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec17.2">
+            <num>2</num>
+            <intro currentId="sec17.2-intro">
+              <p>Regulations under this Act—</p>
+            </intro>
+            <paragraph currentId="sec17.2.a">
+              <num>a</num>
+              <content currentId="sec17.2.a-content">
+                <p>may make different provision for different cases or circumstances <eol/>(including different provision for UK heavy goods vehicles and non-<eol/>UK heavy goods vehicles);</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec17.2.b">
+              <num>b</num>
+              <content currentId="sec17.2.b-content">
+                <p>may make different provision for different parts of the United <eol/>Kingdom;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec17.2.c">
+              <num>c</num>
+              <content currentId="sec17.2.c-content">
+                <p>may provide for exemption from any provision of the regulations;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec17.2.d">
+              <num>d</num>
+              <content currentId="sec17.2.d-content">
+                <p>may make incidental, consequential, supplementary, transitional, <eol/>transitory or saving provision.</p>
+              </content>
+            </paragraph>
+          </subsection>
+          <subsection currentId="sec17.3">
+            <num>3</num>
+            <content currentId="sec17.3-content">
+              <p>Nothing in any other provision of this Act limits subsections <ref class="internal" href="#sec17.1" currentId="idp432912">(1)</ref> and <ref class="internal" href="#sec17.2" currentId="idp433792">(2)</ref>.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec17.4">
+            <num>4</num>
+            <content currentId="sec17.4-content">
+              <p>A power under this Act to make regulations is exercisable by the Secretary of <eol/>State by statutory instrument.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec17.5">
+            <num>5</num>
+            <content currentId="sec17.5-content">
+              <p>A statutory instrument containing regulations under this Act is subject to <eol/>annulment in pursuance of a resolution of the House of Commons.</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec18">
+          <num>18</num>
+          <heading currentId="sec18-heading">Orders</heading>
+          <subsection currentId="sec18.1">
+            <num>1</num>
+            <content currentId="sec18.1-content">
+              <p>An order under this Act may make transitional, transitory or saving provision.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec18.2">
+            <num>2</num>
+            <content currentId="sec18.2-content">
+              <p>A power under this Act to make an order is exercisable by statutory <eol/>instrument.</p>
+            </content>
+          </subsection>
+        </section>
+      </part>
+      <part currentId="part6">
+        <heading currentId="part6-heading">General</heading>
+        <section currentId="sec19">
+          <num>19</num>
+          <heading currentId="sec19-heading">Interpretation</heading>
+          <subsection currentId="sec19.1">
+            <num>1</num>
+            <content currentId="sec19.1-content">
+              <p>In this Act—</p>
+              <ul currentId="idp449456">
+                <li>
+                  <p>“the 1994 Act” means the Vehicle Excise and Registration Act 1994;</p>
+                </li>
+                <li>
+                  <p>“heavy goods vehicle”, “UK heavy goods vehicle” and “non-UK heavy <eol/>goods vehicle” each has the meaning given in section 2;</p>
+                </li>
+                <li>
+                  <p>“prescribed” means prescribed by regulations;</p>
+                </li>
+                <li>
+                  <p>“revenue weight” has the same meaning as in the 1994 Act (see section <eol/>60A of that Act).</p>
+                </li>
+              </ul>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.2">
+            <num>2</num>
+            <content currentId="sec19.2-content">
+              <p>Regulations under paragraph 13 of Schedule 1 to the 1994 Act (under which <eol/>goods vehicles are in some cases treated as having a lower revenue weight for <eol/>the purposes of Part 8 of that Schedule) have effect also for the purposes of this <eol/>Act.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec19.3">
+            <num>3</num>
+            <intro currentId="sec19.3-intro">
+              <p>For the purposes of this Act—</p>
+            </intro>
+            <paragraph currentId="sec19.3.a">
+              <num>a</num>
+              <content currentId="sec19.3.a-content">
+                <p>HGV road user levy is paid in respect of a particular day if the levy <eol/>charged in respect of the vehicle in question is paid either for that day <eol/>or for a period which includes that day;</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sec19.3.b">
+              <num>b</num>
+              <content currentId="sec19.3.b-content">
+                <p>where a person receives a rebate of levy in respect of a vehicle under <eol/>section 7, the person is treated as not having paid levy in respect of the <eol/>vehicle for the period starting with the day after the date of the <eol/>application for the rebate and ending with the end of the levy period.</p>
+              </content>
+            </paragraph>
+          </subsection>
+        </section>
+        <section currentId="sec20">
+          <num>20</num>
+          <heading currentId="sec20-heading">Extent</heading>
+          <content currentId="sec20-content">
+            <p>This Act extends to England and Wales, Scotland and Northern Ireland, except <eol/>that an amendment by this Act of another enactment has the same extent as the <eol/>enactment amended.</p>
+          </content>
+        </section>
+        <section currentId="sec21">
+          <num>21</num>
+          <heading currentId="sec21-heading">Commencement</heading>
+          <subsection currentId="sec21.1">
+            <num>1</num>
+            <content currentId="sec21.1-content">
+              <p>This Act comes into force in accordance with provision made by order by the <eol/>Secretary of State.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec21.2">
+            <num>2</num>
+            <content currentId="sec21.2-content">
+              <p>Different provision may be made under subsection <ref class="internal" href="#sec21.1" currentId="idp491280">(1)</ref> for different purposes.</p>
+              <p>In particular, different transitional provision (made by virtue of section 18<ref class="internal" href="#sec18.1" currentId="idp492768">(1)</ref>) <eol/>may be made for UK heavy goods vehicles and non-UK heavy goods vehicles.</p>
+              <p>In particular, different transitional provision (made by virtue of section 18<ref class="internal" href="#sec18.1" currentId="idp494688">(1)</ref>) <eol/>may be made for UK heavy goods vehicles and non-UK heavy goods vehicles.</p>
+            </content>
+          </subsection>
+          <subsection currentId="sec21.3">
+            <num>3</num>
+            <content currentId="sec21.3-content">
+              <p>Subsection <ref class="internal" href="#sec21.1" currentId="idp497440">(1)</ref> does not apply to sections 17 to 22 (which accordingly come into <eol/>force on the day on which this Act is passed).</p>
+            </content>
+          </subsection>
+        </section>
+        <section currentId="sec22">
+          <num>22</num>
+          <heading currentId="sec22-heading">Short title</heading>
+          <content currentId="sec22-content">
+            <p>This Act may be cited as the HGV Road User Levy Act 2012.</p>
+          </content>
+        </section>
+      </part>
+      <hcontainer name="schedules" currentId="idp502720">
+        <heading currentId="idp502720-heading">SCHEDULES</heading>
+        <hcontainer name="schedule" currentId="sch1">
+          <num>SCHEDULE 1</num>
+          <heading currentId="sch1-heading">Rates of HGV road user levy</heading>
+          <section currentId="sch1-sec1">
+            <num>1</num>
+            <content currentId="sch1-sec1-content">
+              <p>Table 1 sets out the rates of levy for each of the Bands given by Tables 2 to 5 <eol/>and by paragraph 4.</p>
+            </content>
+          </section>
+          <section currentId="sch1-sec2">
+            <num>2</num>
+            <subsection currentId="sch1-sec2.1">
+              <num>1</num>
+              <content currentId="sch1-sec2.1-content">
+                <p>Table 2 applies to a rigid goods vehicle (whether or not used for drawing a <eol/>trailer) other than one to which Table 3 applies.</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch1-sec2.2">
+              <num>2</num>
+              <content currentId="sch1-sec2.2-content">
+                <p>Table 3 applies to a rigid goods vehicle within paragraph 10 of Schedule 1 to <eol/>the 1994 Act (rigid goods vehicles used for drawing trailers of more than <eol/>4,000 kilograms).</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch1-sec2.3">
+              <num>3</num>
+              <intro currentId="sch1-sec2.3-intro">
+                <p>The appropriate Band for a vehicle to which Table 2 or 3 applies depends <eol/>on—</p>
+              </intro>
+              <paragraph currentId="sch1-sec2.3.a">
+                <num>a</num>
+                <content currentId="sch1-sec2.3.a-content">
+                  <p>the revenue weight of the vehicle, and</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec2.3.b">
+                <num>b</num>
+                <content currentId="sch1-sec2.3.b-content">
+                  <p>the number of axles on the vehicle,</p>
+                </content>
+              </paragraph>
+              <wrap currentId="sch1-sec2.3-wrap">
+                <p>ignoring any trailer.</p>
+              </wrap>
+            </subsection>
+          </section>
+          <section currentId="sch1-sec3">
+            <num>3</num>
+            <subsection currentId="sch1-sec3.1">
+              <num>1</num>
+              <content currentId="sch1-sec3.1-content">
+                <p>Table 4 applies to a tractive unit on which there are 2 axles.</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch1-sec3.2">
+              <num>2</num>
+              <content currentId="sch1-sec3.2-content">
+                <p>Table 5 applies to a tractive unit on which there are 3 or more axles.</p>
+              </content>
+            </subsection>
+            <subsection currentId="sch1-sec3.3">
+              <num>3</num>
+              <intro currentId="sch1-sec3.3-intro">
+                <p>The appropriate Band for a vehicle to which Table 4 or 5 applies depends <eol/>on—</p>
+              </intro>
+              <paragraph currentId="sch1-sec3.3.a">
+                <num>a</num>
+                <content currentId="sch1-sec3.3.a-content">
+                  <p>the revenue weight of the tractive unit, and</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch1-sec3.3.b">
+                <num>b</num>
+                <content currentId="sch1-sec3.3.b-content">
+                  <p>the number of axles on the semi-trailers that are to be drawn by the <eol/>tractive unit.</p>
+                </content>
+              </paragraph>
+            </subsection>
+          </section>
+          <section currentId="sch1-sec4">
+            <num>4</num>
+            <content currentId="sch1-sec4-content">
+              <p>The appropriate Band for any heavy goods vehicle with a revenue weight of <eol/>more than 44,000 kilograms is Band G.</p>
+            </content>
+          </section>
+          <section currentId="sch1-sec5">
+            <num>5</num>
+            <intro currentId="sch1-sec5-intro">
+              <p>In this Schedule—</p>
+            </intro>
+            <paragraph currentId="sch1-sec5.a">
+              <num>a</num>
+              <content currentId="sch1-sec5.a-content">
+                <p>“axle”, “rigid goods vehicle” and “tractive unit” each has the same <eol/>meaning as in the 1994 Act (see section 62(1) of that Act);</p>
+              </content>
+            </paragraph>
+            <paragraph currentId="sch1-sec5.b">
+              <num>b</num>
+              <content currentId="sch1-sec5.b-content">
+                <p>a reference to a revenue weight of more than 11,999 kilograms is to <eol/>be read as a reference to a revenue weight of 12,000 kilograms or <eol/>more.</p>
+              </content>
+            </paragraph>
+          </section>
+          <wrap currentId="sch1-wrap">
+            <table currentId="idp537840">
+              <caption>
+                <span style="font-variant:small-caps">Table 1: Rates for each Band</span>
+                <eol/>
+              </caption>
+              <tr>
+                <th colspan="1">
+                  <p>Band</p>
+                </th>
+                <th colspan="1">
+                  <p>Daily rate</p>
+                </th>
+                <th colspan="1">
+                  <p>Weekly rate</p>
+                </th>
+                <th colspan="1">
+                  <p>Monthly rate</p>
+                </th>
+                <th colspan="1">
+                  <p>Half-yearly rate</p>
+                </th>
+                <th colspan="1">
+                  <p>Yearly <eol/>rate</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>A</p>
+                </td>
+                <td>
+                  <p>£1.70</p>
+                </td>
+                <td>
+                  <p>£4.25</p>
+                </td>
+                <td>
+                  <p>£8.50</p>
+                </td>
+                <td>
+                  <p>£51.00</p>
+                </td>
+                <td>
+                  <p>£85.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>B</p>
+                </td>
+                <td>
+                  <p>£2.10</p>
+                </td>
+                <td>
+                  <p>£5.25</p>
+                </td>
+                <td>
+                  <p>£10.50</p>
+                </td>
+                <td>
+                  <p>£63.00</p>
+                </td>
+                <td>
+                  <p>£105.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>C</p>
+                </td>
+                <td>
+                  <p>£4.80</p>
+                </td>
+                <td>
+                  <p>£12.00</p>
+                </td>
+                <td>
+                  <p>£24.00</p>
+                </td>
+                <td>
+                  <p>£144.00</p>
+                </td>
+                <td>
+                  <p>£240.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>D</p>
+                </td>
+                <td>
+                  <p>£7.00</p>
+                </td>
+                <td>
+                  <p>£17.50</p>
+                </td>
+                <td>
+                  <p>£35.00</p>
+                </td>
+                <td>
+                  <p>£210.00</p>
+                </td>
+                <td>
+                  <p>£350.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>E</p>
+                </td>
+                <td>
+                  <p>£10.00</p>
+                </td>
+                <td>
+                  <p>£32.00</p>
+                </td>
+                <td>
+                  <p>£64.00</p>
+                </td>
+                <td>
+                  <p>£384.00</p>
+                </td>
+                <td>
+                  <p>£640.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>F</p>
+                </td>
+                <td>
+                  <p>£10.00</p>
+                </td>
+                <td>
+                  <p>£40.50</p>
+                </td>
+                <td>
+                  <p>£81.00</p>
+                </td>
+                <td>
+                  <p>£486.00</p>
+                </td>
+                <td>
+                  <p>£810.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>G</p>
+                </td>
+                <td>
+                  <p>£10.00</p>
+                </td>
+                <td>
+                  <p>£50.00</p>
+                </td>
+                <td>
+                  <p>£100.00</p>
+                </td>
+                <td>
+                  <p>£600.00</p>
+                </td>
+                <td>
+                  <p>£1,000.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>B(T)</p>
+                </td>
+                <td>
+                  <p>£2.70</p>
+                </td>
+                <td>
+                  <p>£6.75</p>
+                </td>
+                <td>
+                  <p>£13.50</p>
+                </td>
+                <td>
+                  <p>£81.00</p>
+                </td>
+                <td>
+                  <p>£135.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>C(T)</p>
+                </td>
+                <td>
+                  <p>£6.20</p>
+                </td>
+                <td>
+                  <p>£15.50</p>
+                </td>
+                <td>
+                  <p>£31.00</p>
+                </td>
+                <td>
+                  <p>£186.00</p>
+                </td>
+                <td>
+                  <p>£310.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>D(T)</p>
+                </td>
+                <td>
+                  <p>£9.00</p>
+                </td>
+                <td>
+                  <p>£22.50</p>
+                </td>
+                <td>
+                  <p>£45.00</p>
+                </td>
+                <td>
+                  <p>£270.00</p>
+                </td>
+                <td>
+                  <p>£450.00</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>E(T)</p>
+                </td>
+                <td>
+                  <p>£10.00</p>
+                </td>
+                <td>
+                  <p>£41.50</p>
+                </td>
+                <td>
+                  <p>£83.00</p>
+                </td>
+                <td>
+                  <p>£498.00</p>
+                </td>
+                <td>
+                  <p>£830.00</p>
+                </td>
+              </tr>
+            </table>
+            <table currentId="idp669360">
+              <caption>
+                <span style="font-variant:small-caps">Table 2: Rigid goods vehicle</span>
+                <eol/>
+              </caption>
+              <tr>
+                <th colspan="2">
+                  <p>Revenue weight of vehicle</p>
+                </th>
+                <th colspan="1">
+                  <p>2 axle vehicle</p>
+                </th>
+                <th colspan="1">
+                  <p>3 axle vehicle</p>
+                </th>
+                <th colspan="1">
+                  <p>4 or more <eol/>axle vehicle</p>
+                </th>
+              </tr>
+              <tr>
+                <th colspan="1">
+                  <p>More than</p>
+                </th>
+                <th colspan="1">
+                  <p>Not more than</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>kgs </p>
+                </td>
+                <td>
+                  <p>kgs</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>11,999</p>
+                </td>
+                <td>
+                  <p>15,000</p>
+                </td>
+                <td>
+                  <p>B</p>
+                </td>
+                <td>
+                  <p>B</p>
+                </td>
+                <td>
+                  <p>B</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>15,000</p>
+                </td>
+                <td>
+                  <p>21,000</p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+                <td>
+                  <p>B</p>
+                </td>
+                <td>
+                  <p>B</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>21,000</p>
+                </td>
+                <td>
+                  <p>23,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>C</p>
+                </td>
+                <td>
+                  <p>B</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>23,000</p>
+                </td>
+                <td>
+                  <p>25,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+                <td>
+                  <p>C</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>25,000</p>
+                </td>
+                <td>
+                  <p>27,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>27,000</p>
+                </td>
+                <td>
+                  <p>44,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+              </tr>
+            </table>
+            <table currentId="idp748000">
+              <caption>
+                <span style="font-variant:small-caps">Table 3: Rigid goods vehicle with trailer over 4,000 kg</span>
+                <eol/>
+              </caption>
+              <tr>
+                <th colspan="2">
+                  <p>Revenue weight of vehicle</p>
+                </th>
+                <th colspan="1">
+                  <p>2 axle vehicle</p>
+                </th>
+                <th colspan="1">
+                  <p>3 axle vehicle</p>
+                </th>
+                <th colspan="1">
+                  <p>4 or more <eol/>axle vehicle</p>
+                </th>
+              </tr>
+              <tr>
+                <th colspan="1">
+                  <p>More than</p>
+                </th>
+                <th colspan="1">
+                  <p>Not more than</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>kgs </p>
+                </td>
+                <td>
+                  <p>kgs</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>11,999</p>
+                </td>
+                <td>
+                  <p>15,000</p>
+                </td>
+                <td>
+                  <p>B(T)</p>
+                </td>
+                <td>
+                  <p>B(T)</p>
+                </td>
+                <td>
+                  <p>B(T)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>15,000</p>
+                </td>
+                <td>
+                  <p>21,000</p>
+                </td>
+                <td>
+                  <p>D(T)</p>
+                </td>
+                <td>
+                  <p>B(T)</p>
+                </td>
+                <td>
+                  <p>B(T)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>21,000</p>
+                </td>
+                <td>
+                  <p>23,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>C(T)</p>
+                </td>
+                <td>
+                  <p>B(T)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>23,000</p>
+                </td>
+                <td>
+                  <p>25,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>D(T)</p>
+                </td>
+                <td>
+                  <p>C(T)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>25,000</p>
+                </td>
+                <td>
+                  <p>27,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>D(T)</p>
+                </td>
+                <td>
+                  <p>D(T)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>27,000</p>
+                </td>
+                <td>
+                  <p>44,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>E(T)</p>
+                </td>
+              </tr>
+            </table>
+            <table currentId="idp826880">
+              <caption>
+                <span style="font-variant:small-caps">Table 4: Tractive unit with two axles</span>
+                <eol/>
+              </caption>
+              <tr>
+                <th colspan="2">
+                  <p>Revenue weight of tractive unit</p>
+                </th>
+                <th colspan="1">
+                  <p>Any no. of semi-trailer axles </p>
+                </th>
+                <th colspan="1">
+                  <p>2 or more semi-trailer axles</p>
+                </th>
+                <th colspan="1">
+                  <p>3 or more <eol/>semi-trailer <eol/>axles</p>
+                </th>
+              </tr>
+              <tr>
+                <th colspan="1">
+                  <p>More than</p>
+                </th>
+                <th colspan="1">
+                  <p>Not more than</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>kgs </p>
+                </td>
+                <td>
+                  <p>kgs</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>11,999</p>
+                </td>
+                <td>
+                  <p>25,000</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>25,000</p>
+                </td>
+                <td>
+                  <p>28,000</p>
+                </td>
+                <td>
+                  <p>C</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>28,000</p>
+                </td>
+                <td>
+                  <p>31,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>31,000</p>
+                </td>
+                <td>
+                  <p>34,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+                <td>
+                  <p>C</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>34,000</p>
+                </td>
+                <td>
+                  <p>38,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>F</p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>38,000</p>
+                </td>
+                <td>
+                  <p>44,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>G</p>
+                </td>
+              </tr>
+            </table>
+            <table currentId="idp906352">
+              <caption>
+                <span style="font-variant:small-caps">Table 5: Tractive unit with three or more axles</span>
+                <eol/>
+              </caption>
+              <tr>
+                <th colspan="2">
+                  <p>Revenue weight of tractive unit</p>
+                </th>
+                <th colspan="1">
+                  <p>Any no. of semi-trailer axles </p>
+                </th>
+                <th colspan="1">
+                  <p>2 or more semi-trailer axles</p>
+                </th>
+                <th colspan="1">
+                  <p>3 or more <eol/>semi-trailer <eol/>axles</p>
+                </th>
+              </tr>
+              <tr>
+                <th colspan="1">
+                  <p>More than</p>
+                </th>
+                <th colspan="1">
+                  <p>Not more than</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>kgs </p>
+                </td>
+                <td>
+                  <p>kgs</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+                <td>
+                  <p>Band</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>11,999</p>
+                </td>
+                <td>
+                  <p>28,000</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+              </tr>
+              <tr>
+                <th colspan="2">
+                  <p>Revenue weight of tractive unit</p>
+                </th>
+                <th colspan="1">
+                  <p>Any no. of semi-trailer axles </p>
+                </th>
+                <th colspan="1">
+                  <p>2 or more semi-trailer axles</p>
+                </th>
+                <th colspan="1">
+                  <p>3 or more <eol/>semi-trailer <eol/>axles</p>
+                </th>
+              </tr>
+              <tr>
+                <th colspan="1">
+                  <p>More than</p>
+                </th>
+                <th colspan="1">
+                  <p>Not more than</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <p>28,000</p>
+                </td>
+                <td>
+                  <p>31,000</p>
+                </td>
+                <td>
+                  <p>C</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>31,000</p>
+                </td>
+                <td>
+                  <p>33,000</p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+                <td>
+                  <p>C</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>33,000</p>
+                </td>
+                <td>
+                  <p>34,000</p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+                <td>
+                  <p>A</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>34,000</p>
+                </td>
+                <td>
+                  <p>36,000</p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+                <td>
+                  <p>C</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>36,000</p>
+                </td>
+                <td>
+                  <p>38,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+                <td>
+                  <p>D</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>38,000</p>
+                </td>
+                <td>
+                  <p>44,000</p>
+                </td>
+                <td>
+                  <p>— </p>
+                </td>
+                <td>
+                  <p>G</p>
+                </td>
+                <td>
+                  <p>E</p>
+                </td>
+              </tr>
+            </table>
+          </wrap>
+        </hcontainer>
+        <hcontainer name="schedule" currentId="sch2">
+          <num>SCHEDULE 2</num>
+          <heading currentId="sch2-heading">Legal proceedings</heading>
+          <part currentId="idp1013312">
+            <heading currentId="idp1013312-heading">Proceedings in England and Wales or Northern Ireland</heading>
+            <section currentId="sch2-sec1">
+              <num>1</num>
+              <subsection currentId="sch2-sec1.1">
+                <num>1</num>
+                <intro currentId="sch2-sec1.1-intro">
+                  <p>Proceedings in England and Wales or Northern Ireland for an offence under <eol/>section 11 may be instituted only—</p>
+                </intro>
+                <paragraph currentId="sch2-sec1.1.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec1.1.a-content">
+                    <p>by the Secretary of State, or</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec1.1.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec1.1.b-content">
+                    <p>by a constable with the approval of the Secretary of State.</p>
+                  </content>
+                </paragraph>
+              </subsection>
+              <subsection currentId="sch2-sec1.2">
+                <num>2</num>
+                <content currentId="sch2-sec1.2-content">
+                  <p>Proceedings in England and Wales or Northern Ireland for an offence under <eol/>section 11 may be started at any time within 6 months from the date on <eol/>which evidence sufficient, in the opinion of the person instituting the <eol/>proceedings, to justify the proceedings came to the person’s knowledge.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch2-sec1.3">
+                <num>3</num>
+                <content currentId="sch2-sec1.3-content">
+                  <p>No proceedings may be started by virtue of sub-paragraph (2) more than <eol/>three years after the commission of the offence.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch2-sec1.4">
+                <num>4</num>
+                <intro currentId="sch2-sec1.4-intro">
+                  <p>A certificate—</p>
+                </intro>
+                <paragraph currentId="sch2-sec1.4.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec1.4.a-content">
+                    <p>stating that the Secretary of State’s approval is given for the <eol/>institution by a constable of the proceedings specified in the <eol/>certificate, and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec1.4.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec1.4.b-content">
+                    <p>signed by or on behalf of the Secretary of State,</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec1.4-wrap">
+                  <p>is conclusive evidence of that approval.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec1.5">
+                <num>5</num>
+                <intro currentId="sch2-sec1.5-intro">
+                  <p>A certificate—</p>
+                </intro>
+                <paragraph currentId="sch2-sec1.5.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec1.5.a-content">
+                    <p>stating the date on which the evidence referred to in sub-paragraph <eol/>(2) came to the knowledge of the person instituting the proceedings, <eol/>and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec1.5.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec1.5.b-content">
+                    <p>signed by or on behalf of that person,</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec1.5-wrap">
+                  <p>is conclusive evidence of that date.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec1.6">
+                <num>6</num>
+                <intro currentId="sch2-sec1.6-intro">
+                  <p>A certificate—</p>
+                </intro>
+                <paragraph currentId="sch2-sec1.6.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec1.6.a-content">
+                    <p>including a statement under paragraph (a) of sub-paragraph (4) or <eol/>(5), and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec1.6.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec1.6.b-content">
+                    <p>purporting to be signed as mentioned in paragraph (b) of the sub-<eol/>paragraph concerned,</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec1.6-wrap">
+                  <p>is to be deemed to be so signed unless the contrary is proved.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec1.7">
+                <num>7</num>
+                <content currentId="sch2-sec1.7-content">
+                  <p>Sections 145 and 146A of the Customs and Excise Management Act 1979 <eol/>(procedural restrictions and time limits on starting proceedings for offences <eol/>under the customs and excise Acts) do not apply to proceedings in England <eol/>and Wales or Northern Ireland for an offence under section 11.</p>
+                </content>
+              </subsection>
+            </section>
+          </part>
+          <part currentId="idp1045952">
+            <heading currentId="idp1045952-heading">Proceedings in Scotland</heading>
+            <section currentId="sch2-sec2">
+              <num>2</num>
+              <subsection currentId="sch2-sec2.1">
+                <num>1</num>
+                <content currentId="sch2-sec2.1-content">
+                  <p>Proceedings in Scotland for an offence under section 11 may not be started <eol/>more than 3 years after the commission of the offence.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch2-sec2.2">
+                <num>2</num>
+                <intro currentId="sch2-sec2.2-intro">
+                  <p>Subject to that (and despite anything in section 136 of the Criminal <eol/>Procedure (Scotland) Act 1995 (limitation of time for proceedings in <eol/>statutory offences)), any such proceedings may be started—</p>
+                </intro>
+                <paragraph currentId="sch2-sec2.2.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec2.2.a-content">
+                    <p>in the case of proceedings instituted by the procurator fiscal as a <eol/>result of information supplied by the Secretary of State, at any time <eol/>within 6 months from the date on which the information came to the <eol/>knowledge of the Secretary of State;</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec2.2.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec2.2.b-content">
+                    <p>in any other case, at any time within 6 months from the date on <eol/>which evidence sufficient, in the opinion of the person instituting the <eol/>proceedings, to justify the proceedings came to the person’s <eol/>knowledge.</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec2.2-wrap">
+                  <p>Subsection (3) of that section applies for the purposes of this sub-paragraph <eol/>as it applies for the purposes of that section.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec2.3">
+                <num>3</num>
+                <intro currentId="sch2-sec2.3-intro">
+                  <p>A certificate—</p>
+                </intro>
+                <paragraph currentId="sch2-sec2.3.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec2.3.a-content">
+                    <p>stating the date on which the information referred to in sub-<eol/>paragraph <ref class="internal" href="#sch2-sec2.2.a" currentId="idp1061920">(2)(a)</ref> came to the knowledge of the Secretary of State, and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec2.3.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec2.3.b-content">
+                    <p>signed by or on behalf of the Secretary of State,</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec2.3-wrap">
+                  <p>is conclusive evidence of that date.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec2.4">
+                <num>4</num>
+                <intro currentId="sch2-sec2.4-intro">
+                  <p>A certificate—</p>
+                </intro>
+                <paragraph currentId="sch2-sec2.4.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec2.4.a-content">
+                    <p>stating the date on which the evidence referred to in sub-paragraph <eol/><ref class="internal" href="#sch2-sec2.2.b" currentId="idp1068608">(2)(b)</ref> came to the knowledge of the person instituting the <eol/>proceedings, and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec2.4.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec2.4.b-content">
+                    <p>signed by or on behalf of that person,</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec2.4-wrap">
+                  <p>is conclusive evidence of that date.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec2.5">
+                <num>5</num>
+                <intro currentId="sch2-sec2.5-intro">
+                  <p>A certificate—</p>
+                </intro>
+                <paragraph currentId="sch2-sec2.5.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec2.5.a-content">
+                    <p>including a statement under paragraph (a) of sub-paragraph <ref class="internal" href="#sch2-sec2.3" currentId="idp1075408">(3)</ref> or <eol/><ref class="internal" href="#sch2-sec2.4" currentId="idp1076400">(4)</ref>, and</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec2.5.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec2.5.b-content">
+                    <p>purporting to be signed as mentioned in paragraph (b) of the sub-<eol/>paragraph concerned,</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec2.5-wrap">
+                  <p>is to be deemed to be so signed unless the contrary is proved.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec2.6">
+                <num>6</num>
+                <content currentId="sch2-sec2.6-content">
+                  <p>Sections 145 and 146A of the Customs and Excise Management Act 1979 <eol/>(procedural restrictions and time limits on starting proceedings for offences <eol/>under the customs and excise Acts) do not apply to proceedings in Scotland <eol/>for an offence under section 11.</p>
+                </content>
+              </subsection>
+            </section>
+          </part>
+          <part currentId="idp1083248">
+            <heading currentId="idp1083248-heading">Authorised persons</heading>
+            <section currentId="sch2-sec3">
+              <num>3</num>
+              <intro currentId="sch2-sec3-intro">
+                <p>A person authorised by the Secretary of State for the purposes of this <eol/>paragraph may on behalf of the Secretary of State conduct and appear in any <eol/>proceedings by or against the Secretary of State under this Act—</p>
+              </intro>
+              <paragraph currentId="sch2-sec3.a">
+                <num>a</num>
+                <content currentId="sch2-sec3.a-content">
+                  <p>in England and Wales, in a magistrates’ court or the county court;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec3.b">
+                <num>b</num>
+                <content currentId="sch2-sec3.b-content">
+                  <p>in Scotland, in any court other than the Court of Session;</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec3.c">
+                <num>c</num>
+                <content currentId="sch2-sec3.c-content">
+                  <p>in Northern Ireland, in a court of summary jurisdiction or before a <eol/>county court.</p>
+                </content>
+              </paragraph>
+            </section>
+          </part>
+          <part currentId="idp1091872">
+            <heading currentId="idp1091872-heading">Time limit for recovery of underpayments and overpayments</heading>
+            <section currentId="sch2-sec4">
+              <num>4</num>
+              <intro currentId="sch2-sec4-intro">
+                <p>No proceedings may be brought—</p>
+              </intro>
+              <paragraph currentId="sch2-sec4.a">
+                <num>a</num>
+                <content currentId="sch2-sec4.a-content">
+                  <p>by the Secretary of State for the recovery of any underpayment of <eol/>HGV road user levy, or</p>
+                </content>
+              </paragraph>
+              <paragraph currentId="sch2-sec4.b">
+                <num>b</num>
+                <content currentId="sch2-sec4.b-content">
+                  <p>by any person for the recovery of any overpayment of levy,</p>
+                </content>
+              </paragraph>
+              <wrap currentId="sch2-sec4-wrap">
+                <p>after the end of the period of 12 months beginning with the end of the period <eol/>in respect of which the levy was paid.</p>
+              </wrap>
+            </section>
+          </part>
+          <part currentId="idp1099168">
+            <heading currentId="idp1099168-heading">Records</heading>
+            <section currentId="sch2-sec5">
+              <num>5</num>
+              <subsection currentId="sch2-sec5.1">
+                <num>1</num>
+                <content currentId="sch2-sec5.1-content">
+                  <p>A statement to which this paragraph applies is admissible in any <eol/>proceedings as evidence (or, in Scotland, sufficient evidence) of any fact <eol/>stated in it with respect to prescribed matters to the same extent as oral <eol/>evidence of that fact is admissible in the proceedings.</p>
+                </content>
+              </subsection>
+              <subsection currentId="sch2-sec5.2">
+                <num>2</num>
+                <intro currentId="sch2-sec5.2-intro">
+                  <p>This paragraph applies to a statement contained in a document purporting <eol/>to be—</p>
+                </intro>
+                <paragraph currentId="sch2-sec5.2.a">
+                  <num>a</num>
+                  <content currentId="sch2-sec5.2.a-content">
+                    <p>a part of the records maintained by the Secretary of State in <eol/>connection with any functions exercisable by him or her under or by <eol/>virtue of this Act,</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec5.2.b">
+                  <num>b</num>
+                  <content currentId="sch2-sec5.2.b-content">
+                    <p>a copy of a document forming part of those records, or</p>
+                  </content>
+                </paragraph>
+                <paragraph currentId="sch2-sec5.2.c">
+                  <num>c</num>
+                  <content currentId="sch2-sec5.2.c-content">
+                    <p>a note of any information contained in those records,</p>
+                  </content>
+                </paragraph>
+                <wrap currentId="sch2-sec5.2-wrap">
+                  <p>and to be authenticated by a person authorised to do so by the Secretary of <eol/>State.</p>
+                </wrap>
+              </subsection>
+              <subsection currentId="sch2-sec5.3">
+                <num>3</num>
+                <content currentId="sch2-sec5.3-content">
+                  <p>In this paragraph—</p>
+                  <ul currentId="idp1113248">
+                    <li>
+                      <p>“document” means anything in which information of any description is <eol/>recorded;</p>
+                    </li>
+                    <li>
+                      <p>“copy”, in relation to a document, means anything on to which <eol/>information recorded in the document has been copied, by whatever <eol/>means and whether directly or indirectly;</p>
+                    </li>
+                    <li>
+                      <p>“statement” means any representation of fact, however made.</p>
+                    </li>
+                  </ul>
+                </content>
+              </subsection>
+            </section>
+          </part>
+          <part currentId="idp1119600">
+            <heading currentId="idp1119600-heading">Single witness sufficient in certain Scottish proceedings</heading>
+            <section currentId="sch2-sec6">
+              <num>6</num>
+              <content currentId="sch2-sec6-content">
+                <p>In proceedings in Scotland for an offence under section 11 the accused may <eol/>be convicted on the evidence of one witness.</p>
+              </content>
+            </section>
+          </part>
+          <part currentId="idp1122608">
+            <heading currentId="idp1122608-heading">Transitory provision</heading>
+            <section currentId="sch2-sec7">
+              <num>7</num>
+              <content currentId="sch2-sec7-content">
+                <p>Until the coming into force of section 17(1) of the Crime and Courts Act 2013, <eol/>paragraph 3(a) has effect as if “or before a district judge of a county court” <eol/>were substituted for “or the county court”.</p>
+              </content>
+            </section>
+          </part>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </bill>
+</akomaNtoso>

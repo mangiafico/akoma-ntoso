@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD06 http://akomantoso.googlecode.com/svn/release/trunk/schema/akomantoso30.xsd">
+  <bill name="reported" contains="multipleVersions">
+    <meta>
+      <identification source="#mangiafico">
+        <FRBRWork>
+          <FRBRthis value="/us/bill/house/2013-03-13/1120/main"/>
+          <FRBRuri value="/us/bill/house/2013-03-13/1120"/>
+          <FRBRdate date="2013-03-13" name="generation"/>
+          <FRBRauthor href="#house" as="#author"/>
+          <FRBRcountry value="US"/>
+          <FRBRnumber value="1120"/>
+          <FRBRprescriptive value="true"/>
+          <FRBRauthoritative value="true"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us/bill/house/2013-03-13/1120/eng@2013-04-09/main"/>
+          <FRBRuri value="/us/bill/house/2013-03-13/1120/eng@2013-04-09"/>
+          <FRBRdate date="2013-04-09" name="amendment"/>
+          <FRBRauthor href="#HED00" as="#author"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us/bill/house/2013-03-13/1120/eng@2013-04-09/main.xml"/>
+          <FRBRuri value="/us/bill/house/2013-03-13/1120/eng@2013-04-09.akn"/>
+          <FRBRdate date="2013-12-31" name="generation"/>
+          <FRBRauthor href="#mangiafico"/>
+          <FRBRformat value="xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-04-09" name="H. R." number="1120" showAs="H. R. 1120"/>
+      <lifecycle source="#mangiafico">
+        <eventRef currentId="refidp9776" date="2013-03-13" type="generation" source="#mangiafico"/>
+        <eventRef currentId="refidp19968" date="2013-04-09" type="amendment" source="#mangiafico"/>
+        <eventRef currentId="refidp29120" date="2013-04-09" type="amendment" source="#mangiafico"/>
+      </lifecycle>
+      <temporalData source="#mangiafico">
+        <temporalGroup currentId="time1">
+          <timeInterval refersTo="#originalLanguage" start="#refidp9776" end="#refidp29120"/>
+        </temporalGroup>
+        <temporalGroup currentId="time2">
+          <timeInterval refersTo="#currentLanguage" start="#refidp29120"/>
+        </temporalGroup>
+      </temporalData>
+      <references source="#mangiafico">
+        <TLCOrganization currentId="house" href="/ontology/organization/us/us.House" showAs="United States House of Representatives"/>
+        <TLCOrganization currentId="senate" href="/ontology/organization/us/us.Senate" showAs="United States Senate"/>
+        <TLCOrganization currentId="HED00" href="/ontology/organization/us/us.CommitteeonEducationandtheWorkforce" showAs="Committee on Education and the Workforce"/>
+        <TLCPerson currentId="R000582" href="/ontology/persons/us.Roe" showAs="Mr. Roe of Tennessee"/>
+        <TLCPerson currentId="K000363" href="/ontology/persons/us.Kline" showAs="Mr. Kline"/>
+        <TLCPerson currentId="P000265" href="/ontology/persons/us.Petri" showAs="Mr. Petri"/>
+        <TLCPerson currentId="W000795" href="/ontology/persons/us.Wilson" showAs="Mr. Wilson of South Carolina"/>
+        <TLCPerson currentId="F000450" href="/ontology/persons/us.Foxx" showAs="Ms. Foxx"/>
+        <TLCPerson currentId="P000591" href="/ontology/persons/us.Price" showAs="Mr. Price of Georgia"/>
+        <TLCPerson currentId="T000467" href="/ontology/persons/us.Thompson" showAs="Mr. Thompson of Pennsylvania"/>
+        <TLCPerson currentId="S000018" href="/ontology/persons/us.Salmon" showAs="Mr. Salmon"/>
+        <TLCPerson currentId="G000558" href="/ontology/persons/us.Guthrie" showAs="Mr. Guthrie"/>
+        <TLCPerson currentId="D000616" href="/ontology/persons/us.DesJarlais" showAs="Mr. DesJarlais"/>
+        <TLCPerson currentId="R000592" href="/ontology/persons/us.Rokita" showAs="Mr. Rokita"/>
+        <TLCPerson currentId="B001275" href="/ontology/persons/us.Bucshon" showAs="Mr. Bucshon"/>
+        <TLCPerson currentId="G000566" href="/ontology/persons/us.Gowdy" showAs="Mr. Gowdy"/>
+        <TLCPerson currentId="M001158" href="/ontology/persons/us.Marchant" showAs="Mr. Marchant"/>
+        <TLCPerson currentId="K000376" href="/ontology/persons/us.Kelly" showAs="Mr. Kelly"/>
+        <TLCPerson currentId="W000798" href="/ontology/persons/us.Walberg" showAs="Mr. Walberg"/>
+        <TLCPerson currentId="C001075" href="/ontology/persons/us.Cassidy" showAs="Mr. Cassidy"/>
+        <TLCPerson currentId="R000591" href="/ontology/persons/us.Roby" showAs="Mrs. Roby"/>
+        <TLCPerson currentId="G000567" href="/ontology/persons/us.Griffin" showAs="Mr. Griffin of Arkansas"/>
+        <TLCPerson currentId="W000796" href="/ontology/persons/us.Westmoreland" showAs="Mr. Westmoreland"/>
+        <TLCPerson currentId="H001067" href="/ontology/persons/us.Hudson" showAs="Mr. Hudson"/>
+        <TLCPerson currentId="G000550" href="/ontology/persons/us.Gingrey" showAs="Mr. Gingrey of Georgia"/>
+        <TLCPerson currentId="M001187" href="/ontology/persons/us.Meadows" showAs="Mr. Meadows"/>
+        <TLCPerson currentId="K000220" href="/ontology/persons/us.Kingston" showAs="Mr. Kingston"/>
+        <TLCPerson currentId="M001189" href="/ontology/persons/us.Messer" showAs="Mr. Messer"/>
+        <TLCPerson currentId="S001176" href="/ontology/persons/us.Scalise" showAs="Mr. Scalise"/>
+        <TLCPerson currentId="mangiafico" href="/ontology/persons/us.Mangiafico" showAs="Jim Mangiafico"/>
+        <TLCRole currentId="author" href="/ontology/role/author" showAs="Author"/>
+        <TLCConcept currentId="originalLanguage" href="/ontology/concepts/un/originalLanguage" showAs="Original Language"/>
+        <TLCConcept currentId="currentLanguage" href="/ontology/concepts/un/currentLanguage" showAs="Current Language"/>
+      </references>
+      <proprietary xmlns:dc="http://purl.org/dc/elements/1.1/" source="#mangiafico">
+        <dc:title>113 HR 1120 RH: Preventing Greater Uncertainty in Labor-Management Relations Act</dc:title>
+        <dc:publisher>U.S. House of Representatives</dc:publisher>
+        <dc:date>2013-04-09</dc:date>
+        <dc:format>text/xml</dc:format>
+        <dc:language>EN</dc:language>
+        <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+      </proprietary>
+    </meta>
+    <coverPage>
+      <p style="display:none">
+        <docStage>Reported-in-House</docStage>
+      </p>
+      <p class="calendar">
+        <inline name="calendar">Union Calendar No. 18</inline>
+      </p>
+      <p class="congress">
+        <legislature>113th CONGRESS</legislature>
+        <br/>
+        <session>1st Session</session>
+      </p>
+      <p>
+        <docNumber>H. R. 1120</docNumber>
+      </p>
+      <p>
+        <relatedDocument href="/us/report/house/113-30/main">[Report No. 113–30]</relatedDocument>
+      </p>
+      <p class="title">
+        <docTitle>To prohibit the National Labor Relations Board from taking any action that requires a quorum of the members of the Board until such time as Board constituting a quorum shall have been confirmed by the Senate, the Supreme Court issues a decision on the constitutionality of the appointments to the Board made in January 2012, or the adjournment sine die of the first session of the 113th Congress.</docTitle>
+      </p>
+      <block name="Horizontal Rule"/>
+      <p>
+        <inline name="chamber">IN THE HOUSE OF REPRESENTATIVES</inline>
+      </p>
+      <container name="action" currentId="idp9776">
+        <p>
+          <date date="2013-03-13">March 13, 2013</date>
+        </p>
+        <p class="description">
+          <event refersTo="refidp9776" currentId="idp10640"><docIntroducer refersTo="#R000582">Mr. Roe of Tennessee</docIntroducer> (for himself, <docProponent refersTo="#K000363">Mr. Kline</docProponent>, <docProponent refersTo="#P000265">Mr. Petri</docProponent>, <docProponent refersTo="#W000795">Mr. Wilson of South Carolina</docProponent>, <docProponent refersTo="#F000450">Ms. Foxx</docProponent>, <docProponent refersTo="#P000591">Mr. Price of Georgia</docProponent>, <docProponent refersTo="#T000467">Mr. Thompson of Pennsylvania</docProponent>, <docProponent refersTo="#S000018">Mr. Salmon</docProponent>, <docProponent refersTo="#G000558">Mr. Guthrie</docProponent>, <docProponent refersTo="#D000616">Mr. DesJarlais</docProponent>, <docProponent refersTo="#R000592">Mr. Rokita</docProponent>, <docProponent refersTo="#B001275">Mr. Bucshon</docProponent>, and <docProponent refersTo="#G000566">Mr. Gowdy</docProponent>) introduced the following bill; which was referred to the <docCommittee refersTo="#HED00">Committee on Education and the Workforce</docCommittee></event>
+        </p>
+      </container>
+      <container name="action" currentId="idp19968">
+        <p>
+          <date date="2013-04-09">April 9, 2013</date>
+        </p>
+        <p class="description">
+          <event refersTo="refidp19968" currentId="idp20832">Additional sponsors: <docProponent refersTo="#M001158">Mr. Marchant</docProponent>, <docProponent refersTo="#K000376">Mr. Kelly</docProponent>, <docProponent refersTo="#W000798">Mr. Walberg</docProponent>, <docProponent refersTo="#C001075">Mr. Cassidy</docProponent>, <docProponent refersTo="#R000591">Mrs. Roby</docProponent>, <docProponent refersTo="#G000567">Mr. Griffin of Arkansas</docProponent>, <docProponent refersTo="#W000796">Mr. Westmoreland</docProponent>, <docProponent refersTo="#H001067">Mr. Hudson</docProponent>, <docProponent refersTo="#G000550">Mr. Gingrey of Georgia</docProponent>, <docProponent refersTo="#M001187">Mr. Meadows</docProponent>, <docProponent refersTo="#K000220">Mr. Kingston</docProponent>, <docProponent refersTo="#M001189">Mr. Messer</docProponent>, and <docProponent refersTo="#S001176">Mr. Scalise</docProponent></event>
+        </p>
+      </container>
+      <container name="action" currentId="idp29120">
+        <p>
+          <date date="2013-04-09">April 9, 2013</date>
+        </p>
+        <p class="description">
+          <event refersTo="refidp29120" currentId="idp29984">Reported with an amendment, committed to the Committee of the Whole House on the State of the Union, and ordered to be printed</event>
+        </p>
+        <p class="instruction">[Strike out all after the enacting clause and insert the part printed in italic]</p>
+      </container>
+      <block name="Horizontal Rule"/>
+    </coverPage>
+    <preface>
+      <p>
+        <docType>A BILL</docType>
+      </p>
+      <p class="title">
+        <docTitle>To prohibit the National Labor Relations Board from taking any action that requires a quorum of the members of the Board until such time as Board constituting a quorum shall have been confirmed by the Senate, the Supreme Court issues a decision on the constitutionality of the appointments to the Board made in January 2012, or the adjournment sine die of the first session of the 113th Congress.</docTitle>
+        <eop/>
+      </p>
+      <formula name="enacting clause" currentId="idp33952">
+        <p>
+          <i>Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,</i>
+        </p>
+      </formula>
+    </preface>
+    <body>
+      <section currentId="HBE2B61DD12714A96B9991B119A678E7D" period="#time1" originalId="sec1" style="text-decoration:line-through">
+        <num>Section. 1.</num>
+        <heading currentId="HBE2B61DD12714A96B9991B119A678E7D-heading">Short title</heading>
+        <content currentId="HBE2B61DD12714A96B9991B119A678E7D-content">
+          <p>This Act may be cited as the <extractText startQuote="“" endQuote="”">Preventing Greater Uncertainty in Labor-Management Relations Act</extractText>.</p>
+        </content>
+      </section>
+      <section currentId="HA652D1515C174700B81FE50E0FD156CC" period="#time1" originalId="sec2" style="text-decoration:line-through">
+        <num>Sec. 2.</num>
+        <heading currentId="HA652D1515C174700B81FE50E0FD156CC-heading">Activities by the National Labor Relations Board prohibited</heading>
+        <content currentId="HA652D1515C174700B81FE50E0FD156CC-content">
+          <p>Effective on the date of enactment of this Act, the National Labor Relations Board shall cease all activity that requires a quorum of the members of the Board, as set forth in the National Labor Relations Act (<a href="http://uscode.house.gov/quicksearch/get.plx?title=29&amp;section=151">29 U.S.C. 151 et seq.</a>). The Board shall not implement, administer, or enforce any decision, rule, vote, or other action decided, undertaken, adopted, issued, or finalized on or after January 4, 2012, that requires a quorum of the members of the Board, as set forth in such Act.</p>
+        </content>
+      </section>
+      <section currentId="HA165004B515141D2A2D8970C7DDF2B04" period="#time1" originalId="sec3" style="text-decoration:line-through">
+        <num>Sec. 3.</num>
+        <heading currentId="HA165004B515141D2A2D8970C7DDF2B04-heading">Termination</heading>
+        <intro currentId="HA165004B515141D2A2D8970C7DDF2B04-intro">
+          <p>The provisions of this Act shall terminate on the date on which—</p>
+        </intro>
+        <paragraph currentId="HA165004B515141D2A2D8970C7DDF2B04.1">
+          <num>(1)</num>
+          <content currentId="HA165004B515141D2A2D8970C7DDF2B04.1-content">
+            <p>all members of the National Labor Relations Board are confirmed with the advice and consent of the Senate, in accordance with clause 2 of section 2 of article II of the Constitution, in a number sufficient to constitute a quorum, as set forth in the National Labor Relations Act (<a href="http://uscode.house.gov/quicksearch/get.plx?title=29&amp;section=151">29 U.S.C. 151 et seq.</a>);</p>
+          </content>
+        </paragraph>
+        <paragraph currentId="HA165004B515141D2A2D8970C7DDF2B04.2">
+          <num>(2)</num>
+          <content currentId="HA165004B515141D2A2D8970C7DDF2B04.2-content">
+            <p>the Supreme Court issues a decision on the constitutionality of the appointments to the Board made in January 2012; or</p>
+          </content>
+        </paragraph>
+        <paragraph currentId="HA165004B515141D2A2D8970C7DDF2B04.3">
+          <num>(3)</num>
+          <content currentId="HA165004B515141D2A2D8970C7DDF2B04.3-content">
+            <p>the adjournment sine die of the first session of the 113th Congress.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section currentId="HE7642C9DD2F34FFAA2FBA356EB75B4BD" period="#time1" originalId="sec4" style="text-decoration:line-through">
+        <num>Sec. 4.</num>
+        <heading currentId="HE7642C9DD2F34FFAA2FBA356EB75B4BD-heading">Effect of certain board actions</heading>
+        <content currentId="HE7642C9DD2F34FFAA2FBA356EB75B4BD-content">
+          <p>In the event that this Act terminates pursuant to paragraphs (1) or (3) of section 3, no decision, rule, vote, or other action decided, undertaken, adopted, issued, or finalized by the Board on or after January 4, 2012, that requires authorization by not less than a quorum of the members of the Board, as set forth in the National Labor Relations Act, may be implemented, administered, or enforced unless and until it is considered and acted upon by a Board constituting a quorum, as set forth in the National Labor Relations Act, or the Supreme Court issues a decision on the constitutionality of the appointments to the Board made in January 2012.</p>
+        </content>
+      </section>
+      <section currentId="sec1" period="#time2" alternativeTo="HBE2B61DD12714A96B9991B119A678E7D" style="font-style:italic">
+        <num>Section. 1.</num>
+        <heading currentId="sec1-heading">Short title</heading>
+        <content currentId="sec1-content">
+          <p>This Act may be cited as the <extractText startQuote="“" endQuote="”">Preventing Greater Uncertainty in Labor-Management Relations Act</extractText>. </p>
+        </content>
+      </section>
+      <section currentId="sec2" period="#time2" alternativeTo="HA652D1515C174700B81FE50E0FD156CC" style="font-style:italic">
+        <num>Sec. 2.</num>
+        <heading currentId="sec2-heading">Activities by the National Labor Relations Board prohibited</heading>
+        <content currentId="sec2-content">
+          <p>Effective on the date of enactment of this Act, the National Labor Relations Board shall cease all activity that requires a quorum of the members of the Board, as set forth in the National Labor Relations Act (<a href="http://uscode.house.gov/quicksearch/get.plx?title=29&amp;section=151">29 U.S.C. 151 et seq.</a>). The Board shall not appoint any personnel nor implement, administer, or enforce any decision, rule, vote, or other action decided, undertaken, adopted, issued, or finalized on or after January 4, 2012, that requires a quorum of the members of the Board, as set forth in such Act.</p>
+        </content>
+      </section>
+      <section currentId="sec3" period="#time2" alternativeTo="HA165004B515141D2A2D8970C7DDF2B04" style="font-style:italic">
+        <num>Sec. 3.</num>
+        <heading currentId="sec3-heading">Termination</heading>
+        <intro currentId="sec3-intro">
+          <p>The provisions of this Act shall terminate on the date on which—</p>
+        </intro>
+        <paragraph currentId="sec3.1">
+          <num>(1)</num>
+          <content currentId="sec3.1-content">
+            <p>all members of the National Labor Relations Board are confirmed with the advice and consent of the Senate, in accordance with clause 2 of section 2 of article II of the Constitution, in a number sufficient to constitute a quorum, as set forth in the National Labor Relations Act (<a href="http://uscode.house.gov/quicksearch/get.plx?title=29&amp;section=151">29 U.S.C. 151 et seq.</a>);</p>
+          </content>
+        </paragraph>
+        <paragraph currentId="sec3.2">
+          <num>(2)</num>
+          <content currentId="sec3.2-content">
+            <p>the Supreme Court issues a decision on the constitutionality of the appointments to the Board made in January 2012; or</p>
+          </content>
+        </paragraph>
+        <paragraph currentId="sec3.3">
+          <num>(3)</num>
+          <content currentId="sec3.3-content">
+            <p>the adjournment <i>sine die</i> of the first session of the 113th Congress.</p>
+          </content>
+        </paragraph>
+      </section>
+      <section currentId="sec4" period="#time2" alternativeTo="HE7642C9DD2F34FFAA2FBA356EB75B4BD" style="font-style:italic">
+        <num>Sec. 4.</num>
+        <heading currentId="sec4-heading">Effect of certain board actions</heading>
+        <content currentId="sec4-content">
+          <p>In the event that this Act terminates pursuant to paragraphs (1) or (3) of section 3, no appointment, decision, rule, vote, or other action decided, undertaken, adopted, issued, or finalized by the Board on or after January 4, 2012, that requires authorization by not less than a quorum of the members of the Board, as set forth in the National Labor Relations Act, may be implemented, administered, or enforced unless and until it is considered and acted upon by a Board constituting a quorum, as set forth in the National Labor Relations Act, or the Supreme Court issues a decision on the constitutionality of the appointments to the Board made in January 2012.</p>
+        </content>
+      </section>
+    </body>
+  </bill>
+</akomaNtoso>
